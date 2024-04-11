@@ -1,0 +1,414 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/b9a25310-3b8b-4841-8cf6-81b10282157f>
+    a dcterms:Agent ;
+    foaf:name "Observing Systems and Operations, Bureau of Meteorology" ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms>
+    a rdfs:Resource ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Average-length-heavy-swell>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations> ;
+    skos:definition "Wave length 100-200 m. Period greater than 8 sec, less than 11 sec. Wave height over 4 m."@en ;
+    skos:notation "11.70" ;
+    skos:prefLabel "Average length heavy swell"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Average-swell-of-moderate-height>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations> ;
+    skos:definition "Wave length 100-200 m. Period greater than 8 sec, less than 11 sec. Wave height 2-4 m."@en ;
+    skos:notation "11.40" ;
+    skos:prefLabel "Average swell of moderate height"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Calm-glassy>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height 0 metres. No waves breaking on beach. WMO Sea State code 0"@en ;
+    skos:notation "10.01" ;
+    skos:prefLabel "Calm (glassy)"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Calm-rippled>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height 0 - 0.1 metres. No waves breaking on beach. WMO Sea State code 1"@en ;
+    skos:notation "10.02" ;
+    skos:prefLabel "Calm (rippled)"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/High>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height 6-9 metres. Sea much disturbed with rollers having steep fronts (damage to foreshore). WMO Sea State code 7"@en ;
+    skos:notation "10.08" ;
+    skos:prefLabel "High"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/King>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:definition "King or rogue waves are waves greater than twice the total wave height.  These very large waves occur when ocean currents run opposite to the prevailing sea and swell, and waves overrun each other.  This generates steep and dangerous seas."@en ;
+    skos:notation "1.00" ;
+    skos:prefLabel "King"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Long,-low-swell>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations> ;
+    skos:definition "Wave length over 200 m. Period greater than 11 sec. Wave height 0-2 m."@en ;
+    skos:notation "11.20" ;
+    skos:prefLabel "Long, low swell"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Long-heavy-swell>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations> ;
+    skos:definition "Wave length over 200 m. Period greater than 11 sec. Wave height over 4 m."@en ;
+    skos:notation "11.80" ;
+    skos:prefLabel "Long heavy swell"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Long-swell-of-moderate-height>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations> ;
+    skos:definition "Wave length over 200 m. Period greater than 11 sec. Wave height 2-4 m."@en ;
+    skos:notation "11.50" ;
+    skos:prefLabel "Long swell of moderate height"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Low-swell-of-short-or-average-length>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations> ;
+    skos:definition "Wave length 0 - 200 m. Period less than 11 sec. Wave height 0-2m."@en ;
+    skos:notation "11.10" ;
+    skos:prefLabel "Low swell of short or average length"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Moderate>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height 1.25 - 2.5 metres. Sea becoming furrowed. WMO Sea State code 4"@en ;
+    skos:notation "10.05" ;
+    skos:prefLabel "Moderate"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Phenomenal>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height over 14 metres. Precipitous seas (experienced only in cyclones). WMO Sea State code 9"@en ;
+    skos:notation "10.10" ;
+    skos:prefLabel "Phenomenal"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Rough>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height 2.5 - 4 metres. Sea deeply furrowed. WMO Sea State code 5"@en ;
+    skos:notation "10.06" ;
+    skos:prefLabel "Rough"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Sea-state>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:definition "Refers to the combination of sea and swell waves"@en ;
+    skos:notation "2.00" ;
+    skos:prefLabel "Sea state"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Sea-waves>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:definition "Are generated by the local prevailing wind. Their height depends on the length of time the wind has been blowing, the fetch (the distance the wind has blown over the water), and the water depth.  They may also be referred as seas in marine text forecast and wind waves in map displays."@en ;
+    skos:notation "3.00" ;
+    skos:prefLabel "Sea waves"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Short-heavy-swell>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations> ;
+    skos:definition "Wave length 0-100 m. Period less then 8 sec. Wave height over 4 m."@en ;
+    skos:notation "11.60" ;
+    skos:prefLabel "Short heavy swell"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Short-swell-of-moderate-height>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations> ;
+    skos:definition "Wave length 0-100 m. Period less then 8 sec. Wave height 2-4 m."@en ;
+    skos:notation "11.30" ;
+    skos:prefLabel "Short swell of moderate height"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Significant-wave-height>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:definition "Is the statistical basis for all wave heights presented in text forecasts and map displays. Wave heights are variable over time.  The statistical definition is calculated as the average height of the highest one-third of the waves experienced over time."@en ;
+    skos:notation "4.00" ;
+    skos:prefLabel "Significant wave height"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Slight>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height 0.5 - 1.25 metres. Waves rock buoys and small craft. WMO Sea State code 3"@en ;
+    skos:notation "10.04" ;
+    skos:prefLabel "Slight"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Smooth>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height 0.1 - 0.5 metres. Slight waves breaking on beach. WMO Sea State code 2"@en ;
+    skos:notation "10.03" ;
+    skos:prefLabel "Smooth"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-waves>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:definition "Are the regular, longer period waves generated by distant weather systems. They may travel over thousands of kilometres.  There may be several sets of swell waves travelling in different directions, causing cross swells and a confused sea state. Crossing swells may make boat handling more difficult and pose heightened risk on ocean bars.  There may be swell present even if the wind is calm and there are no sea waves."@en ;
+    skos:notation "5.00" ;
+    skos:prefLabel "Swell waves"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Second-swell> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Total-wave-height>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:definition "Is the combined height of the sea and the swell that mariners experience on open water. It may be also be referred as the combined sea and swell or significant wave height.  The probable maximum wave height can be up to twice the total wave height."@en ;
+    skos:notation "7.00" ;
+    skos:prefLabel "Total wave height"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Very-high>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height 9-14 metres. Towering seas. WMO Sea State code 8"@en ;
+    skos:notation "10.09" ;
+    skos:prefLabel "Very high"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Very-rough>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:broader <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ;
+    skos:definition "Height 4-6 metres. Sea much disturbed with rollers having steep fronts. WMO Sea State code 6"@en ;
+    skos:notation "10.07" ;
+    skos:prefLabel "Very rough"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-length>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:definition "Is the average distance between crests (or troughs) of waves."@en ;
+    skos:notation "8.00" ;
+    skos:prefLabel "Wave length"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-period>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:definition "Wave period and swell period is the average time between crests (or troughs) of waves.  The larger the time difference, the greater the amount of energy associated with the waves or swells."@en ;
+    skos:notation "9.00" ;
+    skos:prefLabel "Wave period"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Second-swell>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:definition "Two (or more) different weather systems can generate different wave trains that then independently travel to a location.  If the wind associated with each weather system has been blowing from the same direction and for long enough, then the waves become 'organised'. Once this occurs the wind that initiated the waves can cease (for example, if a low pressure system decays, or a front moves away from the area) but the waves that the wind has generated will continue propagating out from the source area as a swell.  In this way, two swell trains generated by two different weather systems can then cross paths at some location between the two systems.  These swell waves were generated entirely separate to each other, but can exist within the same area."@en ;
+    skos:notation "6.00" ;
+    skos:prefLabel "Second swell"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:narrower
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Average-length-heavy-swell> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Average-swell-of-moderate-height> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Long,-low-swell> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Long-heavy-swell> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Long-swell-of-moderate-height> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Low-swell-of-short-or-average-length> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Short-heavy-swell> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Short-swell-of-moderate-height> ;
+    skos:notation "11.00" ;
+    skos:prefLabel "Swell explanations"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms>
+    a skos:ConceptScheme ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2020-10-12" ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    dcterms:title "Wave, sea and swell terms"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/King> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Sea-state> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Sea-waves> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Second-swell> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Significant-wave-height> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-explanations> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Swell-waves> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Total-wave-height> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-length> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-period> ;
+.
+
+<http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave-explanations>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2020-10-11"^^xsd:date ;
+    skos:narrower
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Calm-glassy> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Calm-rippled> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/High> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Moderate> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Phenomenal> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Rough> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Slight> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Smooth> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Very-high> ,
+        <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Very-rough> ;
+    skos:notation "10.00" ;
+    skos:prefLabel "Wave explanations"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/OSO/wave-sea-and-swell-terms/Wave,-sea-and-swell-terms> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name "NEII" ;
+.

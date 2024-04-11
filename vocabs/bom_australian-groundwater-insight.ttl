@@ -1,0 +1,200 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/N/A>
+    a rdfs:Resource ;
+    rdfs:label "not available"@en ;
+    owl:deprecated true ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/aquifer>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A geological formation or group of formations; able to receive, store and transmit significant quantities of water."@en ;
+    skos:prefLabel "aquifer"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/bedrock>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A consolidated rock that underlies geological basins. Above the bedrock is usually an area of weathered and unconsolidated rock which can from aquifers."@en ;
+    skos:prefLabel "bedrock"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/bore>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A hole drilled in the ground, a well or any other excavation used to access groundwater. May be used for observation of groundwater (including water level, pressure or water quality)."@en ;
+    skos:prefLabel "bore"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/bore-density>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The number of bores per unit area of land."@en ;
+    skos:prefLabel "bore density"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/confined-aquifer>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "An aquifer whose upper surface is confined by an overlaying geological formation. Groundwater in a confined aquifer is typically under pressure."@en ;
+    skos:prefLabel "confined aquifer"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/groundwater-entitlement-limit>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The theoretical maximum volume of water that may be issued as entitlement within a Groundwater Management Area."@en ;
+    skos:prefLabel "groundwater entitlement limit"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/groundwater-level>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Groundwater levels, as measured in a bore."@en ;
+    skos:prefLabel "groundwater level"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/groundwater-management-area>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:altLabel "GMA"@en ;
+    skos:definition "An area of land that is appointed as an area within which there are rules for managing groundwater."@en ;
+    skos:notation "GMA" ;
+    skos:prefLabel "groundwater management area"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/hydrogeology>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The hydrological and geological science concerned with the occurrence, distribution, quality and movement of groundwater, especially relating to the distribution of aquifers, groundwater flow and groundwater quality."@en ;
+    skos:prefLabel "hydrogeology"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/licensed-groundwater-entitlement>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A specific volume of water licensed to an individual or business for extraction in a given period (typically annually), according to rules established in the relevant groundwater plan."@en ;
+    skos:prefLabel "licensed groundwater entitlement"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/not-available>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2017-11-21"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-11-21"^^xsd:date ;
+    skos:altLabel "NA"@en ;
+    skos:definition "No data is currently available."@en ;
+    skos:notation "NA" ;
+    skos:prefLabel "not available"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/salinity>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The concentration of soluble salts in a solution, soil or other medium."@en ;
+    skos:prefLabel "salinity"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/stock-and-domestic-bores>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Bores drilled for extracting groundwater for the purpose of watering stock or to use domestically. Groundwater extracted for these purposes does not require a licence in most regions."@en ;
+    skos:prefLabel "stock and domestic bores"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/sustainable-diversion-limit>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:altLabel "SDL"@en ;
+    skos:definition "The Sustainable Diversion Limit specifies how much water can be sustainably taken from a catchment, aquifer or basin as a long term annual extraction volume. Each SDL is defined in the Murray Darling Basin Plan."@en ;
+    skos:notation "SDL" ;
+    skos:prefLabel "sustainable diversion limit"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/unconfined-aquifer>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "An aquifer whose upper surface is a water table free to fluctuate in equilibrium with atmospheric pressure."@en ;
+    skos:prefLabel "unconfined aquifer"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/watertable>
+    a skos:Concept ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The surface in an unconfined aquifer or confining bed below which the ground is saturated with water."@en ;
+    skos:prefLabel "watertable"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight> ;
+.
+
+<https://linked.data.gov.au/org/bom-gu>
+    a dcterms:Agent ;
+    foaf:homepage "http://www.bom.gov.au/water/groundwater/"^^xsd:anyURI ;
+    foaf:name "Groundwater Unit, Bureau of Meteorology" ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/Australian-Groundwater-Insight>
+    a skos:ConceptScheme ;
+    rdfs:label "Australian Groundwater Insight"@en ;
+    dcterms:created "2017-11-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/bom-gu> ;
+    dcterms:description "The Australian Groundwater Insight is a user-friendly web mapping application designed for non-experts in government, policy development and the general public.  The Insight shows hydrogeological information alongside information about licences, entitlements, bore density, groundwater management areas and salinity. The Insight also presents trends in groundwater levels over time and recent groundwater levels compared to the long-term average. "@en ;
+    dcterms:issued "2015-11" ;
+    dcterms:publisher <https://linked.data.gov.au/org/bom-gu> ;
+    dcterms:subject "Groundwater"@en ;
+    dcterms:title "Australian Groundwater Insight"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/aquifer> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/bedrock> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/bore> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/bore-density> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/confined-aquifer> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/groundwater-entitlement-limit> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/groundwater-level> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/groundwater-management-area> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/hydrogeology> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/licensed-groundwater-entitlement> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/not-available> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/salinity> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/stock-and-domestic-bores> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/sustainable-diversion-limit> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/unconfined-aquifer> ,
+        <http://www.neii.gov.au/def/voc/GW/australian-groundwater-insight/watertable> ;
+.

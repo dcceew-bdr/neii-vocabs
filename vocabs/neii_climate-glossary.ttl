@@ -1,0 +1,577 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Anomaly>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "Anomalies denote the departure of an element from its long-period average value for the location concerned. For example, if the maximum temperature for June in Melbourne was 1 degree Celsius higher than the long-term average for this month, the anomaly would be +1 degrees Celsius. The current international standard is to use the 30 year average from 1961 to 1990 as the long-term average."@en ;
+    skos:prefLabel "Anomaly"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """Climate and weather are both components of meteorology.
+
+In brief: the weather of any place refers to the atmospheric variables for a brief period of time. Climate, however, represents the atmospheric conditions for a long period of time, and generally refers to the normal or mean course of the weather. Climate can now be expanded to include the future expectation of long term weather, in the order of weeks, months or years ahead.
+
+A more detailed definition from the Meteorological Glossary published by the U.K. Meteorological Office is:
+
+The climate of a locality is the synthesis of the day-to-day values of the meteorological elements that affect the locality.
+
+Synthesis here implies more than simple averaging. Various methods are used to represent climate, e.g. both average and extreme values, frequencies of values within stated ranges, frequencies of weather types with associated values of elements. The main climatic elements are precipitation, temperature, humidity, sunshine, wind velocity, and such phenomena as fog, frost, thunder, gale; cloudiness, grass minimum temperature, and soil temperature at various depths may also be included. Climatic data are usually expressed in terms of an individual calendar month or season and are determined over a period (usually about 30 years) long enough to ensure that representative values for the month or season are obtained."""@en ;
+    skos:prefLabel "Climate"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Convection>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "Convection is the process generally associated with warm rising air, and the formation of cloud. Local breezes, wind and thunderstorms are a result of convection in the atmosphere."@en ;
+    skos:prefLabel "Convection"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Diurnal>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """Diurnal variation is the changes of value, for example, of a meteorological element within the course of a (solar) day. More especially, it denotes the systematic changes that occur during the average day.
+
+ 
+"""@en ;
+    skos:prefLabel "Diurnal"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Greenhouse-Effect>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """The greenhouse effect is a natural physical process where certain trace gasses in the atmosphere, known as greenhouse gasses, warm the earth.
+
+When the sun's energy reaches the earth some of it is reflected back to space and the rest is absorbed. The absorbed energy warms both the atmosphere and the earth's surface, both of which then emit heat back toward space as long-wave radiation. This outgoing long-wave radiation is partially trapped in the atmosphere by greenhouse gases such as carbon dioxide, methane and water vapour which then radiate the energy in all directions, further warming the Earth's surface and the lower levels of the atmosphere. Without these greenhouse gases the Earth's average surface temperature would be about 33 degrees Celsius cooler.
+
+The enhanced greenhouse effect refers to the addition of more heat trapping gases to the atmosphere. The extra greenhouse gases are not 'natural' in origin, and are primarily due to the burning of fossil fuels (coal, oil and natural gas), with smaller contributions from land use changes, such as land clearing. The increased concentrations of greenhouse gases in the atmosphere are contributing to a warming of the earth's surface."""@en ;
+    skos:prefLabel "Greenhouse Effect"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Low-latitudes>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "The Southern Hemisphere low latitudes are considered to be the areas of the earth south of the equator and north of about 30 degrees latitude. For Australia, this means the area north of a line from half-way between Perth and Geraldton (in Western Australia) to Bourke (in New South Wales). This part of Australia generally experiences a subtropical to tropical climate."@en ;
+    skos:prefLabel "Low-latitudes"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Low-pressure>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "Low pressure systems or mid-latitude cyclones are atmospheric circulations that rotate clockwise in the Southern Hemisphere (anti-clockwise in the Northern Hemisphere). Cyclones are areas of lower pressure and generally associated with stronger winds, unsettled conditions, cloudiness and rainfall."@en ;
+    skos:prefLabel "Low pressure"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Mean-Sea-Level-MSL>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "MSL stands for Mean Sea Level. It is necessary to convert the pressure readings to equivalent mean sea level pressures, otherwise the important horizontal changes in pressure would be overwhelmed by vertical variations simply due to differences in height between observing stations. In this way, a Mean Sea Level Pressure map will then show pressures affected by changing weather conditions, not because of changing altitude."@en ;
+    skos:prefLabel "Mean Sea Level (MSL)"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Mid-latitudes>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "The Southern Hemisphere mid-latitudes are considered to be the areas between about 30 degrees and 55 degrees latitude. For Australia, this is the area south of a line from half-way between Geraldton and Perth (in Western Australia) to Bourke (in New South Wales). This part of Australia generally experiences a temperate climate."@en ;
+    skos:prefLabel "Mid-latitudes"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Monsoon>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "The northern Australian monsoon season generally lasts from December to March. It is associated with the inflow of moist west to northwesterly winds into the monsoon trough, producing convective cloud and heavy rainfall over northern Australia. These moisture-laden winds originate from the Indian Ocean and southern Asian waters. The north Australian wet season encompasses the monsoon months but can extend several months on either side."@en ;
+    skos:prefLabel "Monsoon"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Ozone>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "Ozone is one of the several gases that make up the earth's atmosphere. It is the triatomic form of oxygen and makes up approximately one part in three million of all of the gases in the atmosphere. If all the ozone contained in the atmosphere from the ground level up to a height of 60 km could be assembled at the earth's surface, it would comprise a layer of gas only about 3 millimetres thick, and weigh some 3000 million tonnes. Ozone is toxic at high concentrations because it reacts strongly with other molecules."@en ;
+    skos:prefLabel "Ozone"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Percentages>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """One useful way of representing rainfall across a wide area like Australia is in terms of percentages of a mean rainfall over some base period. Percentages between 0% and 100% indicate lower than average rainfalls, while percentages greater than 100% indicate higher than average rainfalls. In some northern parts of the country, dry season rainfalls are often very low, and weeks or even months may go by without any rainfall being recorded. In these places and times of the year, the monthly rainfalls may be below average (that is, percentages less than 100%) in rather more than 50% of years.
+
+The percentage of mean rainfall maps (http://www.bom.gov.au/jsp/awap/rain/index.jsp?colour=colour&time=latest&step=0&map=percent&period=daily&area=nat) on the Bureau of Meteorology's web site are all generated from monthly means calculated for each calendar month using the years 1961 to 1990.
+
+Note that the month to date rainfall percentages maps compare the rainfall recorded in the month to date with the mean rainfall for the entire month. Consequently early in the month, the rainfall percentages will typically be quite low, unless the rainfall is unusually heavy at the start of the month.
+
+Likewise, the year to date rainfall percentages maps compare the rainfall recorded in the year to date with the mean rainfall for the entire year.
+
+The southern wet season is defined as the months April to November (inclusive). The southern wet season to date rainfall percentages compare the rainfall recorded in the southern wet season to date (that is, since the start of April) with the mean rainfall for the entire season.
+
+The northern wet season is defined as the months October to April (inclusive). The northern wet season to date rainfall percentages compare the rainfall recorded in the northern wet season to date in a manner analogous to those for the southern wet season.
+
+It is quite difficult to tell from a rainfall percentages map if the rainfall has been highest or lowest on record. To see how the rainfall in the current period compares with previous years, the rainfall deciles maps should be consulted."""@en ;
+    skos:prefLabel "Percentages"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Precipitation>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "Precipitation is the term given to rain, drizzle, dew, hail, snow and other forms of moisture from the atmosphere which reaches the ground."@en ;
+    skos:prefLabel "Precipitation"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Reference-Climate-Station-RCS>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "A climatological station, the data of which are intended for the purpose of determining climatic trends. This requires long periods (not less than thirty years) of homogeneous records, where human-influenced environmental changes have been and/or are expected to remain at a minimum. Ideally the records should be of sufficient length to enable the identification of secular [over time] changes of climate."@en ;
+    skos:prefLabel "Reference Climate Station (RCS)"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Trade-winds>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """The trade winds are the east to southeasterly winds (in the Southern Hemisphere) which affect tropical and subtropical regions, including the northern areas of Australia. During the monsoon season in northern Australia, the easterly trade winds are replaced by moist northwesterly (monsoonal) winds from the Indian Ocean and southern Asian ocean waters.
+
+As mentioned above, the trade winds in the Southern Hemisphere are east to southeasterly in direction. In the Northern Hemisphere however, the trade winds are east to northeasterly in direction. It means that in both hemispheres, they tend to blow from the east to the west and towards the equator. Sometimes the trade winds will just be called "easterly" to avoid having to specify the hemisphere."""@en ;
+    skos:prefLabel "Trade winds"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Water-Vapour-Pressure>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "Water vapour pressure is the atmospheric pressure which is exerted by water vapour (water in its gaseous state). It is one way of measuring the humidity of the air. At a given temperature, an increase of water vapour in the air corresponds to an increase in the humidity of the air. Water vapour is supplied to the atmosphere by evaporation of water from oceans, lakes, wet land surfaces or from vegetation (transpiration). Water vapour absorbs the sun's radiation. As a result, the sunlight received at the earth's surface will be more intense in a drier atmosphere."@en ;
+    skos:prefLabel "Water Vapour Pressure"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Wet-Bulb-Temperature>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "Wet-bulb temperature is measured using a standard mercury-in-glass thermometer, with the thermometer bulb wrapped in muslin, which is kept wet. The evaporation of water from the thermometer has a cooling effect, so the temperature indicated by the wet bulb thermometer is less than the temperature indicated by a dry-bulb (normal, unmodified) thermometer. The rate of evaporation from the wet-bulb thermometer depends on the humidity of the air - evaporation is slower when the air is already full of water vapour. For this reason, the difference in the temperatures indicated by the two thermometers gives a measure of atmospheric humidity."@en ;
+    skos:prefLabel "Wet Bulb Temperature"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+skos:related
+    a
+        rdf:Property ,
+        rdfs:Resource ;
+    rdfs:subPropertyOf skos:related ;
+.
+
+<http://editor.vocabs.ands.org.au/user/1644b42f-7bb2-4ca6-80ef-dc62d292a9b1>
+    a dcterms:Agent ;
+    foaf:name "Climate Services, Bureau of Meteorology" ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Anticyclones>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "Anticyclones or high pressure systems are atmospheric circulations that rotate anti-clockwise in the Southern Hemisphere. Anticyclones are areas of higher pressure and are generally associated with lighter winds and fine and settled conditions."@en ;
+    skos:prefLabel "Anticyclones"@en ;
+    skos:related <http://www.neii.gov.au/def/voc/CS/climate-glossary/High-pressure> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Cyclone>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """Mid-latitude cyclones or low pressure systems are atmospheric circulations that rotate clockwise in the Southern Hemisphere (anti-clockwise in the Northern Hemisphere). Cyclones are areas of lower pressure and generally associated with stronger winds, unsettled conditions, cloudiness and rainfall.
+
+Tropical cyclones are described separately."""@en ;
+    skos:prefLabel "Cyclone"@en ;
+    skos:related <http://www.neii.gov.au/def/voc/CS/climate-glossary/Tropical-cyclones> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Deciles>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """Deciles give an element a ranking, compared with the average for an area. For example, choosing deciles under the 'maps' option for Rainfall Maps will give a rainfall map showing whether rainfall is above average, average or below average for the time period and area chosen.
+
+How to calculate deciles
+To calculate deciles you first need to arrange your data, for example rainfall totals, in ascending order (from lowest to highest). Next, divide the ranked data set into ten equal parts (i.e. ten blocks of 10%). The first group (the lowest 10% of rainfall totals on record) would be in decile range one, the second group in decile range two, up to the highest 10% of rainfall totals being in decile range 10.
+
+A rainfall total in decile range 10 would be in the top 10%, higher than (at least) 90% of previous monthly observations. The highest total on record is at the very top of decile range 10, while the lowest total is at the bottom of decile range 1.
+
+More information about the statistics used to describe climate is at http://www.bom.gov.au/climate/cdo/about/about-stats.shtml"""@en ;
+    skos:prefLabel "Deciles"@en ;
+    skos:related <http://www.neii.gov.au/def/voc/CS/climate-glossary/Drought> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/High-pressure>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "High pressure systems or anticyclones are atmospheric circulations that rotate anti-clockwise in the Southern Hemisphere. Anticyclones are areas of higher pressure and are generally associated with lighter winds and fine and settled conditions."@en ;
+    skos:prefLabel "High pressure"@en ;
+    skos:related <http://www.neii.gov.au/def/voc/CS/climate-glossary/Anticyclones> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Percentiles>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """Percentile is a convenient term for denoting thresholds or boundary values in frequency distributions. Thus the 5th percentile is that value which marks off the lowest 5 per cent of the observations from the rest, the 50th percentile is the same as the median, and the 95th percentile exceeds all but 5 per cent of the values. When percentiles are estimated by ranking the items of a finite sample, the percentile generally falls between two of the observed values, and the midway value is often taken.
+
+The terms tercile, quartile, quintile and decile should refer to the percentiles which divide the distribution into 3, 4, 5, or 10 equal parts, respectively. These terms are, however, often used to signify a specified fraction of the total number of ranked values. Thus the value of a particular element may be predicted to be in a specified tercile or quintile of the appropriate distribution."""@en ;
+    skos:prefLabel "Percentiles"@en ;
+    skos:related <http://www.neii.gov.au/def/voc/CS/climate-glossary/Drought> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Tropical-cyclones>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition "Tropical cyclones, which are called hurricanes in the Northern Hemisphere, are intense low pressure systems which form over warm ocean waters at low latitudes. Tropical cyclones are associated with strong winds, torrential rain and storm surges (in coastal areas). Tropical cyclones can cause extensive damage as a result of the strong wind, and flooding (caused by either heavy rainfall or ocean storm surges)."@en ;
+    skos:prefLabel "Tropical cyclones"@en ;
+    skos:related <http://www.neii.gov.au/def/voc/CS/climate-glossary/Cyclone> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Drought>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """Drought in general means acute water shortage.
+
+The Bureau's drought maps highlight areas considered to be suffering from a serious or severe rainfall deficiency. These classes are assigned by first examining rainfall periods of three months or more for selected places throughout Australia to see whether they lie below the 10th percentile (lowest 10% of records). The terms serious and severe are defined by -
+
+. Serious rainfall deficiency: rainfall lies above the lowest five per cent of recorded rainfall but below the lowest ten per cent (decile range 1) for the period in question,
+. Severe rainfall deficiency: rainfall is among the lowest five per cent for the period in question.
+Areas where the rainfall is lowest on record for the given time period are also shown.
+
+Drought declaration is the responsibility of State and Federal Governments which must consider other factors apart from rainfall, however the Bureau of Meteorology's Drought Statement assists by providing rainfall information to all interested parties.
+
+Defining the end of a rainfall deficiency period of less than 12 months
+Defining the end of a period of rainfall deficiency is a difficult matter, and presents more problems than defining the start. However, the following definitions which were used in the days of hand-drawn analyses, still provide useful guidance as to whether there has been significant relief from a period of rainfall deficit. They are only applicable to periods of about 12 months or less, and great care in their interpretation is needed in those areas which have a distinct wet and dry season in the annual rainfall cycle. The criteria are:
+
+. The rainfall of the past month already exceeds the 30th percentile for the three-month period commencing that month, or
+. Rainfall for the past three months is above the 70th percentile for that period."""@en ;
+    skos:prefLabel "Drought"@en ;
+    skos:related
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Deciles> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Percentiles> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/El-Nino>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """El Niño is the negative phase of the El Niño-Southern Oscillation (http://www.bom.gov.au/watl/about-weather-and-climate/australian-climate-influences.shtml?bookmark=enso). El Niño events are associated with the appearance of a warm ocean current off the South American coast and sustained negative Southern Oscillation Index (SOI) values.
+
+El Niño refers to the extensive warming of the central and eastern tropical Pacific that leads to a major shift in weather patterns across the Pacific. El Niño events are often accompanied by cooler than normal sea surface temperatures (SSTs) in the western Pacific, and to the north of Australia. Over much of Australia, but particularly eastern Australia, El Niño events are associated with an increased probability of drier conditions.
+
+Changes to the atmosphere and ocean circulation during El Niño events include:
+
+. Sustained warmer-than-usual SSTs across the central and eastern tropical Pacific Ocean.
+. Decreased convection or cloudiness over tropical Australia, Papua New-Guinea, and Indonesia - the focus of convection migrates from the Australian/Indonesian region eastward towards the central tropical Pacific Ocean.
+. A decrease in strength of the trade winds (easterlies) across the tropical Pacific Ocean (but not necessarily in the Australian region).
+. Sustained negative values of the SOI, typically below -8."""@en ;
+    skos:prefLabel "El Niño"@en ;
+    skos:related
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/La-Nina> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Southern-Oscillation-Index-SOI> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/La-Nina>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """La Niña is the positive phase of the El Niño-Southern Oscillation, sometimes thought of as the "opposite of El Niño". A La Niña event is indicated by sustained positive Southern Oscillation Index (SOI) values.
+
+La Niña refers to the extensive cooling of the central and eastern tropical Pacific Ocean, often accompanied by warmer than normal sea surface temperatures (SSTs) in the western Pacific, and to the north of Australia. La Niña events are associated with increased probability of wetter conditions over much of Australia, particularly over eastern and northern areas. La Niña events have been correlated with higher numbers of tropical cyclones during the cyclone season (November to April).
+
+Changes to the atmosphere and ocean circulation during La Niña events include:
+
+. Sustained cooler-than-usual SSTs across the central and eastern tropical Pacific Ocean.
+. Increased convection or cloudiness over tropical Australia, Papua New-Guinea, and Indonesia.
+. An increase in strength of the trade winds (easterlies) across the tropical Pacific Ocean (but not necessarily in the Australian region).
+. Sustained positive values of the SOI, typically above +8."""@en ;
+    skos:prefLabel "La Niña"@en ;
+    skos:related
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/El-Nino> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Southern-Oscillation-Index-SOI> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Southern-Oscillation-Index-SOI>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """The Southern Oscillation Index, or SOI, gives an indication of the development and intensity of El Niño or La Niña events in the Pacific Ocean. The SOI is calculated using the pressure differences between Tahiti and Darwin.
+
+Sustained negative values of the SOI below −7 often indicate El Niño episodes. These negative values are usually accompanied by sustained warming of the central and eastern tropical Pacific Ocean, a decrease in the strength of the Pacific Trade Winds, and a reduction in winter and spring rainfall over much of eastern Australia and the Top End. You can read more about historical El Niño events and their effect on Australia in the Detailed analysis of past El Niño events (http://www.bom.gov.au/climate/enso/enlist/).
+
+Sustained positive values of the SOI above +7 are typical of a La Niña episode. they are associated with stronger Pacific trade winds and warmer sea temperatures to the north of Australia. Waters in the central and eastern tropical Pacific Ocean become cooler during this time. Together these give an increased probability that eastern and northern Australia will be wetter than normal. You can read more about historical La Niña events and their effect on Australia in the Detailed analysis of past La Niña events (http://www.bom.gov.au/climate/enso/lnlist/).
+
+The ENSO Wrap-Up (http://www.bom.gov.au/climate/enso/) includes the latest 30-day SOI value, as well as other information on indicators of El Niño and La Niña events."""@en ;
+    skos:prefLabel "Southern Oscillation Index (SOI)"@en ;
+    skos:related
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/El-Nino> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/La-Nina> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Autumn>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """In Australia, the seasons are defined by grouping the calendar months in the following way:
+
+. Spring - the three transition months September, October and November.
+. Summer - the three hottest months December, January and February.
+. Autumn - the transition months March, April and May.
+. Winter - the three coldest months June, July and August.
+These definitions reflect the lag in heating and cooling as the sun appears to move southward and northward across the equator. They are also useful for compiling and presenting climate-based statistics on time scales such as months and seasons."""@en ;
+    skos:prefLabel "Autumn"@en ;
+    skos:related
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Seasons> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Spring> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Summer> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Winter> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Seasons>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """In Australia, the seasons are defined by grouping the calendar months in the following way:
+
+. Spring - the three transition months September, October and November.
+. Summer - the three hottest months December, January and February.
+. Autumn - the transition months March, April and May.
+. Winter - the three coldest months June, July and August.
+These definitions reflect the lag in heating and cooling as the sun appears to move southward and northward across the equator. They are also useful for compiling and presenting climate-based statistics on time scales such as months and seasons."""@en ;
+    skos:prefLabel "Seasons"@en ;
+    skos:related
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Autumn> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Spring> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Summer> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Winter> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Spring>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """In Australia, the seasons are defined by grouping the calendar months in the following way:
+
+. Spring - the three transition months September, October and November.
+. Summer - the three hottest months December, January and February.
+. Autumn - the transition months March, April and May.
+. Winter - the three coldest months June, July and August.
+These definitions reflect the lag in heating and cooling as the sun appears to move southward and northward across the equator. They are also useful for compiling and presenting climate-based statistics on time scales such as months and seasons."""@en ;
+    skos:prefLabel "Spring"@en ;
+    skos:related
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Autumn> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Seasons> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Summer> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Winter> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Summer>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """In Australia, the seasons are defined by grouping the calendar months in the following way:
+
+. Spring - the three transition months September, October and November.
+. Summer - the three hottest months December, January and February.
+. Autumn - the transition months March, April and May.
+. Winter - the three coldest months June, July and August.
+These definitions reflect the lag in heating and cooling as the sun appears to move southward and northward across the equator. They are also useful for compiling and presenting climate-based statistics on time scales such as months and seasons."""@en ;
+    skos:prefLabel "Summer"@en ;
+    skos:related
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Autumn> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Seasons> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Spring> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Winter> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Winter>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-03"^^xsd:date ;
+    skos:definition """In Australia, the seasons are defined by grouping the calendar months in the following way:
+
+. Spring - the three transition months September, October and November.
+. Summer - the three hottest months December, January and February.
+. Autumn - the transition months March, April and May.
+. Winter - the three coldest months June, July and August.
+These definitions reflect the lag in heating and cooling as the sun appears to move southward and northward across the equator. They are also useful for compiling and presenting climate-based statistics on time scales such as months and seasons."""@en ;
+    skos:prefLabel "Winter"@en ;
+    skos:related
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Autumn> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Seasons> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Spring> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Summer> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary>
+    a skos:ConceptScheme ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/1644b42f-7bb2-4ca6-80ef-dc62d292a9b1> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:description "Definitions for common climate terms"@en ;
+    dcterms:issued "2021-08-04" ;
+    dcterms:publisher <http://editor.vocabs.ands.org.au/user/1644b42f-7bb2-4ca6-80ef-dc62d292a9b1> ;
+    dcterms:subject "Climate Glossary"@en ;
+    dcterms:title "Climate Glossary"@en ;
+    owl:versionInfo "Version 1.0" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Anomaly> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Anticyclones> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Autumn> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Convection> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Cyclone> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Deciles> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Diurnal> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Drought> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/El-Nino> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Greenhouse-Effect> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/High-pressure> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/La-Nina> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Low-latitudes> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Low-pressure> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Mean-Sea-Level-MSL> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Mid-latitudes> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Monsoon> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Ozone> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Percentages> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Percentiles> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Precipitation> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Reference-Climate-Station-RCS> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Seasons> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Southern-Oscillation-Index-SOI> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Spring> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Summer> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Trade-winds> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Tropical-cyclones> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Water-Vapour-Pressure> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Wet-Bulb-Temperature> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-glossary/Winter> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name "NEII" ;
+.

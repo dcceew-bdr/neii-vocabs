@@ -1,0 +1,136 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/922fed80-97f9-445d-ab4d-15a792a6a529>
+    a rdfs:Resource ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-09-16"^^xsd:date ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements>
+    a rdfs:Resource ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+.
+
+<https://linked.data.gov.au/org/bom-cs>
+    a dcterms:Agent ;
+    foaf:name "Climate Services, Bureau of Meteorology" ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/0-oktas>
+    a skos:Concept ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Clear sky"@en ;
+    skos:prefLabel "0 oktas"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/1-okta>
+    a skos:Concept ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Almost clear sky"@en ;
+    skos:prefLabel "1 okta"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/2-oktas>
+    a skos:Concept ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "One quarter of sky covered"@en ;
+    skos:prefLabel "2 oktas"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/3-oktas>
+    a skos:Concept ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Three eighths of sky covered"@en ;
+    skos:prefLabel "3 oktas"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/4-oktas>
+    a skos:Concept ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Half of sky covered"@en ;
+    skos:prefLabel "4 oktas"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/5-oktas>
+    a skos:Concept ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Five eighths of sky covered"@en ;
+    skos:prefLabel "5 oktas"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/6-oktas>
+    a skos:Concept ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Three quarters of sky covered"@en ;
+    skos:prefLabel "6 oktas"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/7-oktas>
+    a skos:Concept ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Almost overcast"@en ;
+    skos:prefLabel "7 oktas"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/8-oktas>
+    a skos:Concept ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Overcast"@en ;
+    skos:prefLabel "8 oktas"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/Cloud-Cover-Observation-Measurements>
+    a skos:ConceptScheme ;
+    dcterms:created "2021-09-16"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:description "Cloud cover observations are measured in oktas (eighths). The sky is visually inspected to produce an estimate of the number of eighths of the dome of the sky covered by cloud. The presence of any trace of cloud in an otherwise blue sky is recorded as 1 okta, and similarly any trace of blue on an otherwise cloudy sky is recorded as 7."@en ;
+    dcterms:issued "2021-09-17" ;
+    dcterms:modified "2021-09-16"^^xsd:date ;
+    dcterms:subject "Cloud Cover Observation Measurements"@en ;
+    dcterms:title "Cloud Cover Observation Measurements"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/0-oktas> ,
+        <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/1-okta> ,
+        <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/2-oktas> ,
+        <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/3-oktas> ,
+        <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/4-oktas> ,
+        <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/5-oktas> ,
+        <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/6-oktas> ,
+        <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/7-oktas> ,
+        <http://www.neii.gov.au/def/voc/CS/cloud-cover-observation-measurements/8-oktas> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name
+        "NEII" ,
+        "National Environmental Information Infrastructure (NEII)" ;
+.

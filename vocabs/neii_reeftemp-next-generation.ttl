@@ -1,0 +1,209 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/fb299ed7-9329-4b79-b772-07c74d3cec1a>
+    a dcterms:Agent ;
+    foaf:name "National Environmental Information Infrastructure (NEII)" ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary>
+    a rdfs:Resource ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/14-day-Mosaic-Pixel-Age-Pixel-Age>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Quality-metrics> ;
+    skos:definition "14-day Mosaic Pixel Age indicates the age of the data which comprises the 14-day Mosaic SST product at each pixel, up to a maximum of 14 days."@en ;
+    skos:prefLabel "14-day Mosaic Pixel Age (Pixel Age)"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/AVHRR>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Abbreviations> ;
+    skos:definition "The Advanced Very High Resolution Radiometer (AVHRR) is a space-borne sensor embarked on the National Oceanic and Atmospheric Administration (NOAA) family of polar orbiting platforms."@en ;
+    skos:prefLabel "AVHRR"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Data-Error-Bias>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Quality-metrics> ;
+    skos:definition "Data Error Bias indicates the errors (deg C) in the input IMOS L3S 1-day night-only SST data at each pixel due to proximity to cloud, instrumentation errors and the like."@en ;
+    skos:prefLabel "Data Error Bias"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Data-Quality-Level-QL>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Quality-metrics> ;
+    skos:definition "Data Quality Level (QL) indicates the quality level of the input IMOS L3S 1-day night-only SST data where 3 = low quality, 4 = acceptable quality and 5 = best quality. Quality levels are determined using the data error for each pixel."@en ;
+    skos:prefLabel "Data Quality Level (QL)"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Degree-Heating-Day-Count-DHDC>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Temperature-metrics> ;
+    skos:definition "The number of days in which temperatures have exceeded the long-term average (when data was available) at each grid cell  i.e. positive SSTA values observed. This product is only available between December and March inclusive."@en ;
+    skos:prefLabel "Degree Heating Day Count (DHDC)"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Degree-Heating-Days-DHD>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Temperature-metrics> ;
+    skos:definition "Degree Heating Days (DHD) are the accumulation of positive SSTA values over the summer (1 December  to 31 March ) at each grid cell. If no data is available, DHDs are not accumulated and remain the same as the previous day. The visualisation range for DHD values is 0–240 °C days. This product is only available between December and March inclusive."@en ;
+    skos:prefLabel "Degree Heating Days (DHD)"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/IMOS>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Abbreviations> ;
+    skos:definition "Integrated Marine Observing System (IMOS) is designed to be a fully integrated national array of observing equipment to monitor the open oceans and coastal marine environment around Australia, covering physical, chemical and biological variables. All IMOS data is freely and openly available through the IMOS Ocean Portal for the benefit of Australian marine and climate science as a whole."@en ;
+    skos:prefLabel "IMOS"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/L3S>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Abbreviations> ;
+    skos:definition "L3S data is gridded data taken from multiple satellite sensors, across multiple swaths."@en ;
+    skos:prefLabel "L3S"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Mean-Positive-Summer-Anomoly-MPSA>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Temperature-metrics> ;
+    skos:definition "Mean Positive Summer Anomaly (MPSA; formerly known as Heating Rate), calculated as the number of Degree Heating Days (DHD) divided by the Degree Heating Day Count (DHDC). The visualisation range for MPSA values is 0-5 °C. This product is only available between December and March inclusive."@en ;
+    skos:prefLabel "Mean Positive Summer Anomoly (MPSA)"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Missing-Data-Persistence>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Quality-metrics> ;
+    skos:definition "Missing Data Persistence indicates the number of days since there was data available at a given pixel in the input IMOS L3S 1-day night-only SST data. Missing data is generally due to presence of cloud or failure to receive data in real-time."@en ;
+    skos:prefLabel "Missing Data Persistence"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/NOAA>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Abbreviations> ;
+    skos:definition "The National Oceanic and Atmospheric Administration (www.noaa.gov) is a scientific agency within the United States Department of Commerce focused on the conditions of the oceans and the atmosphere.  NOAA provides a coral reef watch satellite monitoring service (https://coralreefwatch.noaa.gov/satellite/index.php)."@en ;
+    skos:prefLabel "NOAA"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Sea-Surface-Temperature-Anomaly-SSAT>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Temperature-metrics> ;
+    skos:definition "SSTA is the difference between SST values and climatology, the monthly long term mean SST. Two climatologies are used to produce products. The first is an IMOS climatology for 2002–2011, constructed for each month using IMOS L3S 1-day night-only SST products in that period. The second climatology used is the CSIRO 1993–2003 climatology that the ReefTemp V1 system utilised. The use of both climatologies allows for comparisons of products based on different reference periods. All SSTA values appear in the range -4°C to 4°C."@en ;
+    skos:prefLabel "Sea Surface Temperature Anomaly (SSAT)"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Sea-Surface-Temperature-SST---1-day>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Temperature-metrics> ;
+    skos:definition "The IMOS 1-day L3S night-only SST product. The temperature range visualised is from 20–35°C."@en ;
+    skos:prefLabel "Sea Surface Temperature (SST) - 1 day"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Sea-Surface-Temperature-SST---14-day-mosaic>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:broader <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Temperature-metrics> ;
+    skos:definition """A 14-day mosaic SST product, based on the IMOS L3S 1-day product, is also created within the ReefTemp Next Generation system. This product is created by filling any missing data pixels in today's SST data with the most recent available 1-day data from up to 14 days ago. The temperature range visualised is from 20–35°C.
+
+The 14 day SST mosaic product was developed to mimic the legacy Bureau SST mosaic product that underpinned ReefTemp V1, to assist reef mangers to transition smoothly to the ReefTemp Next Generation system. It is important to note that whilst a more complete SST image is available using the 14 day mosaic method, it can be spatially inhomogeneous."""@en ;
+    skos:prefLabel "Sea Surface Temperature (SST) - 14 day mosaic"@en ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/ReefTemp-Next-Generation-Glossary>
+    a skos:ConceptScheme ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2021-01-19" ;
+    dcterms:title "ReefTemp Next Generation Glossary"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Abbreviations> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Quality-metrics> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Temperature-metrics> ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Abbreviations>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Abbreviations used in ReefTemp Next Generation"@en ;
+    skos:narrower
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/AVHRR> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/IMOS> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/L3S> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/NOAA> ;
+    skos:prefLabel "Abbreviations"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/ReefTemp-Next-Generation-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Quality-metrics>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Each grid cell has some visualised quality metrics to help assess data accuracy."@en ;
+    skos:narrower
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/14-day-Mosaic-Pixel-Age-Pixel-Age> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Data-Error-Bias> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Data-Quality-Level-QL> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Missing-Data-Persistence> ;
+    skos:prefLabel "Quality metrics"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/ReefTemp-Next-Generation-Glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Temperature-metrics>
+    a skos:Concept ;
+    dcterms:created "2021-01-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:narrower
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Degree-Heating-Day-Count-DHDC> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Degree-Heating-Days-DHD> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Mean-Positive-Summer-Anomoly-MPSA> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Sea-Surface-Temperature-Anomaly-SSAT> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Sea-Surface-Temperature-SST---1-day> ,
+        <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/Sea-Surface-Temperature-SST---14-day-mosaic> ;
+    skos:prefLabel "Temperature metrics"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/eReefs/reeftemp-next-generation-glossary/ReefTemp-Next-Generation-Glossary> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name "NEII" ;
+.

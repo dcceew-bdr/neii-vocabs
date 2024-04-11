@@ -1,0 +1,116 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Average>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-07-30"^^xsd:date ;
+    skos:definition "Rainfalls in the highest 10-30% of historical totals."@en ;
+    skos:prefLabel "Average"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Drought-Rainfall-Definitions> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Below-average>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-07-30"^^xsd:date ;
+    skos:definition "Rainfalls in the lowest 10-30% of historical totals."@en ;
+    skos:prefLabel "Below average"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Drought-Rainfall-Definitions> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Lowest-on-record>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-07-30"^^xsd:date ;
+    skos:definition "Lowest since at least 1900 when data analysed begin."@en ;
+    skos:prefLabel "Lowest on record"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Drought-Rainfall-Definitions> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Serious-deficiency>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-07-30"^^xsd:date ;
+    skos:definition "Rainfalls in the lowest 5-10% of historical totals."@en ;
+    skos:prefLabel "Serious deficiency"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Drought-Rainfall-Definitions> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Severe-deficiency>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-07-30"^^xsd:date ;
+    skos:definition "Rainfalls in the lowest 5% of historical totals."@en ;
+    skos:prefLabel "Severe deficiency"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Drought-Rainfall-Definitions> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Very-much-above-average>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-07-30"^^xsd:date ;
+    skos:definition "Rainfalls in the highest 10% of historical totals."@en ;
+    skos:prefLabel "Very much above average"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Drought-Rainfall-Definitions> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Very-much-below-average>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-07-30"^^xsd:date ;
+    skos:definition "Rainfalls in the lowest 10% of historical totals."@en ;
+    skos:prefLabel "Very much below average"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Drought-Rainfall-Definitions> ;
+.
+
+<http://editor.vocabs.ands.org.au/user/80e328e6-a0ed-4c1a-a30d-cf24f2c3dda4>
+    a dcterms:Agent ;
+    foaf:name "Climate Services, Bureau of Meteorology" ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Drought-Rainfall-Definitions>
+    a skos:ConceptScheme ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/80e328e6-a0ed-4c1a-a30d-cf24f2c3dda4> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2021-08-04" ;
+    dcterms:publisher <http://editor.vocabs.ands.org.au/user/80e328e6-a0ed-4c1a-a30d-cf24f2c3dda4> ;
+    dcterms:subject "Drought Rainfall Definitions"@en ;
+    dcterms:title "Drought Rainfall Definitions"@en ;
+    owl:versionInfo "Version 1.0" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Average> ,
+        <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Below-average> ,
+        <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Lowest-on-record> ,
+        <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Serious-deficiency> ,
+        <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Severe-deficiency> ,
+        <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Very-much-above-average> ,
+        <http://www.neii.gov.au/def/voc/CS/drought-rainfall-definitions/Very-much-below-average> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name "NEII" ;
+.

@@ -1,0 +1,297 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/Aquaveo>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A software development company based in the United States that builds ArcHydro for groundwater tools"@en ;
+    skos:prefLabel "Aquaveo"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/ArcGIS>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A range of software programs developed by ESRI for spatial data analysis, processing and storage."@en ;
+    skos:prefLabel "ArcGIS"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/ArcHydro-for-Groundwater>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A data model published by ESRI and tools developed by Aquaveo for analysis of hydrogeological data."@en ;
+    skos:prefLabel "ArcHydro for Groundwater"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/ESRI>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A software development company based in the United States that builds ArcGIS."@en ;
+    skos:prefLabel "ESRI"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/ESRI-File-Geodatabase>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A format for storing GIS data within the ArcGIS software"@en ;
+    skos:prefLabel "ESRI File Geodatabase"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/australia-new-zealand-land-information-council>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "ANZLIC is the Spatial Information Council is the peak intergovernmental organisation providing leadership in the collection, management and use of spatial information in Australia and New Zealand. They have established a widely metadata profile for spatial data in Australia."@en ;
+    skos:notation "ANZLIC" ;
+    skos:prefLabel "australia new zealand land information council"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A hole drilled in the ground, a well or any other excavation used to access groundwater. May be used for observation of groundwater (including water level, pressure or quality)."@en ;
+    skos:prefLabel "bore"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-feature>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Point feature class that represents the location of a bore and associated attributes. Multiple independently screened bore pipes are regarded as separate bore features."@en ;
+    skos:prefLabel "bore feature"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-line>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A three dimensional line feature class that represents the hydrogeologic units along a borehole."@en ;
+    skos:prefLabel "bore line"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-log>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:altLabel "hydrostratigraphy log"@en ;
+    skos:definition "A table with rock or sediment types classified into hydrogeologic units along a borehole."@en ;
+    skos:prefLabel "bore log"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-pipe>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "An independently screened inlet to a bore that can be pumped or monitored separately. A bore can have multiple pipes, each having one or more screens."@en ;
+    skos:prefLabel "bore pipe"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-screen>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The construction component of a bore that allows groundwater to enter e.g. casing with slots or holes."@en ;
+    skos:prefLabel "bore screen"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/casing>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The construction component that lines a bore and provides the conduit from the water-producing zone to the surface."@en ;
+    skos:prefLabel "casing"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/construction-line>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A three dimensional line feature class that represents the construction information (e.g. casing and bore screen) along a borehole"@en ;
+    skos:prefLabel "construction line"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/construction-log>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A table with bore construction information along a borehole (e.g. casing and bore screen)."@en ;
+    skos:prefLabel "construction log"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/creative-commons>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:source "Creative Commons Australia"@en ;
+    skos:definition "An international non-profit organisation that provides free licences and tools that copyright owners can use to allow others to share, reuse and remix their material, legally."@en ;
+    skos:notation "CC" ;
+    skos:prefLabel "creative commons"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/digital-elevation-model>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A digital elevation model of the earth's surface."@en ;
+    skos:notation "DEM" ;
+    skos:prefLabel "digital elevation model"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/feature-class>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:source "ArcGIS 9.2 Desktop Help"@en ;
+    skos:definition "Homogeneous collections of common features, each having the same spatial representation, such as points, lines, or polygons, and a common set of attribute columns, for example, a line feature class for representing road centrelines. The four most commonly used feature classes in the geodatabase are points, lines, polygons, and annotation (the geodatabase name for map text)."@en ;
+    skos:prefLabel "feature class"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/geographic-information-system>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A system used for the design, capture, storage, management and analysis of geographic data. Often referred to as GIS."@en ;
+    skos:notation "GIS" ;
+    skos:prefLabel "geographic information system"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/georaster>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A catalog of raster datasets describing properties of hydrogeologic units (e.g. depth or elevation of hydrogeologic unit's top or base, salinity and groundwater level)."@en ;
+    skos:prefLabel "georaster"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/geovolume>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A three dimensional multipatch feature class that represents hydrogeologic units as a volume."@en ;
+    skos:prefLabel "geovolume"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/hydrostratigraphy-log>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:altLabel "bore log"@en ;
+    skos:definition "A table with rock or sediment types classified into hydrogeologic units along a borehole."@en ;
+    skos:prefLabel "hydrostratigraphy log"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/lithology-log>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A table with drillers' or geologists' description of rock or sediment types along a borehole."@en ;
+    skos:prefLabel "lithology log"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/multipatch-feature-class>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:source "ArcGIS Help 10.1"@en ;
+    skos:definition "A GIS object that stores a collection of patches to represent the boundary of a three dimensional object as a single row in a database."@en ;
+    skos:prefLabel "multipatch feature class"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/national-groundwater-information-system>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A spatially-enabled database for storing and analysing Australian groundwater data."@en ;
+    skos:notation "NGIS" ;
+    skos:prefLabel "national groundwater information system"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/raster-dataset>
+    a skos:Concept ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Represents geographic features by dividing the world into discrete square or rectangular cells laid out in a grid. Each cell has a value that is used to represent some characteristic of that location."@en ;
+    skos:prefLabel "raster dataset"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System> ;
+.
+
+<https://linked.data.gov.au/org/bom-gu>
+    a dcterms:Agent ;
+    foaf:homepage "http://www.bom.gov.au/water/groundwater/"^^xsd:anyURI ;
+    foaf:name "Groundwater Unit, Bureau of Meteorology" ;
+.
+
+<http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/National-Groundwater-Information-System>
+    a skos:ConceptScheme ;
+    rdfs:label "National Groundwater Information System"@en ;
+    dcterms:contributor <https://linked.data.gov.au/org/bom-gu> ;
+    dcterms:created "2017-11-08"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/bom-gu> ;
+    dcterms:description "The National Groundwater Information System (NGIS) is a spatial database for GIS specialists that contains a range of groundwater information submitted by States and Territories. The NGIS contains information on more than 870 000 bores and their attributes—such as purpose and date they were drilled. The database also includes logs of their lithology, construction and hydrostratigraphy as well as groundwater management areas and aquifer boundaries. 2.5D and 3D aquifer geometries are also available for some areas. Hydrogeologic units within the NGIS have been standardised for national consistency using the National Aquifer Framework.  http://www.bom.gov.au/water/groundwater/ngis/ "@en ;
+    dcterms:issued "2013-05" ;
+    dcterms:publisher <https://linked.data.gov.au/org/bom-gu> ;
+    dcterms:subject "Groundwater"@en ;
+    dcterms:title "National Groundwater Information System"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/Aquaveo> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/ArcGIS> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/ArcHydro-for-Groundwater> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/ESRI> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/ESRI-File-Geodatabase> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/australia-new-zealand-land-information-council> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-feature> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-line> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-log> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-pipe> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/bore-screen> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/casing> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/construction-line> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/construction-log> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/creative-commons> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/digital-elevation-model> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/feature-class> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/geographic-information-system> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/georaster> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/geovolume> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/hydrostratigraphy-log> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/lithology-log> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/multipatch-feature-class> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/national-groundwater-information-system> ,
+        <http://www.neii.gov.au/def/voc/GW/national-groundwater-information-system/raster-dataset> ;
+.

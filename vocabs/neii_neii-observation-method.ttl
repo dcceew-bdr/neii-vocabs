@@ -1,0 +1,179 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/NEII_Kaur.Hardeep_Admin>
+    a
+        dcterms:Agent ,
+        schema:Person ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-06-19"^^xsd:date ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-observation-method/NEII-Observation-method>
+    a rdfs:Resource ;
+    rdfs:label "NEII Observation method"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-observation-method/aircraftOrAirborne>
+    a rdfs:Resource ;
+    rdfs:label "aircraftOrAirborne"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-observation-method/earthObservationSatellites>
+    a rdfs:Resource ;
+    rdfs:label "earthObservationSatellites"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-observation-method/humanAssessment>
+    a rdfs:Resource ;
+    rdfs:label "humanAssessment"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-observation-method/inSituHydroBasedPlatforms>
+    a rdfs:Resource ;
+    rdfs:label "inSituHydroBasedPlatforms"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-observation-method/inSituLandBasedPlatforms>
+    a rdfs:Resource ;
+    rdfs:label "inSituLandBasedPlatforms"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-observation-method/inSituOceanBasedPlatforms>
+    a rdfs:Resource ;
+    rdfs:label "inSituOceanBasedPlatforms"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-observation-method/modelsOrAnalysis>
+    a rdfs:Resource ;
+    rdfs:label "modelsOrAnalysis"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-observation-method/navigationPlatforms>
+    a rdfs:Resource ;
+    rdfs:label "navigationPlatforms"@en ;
+    owl:deprecated true ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-observation-method/aircraftOrAirborne>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The network uses aircraft, balloons, rockets or other airborne instrumentation"@en ;
+    skos:prefLabel "aircraftOrAirborne"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/NEII-Observation-Method> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-observation-method/earthObservationSatellites>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The network uses earth observation satellites (for example, LANDSAT, MODIS)"@en ;
+    skos:prefLabel "earthObservationSatellites"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/NEII-Observation-Method> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-observation-method/humanAssessment>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The network uses human assessments or surveys (for example species counts and vegetation canopy cover estimates completed by a botanist, human observation of animal movement)."@en ;
+    skos:prefLabel "humanAssessment"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/NEII-Observation-Method> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-observation-method/inSituHydroBasedPlatforms>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The network uses in-situ hydrological-based platforms (for example, streamflow gauges, water quality sensors)."@en ;
+    skos:prefLabel "inSituHydroBasedPlatforms"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/NEII-Observation-Method> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-observation-method/inSituLandBasedPlatforms>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The network uses in-situ land-based platforms (for example, weather stations, air monitoring stations, or seismological stations)."@en ;
+    skos:prefLabel "inSituLandBasedPlatforms"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/NEII-Observation-Method> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-observation-method/inSituOceanBasedPlatforms>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The network uses in-situ ocean-based platforms (for example, ships, buoys, or moorings)."@en ;
+    skos:prefLabel "inSituOceanBasedPlatforms"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/NEII-Observation-Method> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-observation-method/modelsOrAnalysis>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The network uses models or data analysis (for example, climate models, soil models, or land surface models)."@en ;
+    skos:prefLabel "modelsOrAnalysis"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/NEII-Observation-Method> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-observation-method/navigationPlatforms>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The network uses navigation platforms (for example, Global Positioning System, NAVSTAR, or GLONASS)."@en ;
+    skos:prefLabel "navigationPlatforms"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/NEII-Observation-Method> ;
+.
+
+<http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure>
+    a dcterms:Agent ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-08-09"^^xsd:date ;
+    foaf:name "National Environmental Information Infrastructure" ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-observation-method/NEII-Observation-Method>
+    a skos:ConceptScheme ;
+    rdfs:label "NEII Observation Method"@en ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
+    dcterms:description "Observation method is a high-level classification of the method used to make environmental observations. The initial list of methods is based on a subset of NASA's Global Change Master Directory (GCMD) Platforms keyword list (http://gcmd.nasa.gov/learn/keyword_list.html)."@en ;
+    dcterms:issued "2016-09-01" ;
+    dcterms:publisher <https://linked.data.gov.au/org/neii> ;
+    dcterms:subject "NEII"@en ;
+    dcterms:title "NEII Observation Method"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/aircraftOrAirborne> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/earthObservationSatellites> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/humanAssessment> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/inSituHydroBasedPlatforms> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/inSituLandBasedPlatforms> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/inSituOceanBasedPlatforms> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/modelsOrAnalysis> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-observation-method/navigationPlatforms> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a dcterms:Agent ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-08-09"^^xsd:date ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name "National Environmental Information Infrastructure (NEII)" ;
+.

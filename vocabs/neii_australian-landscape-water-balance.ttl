@@ -1,0 +1,97 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Deep-drainage>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2017-11-29"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-11-29"^^xsd:date ;
+    skos:definition "Deep drainage is an estimate of the water that drains from the bottom of the deep soil layer (6 m) into the groundwater stores. Soil drainage and moisture dynamics are based on water balance considerations for each layer, and unsaturated downward movement of water under gravity only. There is assumed to be no lateral drainage from the deep soil layer. Drainage from each layer is subject to limits imposed by water availability and hydraulic conductivity. Deep Drainage generally describes diffuse groundwater recharge."@en ;
+    skos:prefLabel "deep drainage"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Australian-Landscape-Water-Balance> ;
+.
+
+<http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Deep-soil-moisture>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2017-11-29"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-11-29"^^xsd:date ;
+    dcterms:references "Johnston, R.M., Barry, S.J., Bleys, E., Bui, E.N., Moran, C.J., Simon, D.A.P., Carlile, P., McKenzie, N.J., Henderson, B.L., Chapman, G., Imhoff, M., Maschmedt, D., Howe, D., Grose, C., Schoknecht, N., Powell, B. and Grundy, M., 2003. ASRIS: the database. Australian Journal of Soil Research, 41: 1021–1036."@en ;
+    skos:definition """Deep Soil Moisture represents the percentage of available water content between 1 m and 6 m in the soil profile. The maximum storage within the soil layer is calculated from the depth of the soil and the relative soil water storage capacity. The soil properties of the deep soil layer are indirectly derived from ASRIS based on the lower soil layer properties. In this case it is assumed that the bulk density of the deep soil is higher than the lower soil and so the relative available water capacity is lower. The 6 m bottom boundary of the deep soil layer is based on the assumption that the deep rooted vegetation can access water down to 6 m. Only the deep rooted vegetation can access the deep soil moisture. 
+
+Actual soil moisture grids estimate the percentage of available water content rather than total soil water volume. Relative soil moisture grids, like the other grids, represent the long term deciles."""@en ;
+    skos:prefLabel "deep soil moisture"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Australian-Landscape-Water-Balance> ;
+.
+
+<http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Lower-soil-moisture>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2017-11-29"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-11-29"^^xsd:date ;
+    dcterms:references "Johnston, R.M., Barry, S.J., Bleys, E., Bui, E.N., Moran, C.J., Simon, D.A.P., Carlile, P., McKenzie, N.J., Henderson, B.L., Chapman, G., Imhoff, M., Maschmedt, D., Howe, D., Grose, C., Schoknecht, N., Powell, B. and Grundy, M., 2003. ASRIS: the database. Australian Journal of Soil Research, 41: 1021–1036."@en ;
+    skos:definition """Lower Soil Moisture estimate represents the percentage of available water content between 10 cm and 100 cm in the soil profile. The maximum storage within the soil layer is calculated from the depth of the soil and the relative soil water storage capacity. The soil properties that control the storage of water are derived from the continental scale mapping within Australian Soil Resources Information System (Johnston et al., 2003). The relative available water capacity of the lower soil layer is derived from ASRIS information as the available water capacity of a layer divided by its thickness. Pedotransfer functions are used to relate soil hydraulic properties to soil textural class. Soil drainage and moisture dynamics are then based on water balance considerations for each soil layer. The shallow and deep rooted vegetation can draw on this Lower Soil Moisture layer. 
+
+Actual soil moisture grids estimate the percentage of available water content rather than total soil water volume. Relative soil moisture grids, like the other grids, represent the long term deciles."""@en ;
+    skos:prefLabel "lower soil moisture"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Australian-Landscape-Water-Balance> ;
+.
+
+<http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Root-zone-soil-moisture>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2017-11-29"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-11-29"^^xsd:date ;
+    dcterms:references "Johnston, R.M., Barry, S.J., Bleys, E., Bui, E.N., Moran, C.J., Simon, D.A.P., Carlile, P., McKenzie, N.J., Henderson, B.L., Chapman, G., Imhoff, M., Maschmedt, D., Howe, D., Grose, C., Schoknecht, N., Powell, B. and Grundy, M., 2003. ASRIS: the database. Australian Journal of Soil Research, 41: 1021–1036."@en ;
+    skos:definition """Root Zone Soil Moisture is the sum of water in the AWRA-L Upper and Lower soil layers and represents the percentage of available water content in the top 1 m of the soil profile. The maximum storage within the soil layer is calculated from the depth of the soil and the relative soil water storage capacity. The soil properties that control the storage of water are derived from the continental scale mapping within Australian Soil Resources Information System (Johnston et al., 2003). The relative available water capacity of the soil layer is derived from information ASRIS as the available water capacity of a layer divided by its thickness. Pedotransfer functions are used to relate soil hydraulic properties to soil textural class. Soil drainage and moisture dynamics are then based on water balance considerations for each soil layer. The shallow and deep rooted vegetation can both draw on this combined layer. 
+
+Actual soil moisture grids estimate the percentage of available water content rather than total soil water volume. Relative soil moisture grids, like the other grids, represent the long term deciles."""@en ;
+    skos:prefLabel "root zone soil moisture"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Australian-Landscape-Water-Balance> ;
+.
+
+<http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Upper-soil-moisture>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2017-11-29"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-11-29"^^xsd:date ;
+    dcterms:references "Johnston, R.M., Barry, S.J., Bleys, E., Bui, E.N., Moran, C.J., Simon, D.A.P., Carlile, P., McKenzie, N.J., Henderson, B.L., Chapman, G., Imhoff, M., Maschmedt, D., Howe, D., Grose, C., Schoknecht, N., Powell, B. and Grundy, M., 2003. ASRIS: the database. Australian Journal of Soil Research, 41: 1021–1036."@en ;
+    skos:definition """Upper Soil Moisture estimate represents the percentage of available water content in the top 10 cm of the soil profile. The maximum storage within the soil layer is calculated from the depth of the soil and the relative soil water storage capacity. The soil properties that control the storage of water are derived from the continental scale mapping within Australian Soil Resources Information System (ASRIS) (Johnston et al., 2003). Pedotransfer functions are used to relate soil hydraulic properties to soil textural class. Soil drainage and moisture dynamics are then based on water balance considerations for each soil layer. This upper soil layer is the primary source of soil evaporation. The relative available water capacity of the upper soil layer is derived from ASRIS information as the available water capacity of a layer divided by its thickness. 
+
+Actual soil moisture grids estimate the percentage of available water content rather than total soil water volume. Relative soil moisture grids, like the other grids, represent the long term deciles."""@en ;
+    skos:prefLabel "upper soil moisture"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Australian-Landscape-Water-Balance> ;
+.
+
+<http://editor.vocabs.ands.org.au/user/NEII>
+    a dcterms:Agent ;
+    foaf:name "NEII" ;
+.
+
+<http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Australian-Landscape-Water-Balance>
+    a skos:ConceptScheme ;
+    rdfs:label "Australian Landscape Water Balance"@en ;
+    dcterms:created "2017-11-29"^^xsd:date ;
+    dcterms:creator <http://editor.vocabs.ands.org.au/user/NEII> ;
+    dcterms:description "The information presented on the Australian Landscape Water Balance website is produced by the Bureau's operational Australian Water Resources Assessment Landscape model (AWRA-L). AWRA-L is a daily 0.05° grid-based, distributed water balance model, conceptualised as a small unimpaired catchment. It simulates the flow of water through the landscape from the rainfall entering the grid cell through the vegetation and soil moisture stores and then out of the grid cell through evapotranspiration, runoff or deep drainage to the groundwater."@en ;
+    dcterms:issued "2017-12-01" ;
+    dcterms:publisher <http://editor.vocabs.ands.org.au/user/NEII> ;
+    dcterms:subject "AWRA"@en ;
+    dcterms:title "Australian Landscape Water Balance"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Deep-drainage> ,
+        <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Deep-soil-moisture> ,
+        <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Lower-soil-moisture> ,
+        <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Root-zone-soil-moisture> ,
+        <http://www.neii.gov.au/def/voc/AWRA/australian-landscape-water-balance/Upper-soil-moisture> ;
+.

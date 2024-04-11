@@ -1,0 +1,190 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/NEII_Kaur.Hardeep_Admin>
+    a
+        dcterms:Agent ,
+        schema:Person ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-06-19"^^xsd:date ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-data-availability/NEII-Data-availability>
+    a rdfs:Resource ;
+    rdfs:label "NEII Data availability"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-data-availability/available-online>
+    a rdfs:Resource ;
+    rdfs:label "available-online"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-data-availability/available-other>
+    a rdfs:Resource ;
+    rdfs:label "available-other"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-data-availability/available-services>
+    a rdfs:Resource ;
+    rdfs:label "available-services"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-data-availability/partiallyAvailable-online>
+    a rdfs:Resource ;
+    rdfs:label "partiallyAvailable-online"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-data-availability/partiallyAvailable-other>
+    a rdfs:Resource ;
+    rdfs:label "partiallyAvailable-other"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-data-availability/partiallyAvailable-services>
+    a rdfs:Resource ;
+    rdfs:label "partiallyAvailable-services"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-data-availability/unavailable>
+    a rdfs:Resource ;
+    rdfs:label "unavailable"@en ;
+    owl:deprecated true ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/available-online>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The data are available online."@en ;
+    skos:prefLabel "available-online"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/available-other>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The data are available."@en ;
+    skos:prefLabel "available-other"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/available-services>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The data are available via services such as wfs, sos, etc"@en ;
+    skos:prefLabel "available-services"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/available-uponRequest>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2022-06-06"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2022-06-06"^^xsd:date ;
+    skos:definition "The data are available upon request."@en ;
+    skos:prefLabel "available-uponRequest"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/partiallyAvailable>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2017-11-15"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-11-15"^^xsd:date ;
+    skos:definition "The data are partially available."@en ;
+    skos:prefLabel "partiallyAvailable"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/partiallyAvailable-online>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The data are partially available online."@en ;
+    skos:prefLabel "partiallyAvailable-online"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/partiallyAvailable-other>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The data are partially available."@en ;
+    skos:prefLabel "partiallyAvailable-other"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/partiallyAvailable-services>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The data are partially available via services such as wfs, sos, etc"@en ;
+    skos:prefLabel "partiallyAvailable-services"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/unavailable>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The data are unavailable electronically."@en ;
+    skos:prefLabel "unavailable"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability> ;
+.
+
+<http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure>
+    a dcterms:Agent ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-08-09"^^xsd:date ;
+    foaf:name "National Environmental Information Infrastructure" ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-data-availability/NEII-Data-Availability>
+    a skos:ConceptScheme ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
+    dcterms:description "It details how the data are made available either through data services, online resources or other delivery channels"@en ;
+    dcterms:issued "2022-06-06" ;
+    dcterms:publisher <https://linked.data.gov.au/org/neii> ;
+    dcterms:subject "NEII"@en ;
+    dcterms:title "NEII Data Availability"@en ;
+    owl:versionInfo "Version 2" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/available-online> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/available-other> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/available-services> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/available-uponRequest> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/partiallyAvailable> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/partiallyAvailable-online> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/partiallyAvailable-other> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/partiallyAvailable-services> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-data-availability/unavailable> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-08-09"^^xsd:date ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name
+        "NEII" ,
+        "National Environmental Information Infrastructure (NEII)" ;
+.

@@ -1,0 +1,844 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/Geofabric-Unit,-Bureau-of-Meteorology>
+    a dcterms:Agent ;
+    foaf:name "Geofabric Unit, Bureau of Meteorology" ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric>
+    a rdfs:Resource ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANZLIC>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Australia New Zealand Land Information Council"@en ;
+    skos:prefLabel "ANZLIC"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AWRC>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Australian Water Resources Council"@en ;
+    skos:prefLabel "AWRC"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AWRIS>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Australian Water Resources Information System"@en ;
+    skos:prefLabel "AWRIS"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ArcHydro>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A data model and tools published by ESRI for analysis of hydrological data."@en ;
+    skos:prefLabel "ArcHydro"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Water-Resources-Council>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Established in 1962, the Australian Water Resources Council (AWRC) was set up by the Commonwealth and State Governments as a non-statutory body.  The council existed into the 1980s.  Source: National Library of Australia"@en ;
+    skos:prefLabel "Australian Water Resources Council"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/CSIRO>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Commonwealth Scientific and Industrial Research Organisation"@en ;
+    skos:prefLabel "CSIRO"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Creative-Commons>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "An international non-profit organisation that provides free licences and tools that copyright owners can use to allow otthers to share, reuse and remix their material, legally. Source: Creative Commons Australia (http://creativecommons.org.au/about)"@en ;
+    skos:prefLabel "Creative Commons"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/D8-9S>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "GEODATA 9 Second Flow Direction Grid derived from DEM-9S.  A grid describing the principal directions of surface drainage across the whole of Australia.  Source: Geoscience Australia (https://www.ga.gov.au/products/servlet/controller?event=GEOCAT_DETAIL&catno=66006)"@en ;
+    skos:prefLabel "D8-9S"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GEODATA> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/DEM>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Digital Elevation Model  a digital elevation model of the earth's surface."@en ;
+    skos:prefLabel "DEM"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/raster-data> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/DPS>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Data Product Specification based on ISO (http://www.bom.gov.au/water/awid/id-688.shtml) 19139"@en ;
+    skos:prefLabel "DPS"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ESRI>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A software development company based in the United States that builds ArcGIS."@en ;
+    skos:prefLabel "ESRI"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ArcGIS> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ESRI-File-Geodatabase>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A format for storing GIS data within the ArcGIS software"@en ;
+    skos:prefLabel "ESRI File Geodatabase"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Version-1>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The first major release of Geofabric data in 2010 derived from foundation input data at scale 1:250 000.  Three products were included: Geofabric Surface Cartography, Geofabric Surface Catchments, Geofabric Surface Network."@en ;
+    skos:prefLabel "Geofabric Version 1"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/HYDRO1k>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """Developed at the United States Geological Survey (USGS), HYDRO1k is a geographic database providing comprehensive and consistent global coverage of topographically derived datasets.
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "HYDRO1k"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/HydroID>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "An internal identifier assigned when using the ArcHydro tools to implement the ArcHydro data model."@en ;
+    skos:prefLabel "HydroID"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/NHDPlus>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "National Hydrography Dataset Plus.  A geospatial hydrological system implemented in the United States."@en ;
+    skos:prefLabel "NHDPlus"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/OzCoasts>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """Australian Online Coastal Information
+Source: Ozcoasts (http://www.ozcoasts.gov.au/) Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "OzCoasts"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geoscience-Australia> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Water-Act-2007>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """An Act of Parliament that commenced on 3 March 2008 and implemented key reforms for water management in Australia.
+Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) at 8 February 2019.  For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au)"""@en ;
+    skos:prefLabel "Water Act 2007"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/blue-line>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The typical depiction of a river or stream in a cartographic product."@en ;
+    skos:prefLabel "blue line"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/conceptual-model>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A platform independent model for showing the entities and relationship between the features of interest generally described using UML.  Source: Geofabric Product Guide V2.0"@en ;
+    skos:prefLabel "conceptual model"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/UML> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/implementation-model>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A platform specific model that references the conceptual model.  In the case of the Geofabric the implementation is in ArcGIS"@en ;
+    skos:prefLabel "implementation model"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/shapefile>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """A vector GIS format for storing geometric location and associated attribution information, that lacks the capacity to store topological information.  It is developed and regulated by ESRI as a (mostly) open specification for data interoperability.
+Source: ESRI"""@en ;
+    skos:prefLabel "shapefile"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/vector-data>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Data organised as geometry consisting of points, lines and polygons."@en ;
+    skos:prefLabel "vector data"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AHGF>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Australian Hydrological Geospatial Fabric (Geofabric)  Source: Geofabric Product Guide V2.0"@en ;
+    skos:prefLabel "AHGF"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ArcGIS>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A range of software programs developed by ESRI for spatial data analysis, processing and storage."@en ;
+    skos:prefLabel "ArcGIS"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AusHydro>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Flow directed and topological connected surface hydrology data derived from Geoscience Australia GEODATA series.  Source: Geofabric Product Guide V2.0"@en ;
+    skos:prefLabel "AusHydro"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GA> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GEODATA> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Cartography> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Bureau>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Bureau of Meteorology"@en ;
+    skos:prefLabel "Bureau"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GIS>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Graphic Information system  A system used for the design, capture, storage, management and analysis of geographic data.  Often referred to as GIS"@en ;
+    skos:prefLabel "GIS"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Version-2>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The second major release of Geofabric data in 2011 derived from foundation input data at scale 1:250 000.  Six products were included: Geofabric Surface Cartography, Geofabric Surface Catchments, Geofabric Surface Network, Geofabric Hydrology Reporting Catchments, Geofabric Hydrology Reporting Regions, Geofabric Groundwater Cartography."@en ;
+    skos:prefLabel "Geofabric Version 2"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Regions> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/V2.x> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geoscience-Australia>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Australia's national geoscience agency."@en ;
+    skos:prefLabel "Geoscience Australia"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GA> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GEODATA> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/IGWD>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """Interim Groundwater Data
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "IGWD"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/interim-groundwater-data> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/NCB>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """National Catchment Boundaries
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "NCB"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/DEM-9S> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/foundation-input-data> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/national-catchment-boundaries> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Pfafstetter-reference-system>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """The Pfafstetter coding system developed by Otto Pfafstetter in 1989, is a methodology for assigning catchment identifiers based on the topology of the land surface.
+Source:  K.L Verdin, J.P Verdin., 1999. A topological system for delineation and codification of the Earth’s river basins, Journal of Hydrology, Vol. 218 (1-2) (http://www.sciencedirect.com/science/article/pii/S0022169499000116) and J. L. Stein, M. F. Hutchinson, J. A. Stein., 2014. A new stream and nested catchment framework for Australia, Hydrol. Earth Syst. Sci., 18 (http://www.hydrol-earth-syst-sci.net/18/1917/2014/hess-18-1917-2014.pdf)"""@en ;
+    skos:prefLabel "Pfafstetter reference system"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/UML>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Unified Modelling Language"@en ;
+    skos:prefLabel "UML"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/V2.x>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Encompasses and relates to all Geofabric Version 2 releases"@en ;
+    skos:prefLabel "V2.x"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Version-2> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/river-region>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """Produced as part of the Australian Hydrological Geospatial Fabric (Geofabric).  These regions align with, and are nested within, the revised drainage divisions.
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "river region"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Regions> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/drainage-division> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANU>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Australian National University"@en ;
+    skos:prefLabel "ANU"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANUDEM> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANUDEM-Streams> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANUDEM>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A computer program developed by the ANU for processing data into a digital elevation model.  Source Geofabric Product Guide V2.0"@en ;
+    skos:prefLabel "ANUDEM"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANU> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANUDEM-Streams>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Topologically connected flow direction streamlines developed by ANU using ANUDEM.  Source: Geofabric Product Guide V2.0"@en ;
+    skos:prefLabel "ANUDEM Streams"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANU> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANUDEM> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/DEM-9S>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "GEODATA 9 Second Digital Elevation Model.  A grid of ground level elevation points covering the whole of Australia with a grid spacing of 9 seconds in longitude and latitude (approximately 250 metres) in the GDA94 coordinate system."@en ;
+    skos:prefLabel "DEM-9S"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Digital-Elevation-Model> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GEODATA> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Digital-Elevation-Model>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A digital elevation model of the earth's surface."@en ;
+    skos:prefLabel "Digital Elevation Model"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/raster-data> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GA>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Geoscience Australia"@en ;
+    skos:prefLabel "GA"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/aquifer>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A geological formation, group of formations or part of a formation; able to receive, store and transmit significant quantities of water."@en ;
+    skos:prefLabel "aquifer"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/IAF> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/interim-aquifer-framework> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/aquitard>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A geological formation that may contain groundwater but is not capable of transmitting significant quantities of it under normal hydraulic gradients.  May function as a confining bed."@en ;
+    skos:prefLabel "aquitard"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/IAF> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/interim-aquifer-framework> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/contracted-catchment>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A set of low level catchments derived from a digital elevation model (DEM) with a contracted node at the outflow point.  Source Geofabric Product Guide V2.0"@en ;
+    skos:prefLabel "contracted catchment"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Digital-Elevation-Model> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Catchments> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/contracted-node>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "An entity within the Geofabric that represents a logical feature in the landscape such as the confluence of two major rivers or a significant monitoring location.  A contracted node has a unique and persistent identifier."@en ;
+    skos:prefLabel "contracted node"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/foundation-input-data>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """Input data such as AusHydro, ANUDEM streams and the National Catchment Boundaries used to build the Geofabric.
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "foundation input data"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANUDEM-Streams> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AusHydro> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/national-catchment-boundaries> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/interim-groundwater-data>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """Digital groundwater boundaries obtained from the best available digital groundwater data sourced from both Commonwealth and State and Territory jurisdictions as part of the IGWD project.  When available, it will be replaced by the National Groundwater Information System.
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "interim groundwater data"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/IGWD> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/national-catchment-boundaries>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """Foundation input data derived from DEM-9S for Geofabric Surface Catchments, in which a catchment has been defined for every stream segment contained within the Geofabric Surface Network product. It also includes Levels 1 (drainage divisions) and 2 (aggregated river basin groups) and V2.x NCB Pfafstetter coding.
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "national catchment boundaries"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/DEM-9S> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/NCB> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/foundation-input-data> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/raster-data>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """Data organised as a regular grid or as pixels.
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "raster data"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The Australian Hydrological Geospatial Fabric (Geofabric) is a specialised Geographic Information System (GIS).  It identifies and registers the spatial relationships between important hydrological features such as watercourses, water bodies, canals, aquifers, monitoring points and catchments.  Source: Geofabric website"@en ;
+    skos:prefLabel "Australian Hydrological Geospatial Fabric"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AHGF> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/IAF>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """Interim Aquifer Framework
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "IAF"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/aquifer> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/aquitard> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/interim-aquifer-framework> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/drainage-division>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Representation of the catchments of major surface water drainage systems, generally comprising a number of river basins.  In Australia, 12 drainage division boundaries were first defined in the 1960s by the Australian Water Resources Council.  Australian drainage division boundaries were revised by the Bureau of Meteorology in 2010 in line with the creation of the Australian Hydrological Geospatial Fabric (Geofabric) based on the 9 second Digital Elevation Model."@en ;
+    skos:prefLabel "drainage division"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Bureau> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Regions> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/river-region> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/interim-aquifer-framework>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """A two tiered system of geological units aggregated to aquifers (and sometimes aquitards) of similar hydrogeological characteristics.  When available, it will be replaced by the National Groundwater Information System.
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "interim aquifer framework"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/IAF> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/aquifer> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/aquitard> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GEODATA>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A national set of topographic products developed by Geoscience Australia at various scales."@en ;
+    skos:prefLabel "GEODATA"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Catchments>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A contracted catchments hierarchy resulting from contracted nodes of important hydrological features.  A simplified Node-Link network identifies contracted nodes in Geofabric Surface Network and the corresponding linkages between these nodes."@en ;
+    skos:prefLabel "Geofabric Hydrology Reporting Catchments"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/contracted-catchment> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/contracted-node> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Regions>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A collection of GIS feature classes (http://www.bom.gov.au/water/awid/id-779.shtml) derived from aggregations of contracted catchments in the Geofabric Hydrology Reporting Catchments product.  Data is aggregated to drainage divisions and river region reporting units."@en ;
+    skos:prefLabel "Geofabric Hydrology Reporting Regions"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Regions> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/contracted-catchment> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/contracted-node> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/drainage-division> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Cartography>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """A collection of GIS feature classes (http://www.bom.gov.au/water/awid/id-779.shtml) of surface water features of Australia (excluding external Territories).  It is flow directed and provides input for the production of maps and visualisations that present the results of hydrological analyses.
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "Geofabric Surface Cartography"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A system used for the design, capture, storage, management and analysis of geographic data.  Often referred to as GIS."@en ;
+    skos:prefLabel "Geographic Information System"@en ;
+    skos:relatedMatch <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GIS> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A first pass national groundwater GIS dataset.  Groundwater boundaries are derived from interim groundwater data."@en ;
+    skos:prefLabel "Geofabric Groundwater Cartography"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/interim-groundwater-data> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """A collection of GIS feature classes (http://www.bom.gov.au/water/awid/id-779.shtml) providing topographic based surface catchment boundaries, organised into a hierarchy using the Pfafstetter reference system. It has a hydrological relationship to surface water features and can be used for surface hydrological analysis.
+Source: Geofabric Product Guide V 2.0"""@en ;
+    skos:prefLabel "Geofabric Surface Catchments"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Pfafstetter-reference-system> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/drainage-division> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition """A collection of GIS feature classes (http://www.bom.gov.au/water/awid/id-779.shtml) based upon the DEM derived ANUDEM Streams.  It is a generalised representation of Geofabric Surface Cartography streams with addition of full topological connection.  It can be used for selecting hydrological observations points (if they exist) and for the geoprocessing and hydrological modelling that involves streamflow tracing operations.
+Source: Geofabric Product Guide V2.0"""@en ;
+    skos:prefLabel "Geofabric Surface Network"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric>
+    a skos:Concept ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The common abbreviation for the Australian Hydrological Geospatial Fabric"@en ;
+    skos:prefLabel "Geofabric"@en ;
+    skos:relatedMatch
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Regions> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric> ;
+.
+
+<http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric-Geofabric>
+    a skos:ConceptScheme ;
+    dcterms:created "2019-12-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2019-12-02" ;
+    dcterms:title "Australian Hydrological Geospatial Fabric (Geofabric)"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AHGF> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANU> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANUDEM> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANUDEM-Streams> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ANZLIC> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AWRC> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AWRIS> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ArcGIS> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ArcHydro> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/AusHydro> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Hydrological-Geospatial-Fabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Australian-Water-Resources-Council> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Bureau> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/CSIRO> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Creative-Commons> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/D8-9S> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/DEM> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/DEM-9S> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/DPS> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Digital-Elevation-Model> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ESRI> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/ESRI-File-Geodatabase> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GA> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GEODATA> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/GIS> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Groundwater-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Hydrology-Reporting-Regions> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Cartography> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Catchments> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Surface-Network> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Version-1> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geofabric-Version-2> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geographic-Information-System> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Geoscience-Australia> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/HYDRO1k> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/HydroID> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/IAF> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/IGWD> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/NCB> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/NHDPlus> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/OzCoasts> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Pfafstetter-reference-system> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/UML> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/V2.x> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/Water-Act-2007> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/aquifer> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/aquitard> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/blue-line> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/conceptual-model> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/contracted-catchment> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/contracted-node> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/drainage-division> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/foundation-input-data> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/implementation-model> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/interim-aquifer-framework> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/interim-groundwater-data> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/national-catchment-boundaries> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/raster-data> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/river-region> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/shapefile> ,
+        <http://www.neii.gov.au/def/voc/Geofabric/australian-hydrological-geospatial-fabric/vector-data> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name "NEII" ;
+.

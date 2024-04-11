@@ -1,0 +1,129 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Date>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-02"^^xsd:date ;
+    skos:definition "Date of occurrence of the respective climate extreme statistic. When there has been more than one occurrence of the extreme the most recent date is provided. The date may not be known if the value is an accumulated value, which occurs when one or more consecutive observations have been missed."@en ;
+    skos:prefLabel "Date"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Climate-Statistics-Definitions-for-Daily-Elements-other-than-Temperature-Rainfall-and-9am-and-3pm-Statistics> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Maximum-wind-gust-km/h>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-02"^^xsd:date ;
+    skos:definition "Maximum wind gust recorded for each calendar month and the year, over the period of record. A gust is any sudden increase of wind speed of short duration; typically a 3 second time period is used. The maximum wind gust for a day is measured from midnight to midnight. If, for some reason, an observation is unable to be made, the next observation is recorded as an accumulation. Accumulated data can affect the Date of the Maximum Wind Gust, since the exact date of occurrence is unknown."@en ;
+    skos:prefLabel "Maximum wind gust (km/h)"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Climate-Statistics-Definitions-for-Daily-Elements-other-than-Temperature-Rainfall-and-9am-and-3pm-Statistics> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-daily-evaporation-mm>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-02"^^xsd:date ;
+    skos:definition "The average evaporation per day as measured by the Class A evaporation pan, for each month and over the year, calculated over the period of record. The term evapotranspiration is sometimes used interchangeably with evaporation, however the two are different. It is more common to use evaporation data when referring to open water surfaces and bare soil, and evapotranspiration when referring to land surfaces with vegetation."@en ;
+    skos:prefLabel "Mean daily evaporation (mm)"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Climate-Statistics-Definitions-for-Daily-Elements-other-than-Temperature-Rainfall-and-9am-and-3pm-Statistics> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-daily-solar-exposure-MJ/m2>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-02"^^xsd:date ;
+    skos:definition "The averaged amount of daily solar energy reaching a specific location on the Earth’s surface in a calendar month or year, calculated over the period of record. The solar exposure provided in these statistics has been estimated from satellite imagery. Divide the values by 3.6 to convert from units of megajoules per square metre (MJ/m2) to kilowatt-hours per square metre (kWh/m2)."@en ;
+    skos:prefLabel "Mean daily solar exposure (MJ/m2)"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Climate-Statistics-Definitions-for-Daily-Elements-other-than-Temperature-Rainfall-and-9am-and-3pm-Statistics> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-daily-sunshine-h>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-02"^^xsd:date ;
+    skos:definition "Average number of hours of bright sunshine each day in a calendar month or year, calculated over the period of record. Hours of bright sunshine is measured from midnight to midnight. Within the Bureau of Meteorology network bright sunshine has generally been recorded with a Campbell-Stokes recorder. This device only measures the duration of “bright” sunshine, which is less than the amount of “visible” sunshine. For example, sunshine immediately after sunrise and just before sunset is visible, but would not be bright enough to register on the Campbell-Stokes recorder."@en ;
+    skos:prefLabel "Mean daily sunshine (h)"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Climate-Statistics-Definitions-for-Daily-Elements-other-than-Temperature-Rainfall-and-9am-and-3pm-Statistics> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-daily-wind-run-km>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-02"^^xsd:date ;
+    skos:definition "Average daily wind run measured during a calendar month or year, calculated over the period of record. Daily wind run is measured at 9 am local time and is an indication of the average wind speed over the previous 24 hours. For example, a daily wind run of 240 km, divided by 24 hours in a day, gives a mean wind speed of 10 km/h. If, for some reason, an observation is unable to be made, the next observation is recorded as an accumulation. Accumulated data are not included within wind run climate statistics. There are two common heights for the measurement of wind run; the data behind this statistic were measured at 10 m above the ground, while wind run at a height less than 3 m above the ground is often measured in conjunction with evaporation."@en ;
+    skos:prefLabel "Mean daily wind run (km)"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Climate-Statistics-Definitions-for-Daily-Elements-other-than-Temperature-Rainfall-and-9am-and-3pm-Statistics> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-number-of-clear-days>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-02"^^xsd:date ;
+    skos:definition "Average number of clear days in a calendar month or year, calculated over the period of record. This statistic is derived from cloud cover observations, which are measured in oktas (eighths). The sky is visually inspected to produce an estimate of the number of eighths of the dome of the sky covered by cloud. A completely clear sky is recorded as zero okta, while a totally overcast sky is 8 oktas. The presence of any trace of cloud in an otherwise blue sky is recorded as 1 okta, and similarly any trace of blue on an otherwise cloudy sky is recorded as 7 oktas. A clear day is recorded when the mean of the 9 am and 3 pm cloud observations is less than or equal to 2 oktas. This definition has changed slightly over time. Prior to this, a clear day was defined as having less than or equal to 2.5 oktas averaged over the 9 am and 3 pm observations."@en ;
+    skos:prefLabel "Mean number of clear days"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Climate-Statistics-Definitions-for-Daily-Elements-other-than-Temperature-Rainfall-and-9am-and-3pm-Statistics> ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-number-of-cloudy-days>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2021-08-02"^^xsd:date ;
+    skos:definition "Average number of cloudy days in a calendar month or year, calculated over the period of record. This statistic is derived from cloud cover observations, which are measured in oktas (eighths). The sky is visually inspected to produce an estimate of the number of eighths of the dome of the sky covered by cloud. A completely clear sky is recorded as zero okta, while a totally overcast sky is 8 oktas. The presence of any trace of cloud in an otherwise blue sky is recorded as 1 okta, and similarly any trace of blue on an otherwise cloudy sky is recorded as 7 oktas. A cloudy day is recorded when the mean of the 9 am and 3 pm cloud observations is greater than or equal to 6 oktas. This definition has changed slightly over time. Prior to this, a cloudy day was defined as having greater than or equal to 5.5 oktas averaged over the 9 am and 3 pm observations."@en ;
+    skos:prefLabel "Mean number of cloudy days"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Climate-Statistics-Definitions-for-Daily-Elements-other-than-Temperature-Rainfall-and-9am-and-3pm-Statistics> ;
+.
+
+<http://editor.vocabs.ands.org.au/user/f27fe353-6ac3-4a5f-aa4f-1a8938fc652d>
+    a dcterms:Agent ;
+    foaf:name "Climate Services, Bureau of Meteorology" ;
+.
+
+<http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Climate-Statistics-Definitions-for-Daily-Elements-other-than-Temperature-Rainfall-and-9am-and-3pm-Statistics>
+    a skos:ConceptScheme ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/f27fe353-6ac3-4a5f-aa4f-1a8938fc652d> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:description "Climate Statistics Definitions for Daily Elements other than Temperature Rainfall and 9am and 3pm Statistics"@en ;
+    dcterms:issued "2021-08-05" ;
+    dcterms:publisher <http://editor.vocabs.ands.org.au/user/f27fe353-6ac3-4a5f-aa4f-1a8938fc652d> ;
+    dcterms:subject "Climate Statistics Definitions for Daily Elements other than Temperature Rainfall and 9am and 3pm Statistics"@en ;
+    dcterms:title "Climate Statistics Definitions for Daily Elements other than Temperature Rainfall and 9am and 3pm Statistics"@en ;
+    owl:versionInfo "Version 1.0" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Date> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Maximum-wind-gust-km/h> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-daily-evaporation-mm> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-daily-solar-exposure-MJ/m2> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-daily-sunshine-h> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-daily-wind-run-km> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-number-of-clear-days> ,
+        <http://www.neii.gov.au/def/voc/CS/climate-statistics-definitions-for-daily-elements-other-than-temperature-rainfall-and-9am-and-3pm-statistics/Mean-number-of-cloudy-days> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name "NEII" ;
+.

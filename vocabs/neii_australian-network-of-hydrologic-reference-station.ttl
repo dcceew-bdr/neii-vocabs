@@ -1,0 +1,226 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/Environmental-Prediction-Services-Program,-Bureau-of-Meteorology>
+    a dcterms:Agent ;
+    foaf:name "Environmental Prediction Services Program, Bureau of Meteorology" ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary>
+    a rdfs:Resource ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Annual-Average>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Average of the annual total streamflow volumes (within each water year) over the stated period of record."@en ;
+    skos:prefLabel "Annual Average"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Annual-Baseflow>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The component of streamflow supplied by groundwater discharge in a water year."@en ;
+    skos:prefLabel "Annual Baseflow"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Annual-Total>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Total streamflow volume per water year."@en ;
+    skos:prefLabel "Annual Total"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Anomaly>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The deviation of a measurable unit, (e.g., streamflow or precipitation) from the long-term average in each station or region over a specified period."@en ;
+    skos:prefLabel "Anomaly"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Area>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The catchment area derived from the Australian Hydrological Geospatial Fabric catchments (including contributing overland flow and internally draining areas)."@en ;
+    skos:prefLabel "Area"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Cease-to-flow>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The level at which a stream stops flowing. The lowest point in the low flow control."@en ;
+    skos:prefLabel "Cease to flow"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Daily-Q10>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "10 Percent of the time, the daily streamflow is below the Q10 value in each water year."@en ;
+    skos:prefLabel "Daily Q10"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Daily-Q50>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "50 Percent of the time, the daily streamflow is below the Q50 value in each water year."@en ;
+    skos:prefLabel "Daily Q50"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Daily-Q90>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "90 Percent of the time, the daily streamflow is below the Q90 value in each water year."@en ;
+    skos:prefLabel "Daily Q90"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Event-Analysis>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Histograms showing the frequency and magnitude (volume) of events."@en ;
+    skos:prefLabel "Event Analysis"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Flow-Duration-Curve>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A curve showing percentage of time streamflow magnitude exceeds certain value."@en ;
+    skos:prefLabel "Flow Duration Curve"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Hydrologic-Reference-Station>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A hydrologic reference station is located in an unregulated catchment with minimal land-use change upstream. It has a high-quality long streamflow record with a frequently verified rating table. The gauge has been well maintained. See the Station Selection Guidelines page (http://www.bom.gov.au/water/hrs/guidelines.shtml) for more information."@en ;
+    skos:prefLabel "Hydrologic Reference Station"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Long-term-streamflow-trend>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "A unidirectional change in the magnitude of the streamflow variable. The trend may be increasing or decreasing."@en ;
+    skos:prefLabel "Long-term streamflow trend"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Longest-Stream-Length>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The length of the longest stream within the catchment of Hydrologic Reference station derived from the contributing streams from the Australian Hydrological Geospatial Fabric MappedStream features."@en ;
+    skos:prefLabel "Longest Stream Length"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Max-Elevation>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Maximum elevation within the Australian Hydrological Geospatial Fabric derived catchment boundaries"@en ;
+    skos:prefLabel "Max Elevation"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Min-Elevation>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Minimum elevation within the Australian Hydrological Geospatial Fabric derived catchment boundaries"@en ;
+    skos:prefLabel "Min Elevation"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Runoff-Rate>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The percentage of rainfall volume that becomes streamflow after losses such as evaporation within the catchment."@en ;
+    skos:prefLabel "Runoff Rate"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/WISKI>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Water Information System Kisters (WISKI) contains Watercourse level and discharge time-series data and ratings collected from approximately 3500 measurement stations across Australia. This data can be accessed via Water Data Online http://www.bom.gov.au/waterdata/. Except for Victoria, all discharge data are directly uploaded from the water agencies. For Victoria, the rating tables in WISKI are used to compute discharge from the water levels at the time-step provided by the agencies. The discharge data are then accumulated to a daily total at 9am for the previous 24 hours."@en ;
+    skos:prefLabel "WISKI"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Water-Year>
+    a skos:Concept ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The Water Year begins with the month recording minimum average monthly flow over the period of the data. If the beginning month is a month from January to June, the nominal year of the Water Year is the same as the calendar year of the beginning month. For months July to December, the nominal year is the year following the calendar year of the beginning month. For example, a water year starting in July 1997 is nominally Water Year 1998. However, in a few cases it was necessary to modify the definition so that the definition was consistent within each river basin. In Australian Water Information Dictionary (AWID) Water Year is defined as first of July to 30th June."@en ;
+    skos:prefLabel "Water Year"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary> ;
+.
+
+<http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Australian-Network-of-Hydrologic-Reference-Stations-glossary>
+    a skos:ConceptScheme ;
+    dcterms:created "2020-08-27"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2020-08-27" ;
+    dcterms:title "Australian Network of Hydrologic Reference Stations glossary"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:definition "This glossary defines the key terms used on the Australian Network of Hydrologic Reference Stations portal."@en ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Annual-Average> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Annual-Baseflow> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Annual-Total> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Anomaly> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Area> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Cease-to-flow> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Daily-Q10> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Daily-Q50> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Daily-Q90> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Event-Analysis> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Flow-Duration-Curve> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Hydrologic-Reference-Station> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Long-term-streamflow-trend> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Longest-Stream-Length> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Max-Elevation> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Min-Elevation> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Runoff-Rate> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/WISKI> ,
+        <http://www.neii.gov.au/def/voc/EPS/australian-network-of-hydrologic-reference-stations-glossary/Water-Year> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name "NEII" ;
+.

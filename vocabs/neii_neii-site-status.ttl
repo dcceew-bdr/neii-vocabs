@@ -1,0 +1,99 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/NEII_Kaur.Hardeep_Admin>
+    a
+        dcterms:Agent ,
+        schema:Person ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-06-19"^^xsd:date ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-site-status/NEII-Site-Status>
+    a rdfs:Resource ;
+    rdfs:label "NEII Site Status"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-site-status/active>
+    a rdfs:Resource ;
+    rdfs:label "active"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-site-status/decommissioned>
+    a rdfs:Resource ;
+    rdfs:label "decommissioned"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-site-status/inactive>
+    a rdfs:Resource ;
+    rdfs:label "inactive"@en ;
+    owl:deprecated true ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-site-status/active>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The site is active."@en ;
+    skos:prefLabel "active"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-site-status/NEII-Site-Status> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-site-status/decommissioned>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The site has been decomissioned."@en ;
+    skos:prefLabel "decommissioned"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-site-status/NEII-Site-Status> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-site-status/inactive>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The site is inactive."@en ;
+    skos:prefLabel "inactive"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-site-status/NEII-Site-Status> ;
+.
+
+<http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure>
+    a dcterms:Agent ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-08-09"^^xsd:date ;
+    foaf:name "National Environmental Information Infrastructure" ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-site-status/NEII-Site-Status>
+    a skos:ConceptScheme ;
+    rdfs:label "NEII Site Status"@en ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
+    dcterms:description "Site status provides a description of whether an environmental monitoring site within the National Environmental Monitoring Sites Register is active, in-active, decommissioned etc."@en ;
+    dcterms:issued "2016-09-01" ;
+    dcterms:publisher <https://linked.data.gov.au/org/neii> ;
+    dcterms:subject "NEII"@en ;
+    dcterms:title "NEII Site Status"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/NEII/neii-site-status/active> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-site-status/decommissioned> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-site-status/inactive> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a dcterms:Agent ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-08-09"^^xsd:date ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name "National Environmental Information Infrastructure (NEII)" ;
+.

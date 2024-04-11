@@ -1,0 +1,258 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/NEII_Kaur.Hardeep_Admin>
+    a
+        dcterms:Agent ,
+        schema:Person ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-06-19"^^xsd:date ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/NEII-Sampling-regime>
+    a rdfs:Resource ;
+    rdfs:label "NEII Sampling regime"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/adhoc>
+    a rdfs:Resource ;
+    rdfs:label "adhoc"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/annually>
+    a rdfs:Resource ;
+    rdfs:label "annually"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/burst>
+    a rdfs:Resource ;
+    rdfs:label "burst"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/dailyToWeekly>
+    a rdfs:Resource ;
+    rdfs:label "dailyToWeekly"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/hourlyToDaily>
+    a rdfs:Resource ;
+    rdfs:label "hourlyToDaily"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/lessThanOneSecond>
+    a rdfs:Resource ;
+    rdfs:label "lessThanOneSecond"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/monthlyToAnnually>
+    a rdfs:Resource ;
+    rdfs:label "monthlyToAnnually"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/oneMinuteToOneHour>
+    a rdfs:Resource ;
+    rdfs:label "oneMinuteToOneHour"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/oneOff>
+    a rdfs:Resource ;
+    rdfs:label "oneOff"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/oneSecondToOneMinute>
+    a rdfs:Resource ;
+    rdfs:label "oneSecondToOneMinute"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/other>
+    a rdfs:Resource ;
+    rdfs:label "other"@en ;
+    owl:deprecated true ;
+.
+
+<https://www.neii.gov.au/voc/def/NEII/neii-sampling-regime/weeklyToMonthly>
+    a rdfs:Resource ;
+    rdfs:label "weeklyToMonthly"@en ;
+    owl:deprecated true ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/adhoc>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The sampling is done on an ad-hoc basis."@en ;
+    skos:prefLabel "adhoc"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/annually>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Annual"@en ;
+    skos:prefLabel "annually"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/burst>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Burst Sampling*"@en ;
+    skos:prefLabel "burst"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/dailyToWeekly>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Daily - < Weekly"@en ;
+    skos:prefLabel "dailyToWeekly"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/hourlyToDaily>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Hourly - < Daily"@en ;
+    skos:prefLabel "hourlyToDaily"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/hourlyToWeekly>
+    a skos:Concept ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:created "2022-06-06"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2022-06-06"^^xsd:date ;
+    skos:definition "Hourly - < Weekly"@en ;
+    skos:prefLabel "hourlyToWeekly"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/lessThanOneSecond>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "< 1 second"@en ;
+    skos:prefLabel "lessThanOneSecond"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/monthlyToAnnually>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Monthly - < Annual"@en ;
+    skos:prefLabel "monthlyToAnnually"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/oneMinuteToOneHour>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "1 minute - < 1 hour"@en ;
+    skos:prefLabel "oneMinuteToOneHour"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/oneOff>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "The sampling was done as a one-off."@en ;
+    skos:prefLabel "oneOff"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/oneSecondToOneMinute>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "1 second - < 1 minute"@en ;
+    skos:prefLabel "oneSecondToOneMinute"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/other>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Other"@en ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/weeklyToMonthly>
+    a skos:Concept ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    skos:definition "Weekly - < Monthly"@en ;
+    skos:prefLabel "weeklyToMonthly"@en ;
+    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime> ;
+.
+
+<http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure>
+    a dcterms:Agent ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-08-09"^^xsd:date ;
+    foaf:name "National Environmental Information Infrastructure" ;
+.
+
+<http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/NEII-Sampling-Regime>
+    a skos:ConceptScheme ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
+    dcterms:description "Sampling regime is the frequency of site observations. The initial list of sampling regimes is based on a subset of NASA's Global Change Master Directory (GCMD) Temporal Data Resolution keywords (http://gcmd.nasa.gov/learn/keyword_list.html)."@en ;
+    dcterms:issued "2022-06-06" ;
+    dcterms:publisher <https://linked.data.gov.au/org/neii> ;
+    dcterms:subject "NEII"@en ;
+    dcterms:title "NEII Sampling Regime"@en ;
+    owl:versionInfo "Version 2" ;
+    skos:hasTopConcept
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/adhoc> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/annually> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/burst> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/dailyToWeekly> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/hourlyToDaily> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/hourlyToWeekly> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/lessThanOneSecond> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/monthlyToAnnually> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/oneMinuteToOneHour> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/oneOff> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/oneSecondToOneMinute> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/other> ,
+        <http://www.neii.gov.au/def/voc/NEII/neii-sampling-regime/weeklyToMonthly> ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    dcterms:modified "2017-08-09"^^xsd:date ;
+    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+    foaf:name
+        "NEII" ,
+        "National Environmental Information Infrastructure (NEII)" ;
+.
