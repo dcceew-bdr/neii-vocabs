@@ -41,7 +41,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :available-uponRequest
     a skos:Concept ;
-
     dcterms:created "2022-06-06"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2022-06-06"^^xsd:date ;
@@ -53,7 +52,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :partiallyAvailable
     a skos:Concept ;
-
     dcterms:created "2017-11-15"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2017-11-15"^^xsd:date ;

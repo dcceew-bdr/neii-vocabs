@@ -110,7 +110,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :not-available
     a skos:Concept ;
-
     dcterms:created "2017-11-21"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2017-11-21"^^xsd:date ;

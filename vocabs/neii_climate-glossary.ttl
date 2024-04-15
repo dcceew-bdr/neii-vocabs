@@ -8,7 +8,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Anomaly
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -20,7 +19,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Climate
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -40,7 +38,6 @@ Synthesis here implies more than simple averaging. Various methods are used to r
 
 :Convection
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -52,7 +49,6 @@ Synthesis here implies more than simple averaging. Various methods are used to r
 
 :Diurnal
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -67,7 +63,6 @@ Synthesis here implies more than simple averaging. Various methods are used to r
 
 :Greenhouse-Effect
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -83,7 +78,6 @@ The enhanced greenhouse effect refers to the addition of more heat trapping gase
 
 :Low-latitudes
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -95,7 +89,6 @@ The enhanced greenhouse effect refers to the addition of more heat trapping gase
 
 :Low-pressure
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -107,7 +100,6 @@ The enhanced greenhouse effect refers to the addition of more heat trapping gase
 
 :Mean-Sea-Level-MSL
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -119,7 +111,6 @@ The enhanced greenhouse effect refers to the addition of more heat trapping gase
 
 :Mid-latitudes
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -131,7 +122,6 @@ The enhanced greenhouse effect refers to the addition of more heat trapping gase
 
 :Monsoon
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -143,7 +133,6 @@ The enhanced greenhouse effect refers to the addition of more heat trapping gase
 
 :Ozone
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -155,7 +144,6 @@ The enhanced greenhouse effect refers to the addition of more heat trapping gase
 
 :Percentages
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -179,7 +167,6 @@ It is quite difficult to tell from a rainfall percentages map if the rainfall ha
 
 :Precipitation
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -191,7 +178,6 @@ It is quite difficult to tell from a rainfall percentages map if the rainfall ha
 
 :Reference-Climate-Station-RCS
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -203,7 +189,6 @@ It is quite difficult to tell from a rainfall percentages map if the rainfall ha
 
 :Trade-winds
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -217,7 +202,6 @@ As mentioned above, the trade winds in the Southern Hemisphere are east to south
 
 :Water-Vapour-Pressure
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -229,7 +213,6 @@ As mentioned above, the trade winds in the Southern Hemisphere are east to south
 
 :Wet-Bulb-Temperature
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -241,7 +224,6 @@ As mentioned above, the trade winds in the Southern Hemisphere are east to south
 
 :Anticyclones
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -254,7 +236,6 @@ As mentioned above, the trade winds in the Southern Hemisphere are east to south
 
 :Cyclone
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -269,7 +250,6 @@ Tropical cyclones are described separately."""@en ;
 
 :Deciles
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -289,7 +269,6 @@ More information about the statistics used to describe climate is at http://www.
 
 :High-pressure
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -302,7 +281,6 @@ More information about the statistics used to describe climate is at http://www.
 
 :Percentiles
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -317,7 +295,6 @@ The terms tercile, quartile, quintile and decile should refer to the percentiles
 
 :Tropical-cyclones
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -335,7 +312,6 @@ The terms tercile, quartile, quintile and decile should refer to the percentiles
 
 :Drought
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -364,7 +340,6 @@ Defining the end of a period of rainfall deficiency is a difficult matter, and p
 
 :El-Nino
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -388,7 +363,6 @@ Changes to the atmosphere and ocean circulation during El Niño events include:
 
 :La-Nina
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -412,7 +386,6 @@ Changes to the atmosphere and ocean circulation during La Niña events include:
 
 :Southern-Oscillation-Index-SOI
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -433,7 +406,6 @@ The ENSO Wrap-Up (http://www.bom.gov.au/climate/enso/) includes the latest 30-da
 
 :Autumn
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -456,7 +428,6 @@ These definitions reflect the lag in heating and cooling as the sun appears to m
 
 :Seasons
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -479,7 +450,6 @@ These definitions reflect the lag in heating and cooling as the sun appears to m
 
 :Spring
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -502,7 +472,6 @@ These definitions reflect the lag in heating and cooling as the sun appears to m
 
 :Summer
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -525,7 +494,6 @@ These definitions reflect the lag in heating and cooling as the sun appears to m
 
 :Winter
     a skos:Concept ;
-
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
@@ -544,6 +512,14 @@ These definitions reflect the lag in heating and cooling as the sun appears to m
         :Spring ,
         :Summer ;
     skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    schema:name "National Environmental Information Infrastructure" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
 .
 
 cs:
@@ -592,12 +568,4 @@ cs:
         :Winter ;
     skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/CS/climate-glossary/Climate-Glossary for the ConceptScheme and http://www.neii.gov.au/def/voc/CS/climate-glossary/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
     skos:prefLabel "Climate Glossary"@en ;
-.
-
-<https://linked.data.gov.au/org/neii>
-    a
-        dcterms:Agent ,
-        schema:Organization ;
-    schema:name "National Environmental Information Infrastructure" ;
-    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
 .

@@ -40,6 +40,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
+<https://linked.data.gov.au/org/neii>
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+    dcterms:modified "2017-08-09"^^xsd:date ;
+    schema:name "National Environmental Information Infrastructure (NEII)" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
 cs:
     a
         rdfs:Resource ,
@@ -59,14 +68,4 @@ cs:
         :open-agencySpecific ;
     skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing for the ConceptScheme and http://www.neii.gov.au/def/voc/NEII/neii-licencing/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
     skos:prefLabel "NEII Licencing"@en ;
-.
-
-<https://linked.data.gov.au/org/neii>
-    a
-        dcterms:Agent ,
-        schema:Organization ;
-
-    dcterms:modified "2017-08-09"^^xsd:date ;
-    schema:name "National Environmental Information Infrastructure (NEII)" ;
-    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
 .

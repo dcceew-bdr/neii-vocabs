@@ -8,7 +8,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Deep-drainage
     a skos:Concept ;
-
     dcterms:created "2017-11-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2017-11-29"^^xsd:date ;
@@ -20,7 +19,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Deep-soil-moisture
     a skos:Concept ;
-
     dcterms:created "2017-11-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2017-11-29"^^xsd:date ;
@@ -35,7 +33,6 @@ Actual soil moisture grids estimate the percentage of available water content ra
 
 :Lower-soil-moisture
     a skos:Concept ;
-
     dcterms:created "2017-11-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2017-11-29"^^xsd:date ;
@@ -50,7 +47,6 @@ Actual soil moisture grids estimate the percentage of available water content ra
 
 :Root-zone-soil-moisture
     a skos:Concept ;
-
     dcterms:created "2017-11-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2017-11-29"^^xsd:date ;
@@ -65,7 +61,6 @@ Actual soil moisture grids estimate the percentage of available water content ra
 
 :Upper-soil-moisture
     a skos:Concept ;
-
     dcterms:created "2017-11-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2017-11-29"^^xsd:date ;

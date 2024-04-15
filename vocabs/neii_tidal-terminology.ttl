@@ -6,18 +6,17 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://linked.data.gov.au/def/tidal-terminology/Loading-Love-numbers>
+:Loading-Love-numbers
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
-    skos:definition """see self-attraction and loading
-Love numbers see earth tide"""@en ;
+    skos:definition "see self-attraction and loading Love numbers see earth tide"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Loading Love numbers"@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/NGWLMS>
+:NGWLMS
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -27,7 +26,7 @@ Love numbers see earth tide"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/Nyquist-frequency>
+:Nyquist-frequency
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -38,18 +37,18 @@ fc =  ½h"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/Rayleigh-criterion>
+:Rayleigh-criterion
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   A criterion used in tidal analysis, which requires that only constituents which are separated by at least one complete period from their neighbouring constituents over the length of data available should be included in the harmonic analysis of a given time series.  See also synodic period."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Rayleigh criterion"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/synodic-period> ;
+    skos:relatedMatch :synodic-period ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/SEAFRAME>
+:SEAFRAME
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -59,7 +58,7 @@ fc =  ½h"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/TASK-2000>
+:TASK-2000
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -69,7 +68,7 @@ fc =  ½h"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/Time-and-tide>
+:Time-and-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -79,7 +78,7 @@ fc =  ½h"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/Van-de-Casteele-test>
+:Van-de-Casteele-test
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -89,7 +88,7 @@ fc =  ½h"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/acoustic-tide-gauge>
+:acoustic-tide-gauge
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -99,7 +98,7 @@ fc =  ½h"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/admittance>
+:admittance
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -109,7 +108,7 @@ fc =  ½h"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/age-of-the-tide>
+:age-of-the-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -119,7 +118,7 @@ fc =  ½h"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/alias-frequencies>
+:alias-frequencies
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -129,7 +128,7 @@ fc =  ½h"""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/amphidrome>
+:amphidrome
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -140,7 +139,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/amplitude>
+:amplitude
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -150,7 +149,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/angular-velocity>
+:angular-velocity
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -160,7 +159,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/aphelion>
+:aphelion
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -170,7 +169,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/apogee>
+:apogee
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -180,7 +179,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/apsides>
+:apsides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -190,7 +189,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/astronomical-argument>
+:astronomical-argument
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -200,7 +199,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/atmospheric-tides>
+:atmospheric-tides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -210,29 +209,29 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/azimuth>
+:azimuth
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":  A horizontal angle reckoned clockwise from the meridian, especially the horizontal direction of a celestial point from a terrestrial point, expressed as the angular distance from a reference direction (hence often designated as true, magnetic, compass or relative, depending on the reference).  When applied to current or stream, it is a direction toward which such a current or stream is flowing, and usually reckoned from the north point.   See also celestial sphere."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "azimuth"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/celestial-sphere> ;
+    skos:relatedMatch :celestial-sphere ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/baroclinic>
+:baroclinic
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   Referring to a condition and type of motion in which pressure is not constant on surfaces of constant density, eg.  internal tides and other internal waves.  See also internal tides"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "baroclinic"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/internal-tide> ;
+    skos:relatedMatch :internal-tide ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/barotropic>
+:barotropic
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -242,7 +241,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/beat-frequency>
+:beat-frequency
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -252,7 +251,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/benchmark>
+:benchmark
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -262,7 +261,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/black-moon>
+:black-moon
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -272,18 +271,18 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/bore>
+:bore
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":  A tidal type wave which propagates up certain rivers, especially in wedgeshaped shoaling estuaries, at times of spring tides as a solitary wave with a steep leading edge.  Common in the estuaries discharging into the Gulf of Papua.  Also known elsewhere as eagre (England), pororóca (Brazil) or mascaret (France).   See also tidal bore"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "bore"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/tidal-bore> ;
+    skos:relatedMatch :tidal-bore ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/bubbler>
+:bubbler
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -293,7 +292,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/cadastre>
+:cadastre
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -303,7 +302,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/canal-theory>
+:canal-theory
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -313,7 +312,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/chart-datum-CD>
+:chart-datum-CD
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -323,7 +322,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/circadian-rhythms>
+:circadian-rhythms
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -333,7 +332,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/co-phase-line>
+:co-phase-line
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -343,7 +342,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/co-range-line>
+:co-range-line
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -353,7 +352,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/co-tidal-line>
+:co-tidal-line
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -363,7 +362,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/component>
+:component
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -373,7 +372,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/compound-tide>
+:compound-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -383,7 +382,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/constants>
+:constants
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -393,7 +392,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/constituent>
+:constituent
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -403,7 +402,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/coriolis-force>
+:coriolis-force
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -413,7 +412,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/datum>
+:datum
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -425,7 +424,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/declination>
+:declination
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -435,7 +434,7 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/diurnal-inequality>
+:diurnal-inequality
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -445,18 +444,18 @@ Amphidromes are resonance phenomena, with higher-frequency constituents tending 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/diurnal-tides>
+:diurnal-tides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   A tide with only one high water and one low water occurring during a tidal day.  Also known as single day tide, see also species"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "diurnal tides"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/species> ;
+    skos:relatedMatch :species ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/dodge-tide>
+:dodge-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -479,7 +478,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/doodson-numbers>
+:doodson-numbers
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -489,18 +488,18 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/earth-tide>
+:earth-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A deformation of the solid earth in response to the gravitational tidal forces of the sun and moon.  The largest effect is the semi-diurnal deformation nearly in phase with the transit of the moon; its amplitude is less than 20 cm.  Being nearly in phase with the tide-generating potential, and the absence of the resonance and dynamic features of ocean flow, mean that in some respects earth tides are closer to the Equilibrium Tide than are ocean tides.  The solutions to the equations of motion for an elastic, spherical earth can be written in the form of vertical and horizontal displacements, plus a change in potential due to the deformation.  Each of these is a simple linear function of the tide-generating potential, whose coefficients are known as the \"Love numbers\", h2 (vertical displacement coefficient), l2  (horizontal displacement coefficient),  and k2 (coefficient of change in the potential).  Note that these refer to the deformation of the solid earth with no ocean.  A similar set of corrections to the ocean tides are described in self-attraction and loading."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "earth tide"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/self-attraction-and-loading> ;
+    skos:relatedMatch :self-attraction-and-loading ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/ebb>
+:ebb
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -510,18 +509,18 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/ecliptic>
+:ecliptic
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   The intersection of the plane of the Earth's orbit around the Sun (or apparent orbit of the Sun around the Earth) and the celestial sphere, see also celestial sphere"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ecliptic"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/celestial-sphere> ;
+    skos:relatedMatch :celestial-sphere ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/epoch>
+:epoch
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -531,7 +530,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/equilibrium-theory>
+:equilibrium-theory
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -541,7 +540,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/equilibrium-tide>
+:equilibrium-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -551,7 +550,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/establishment-of-a-port>
+:establishment-of-a-port
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -561,7 +560,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/eustatic-sea-level-change>
+:eustatic-sea-level-change
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -571,7 +570,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/evection-and-variation>
+:evection-and-variation
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -581,7 +580,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/extended-harmonic-method>
+:extended-harmonic-method
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -591,18 +590,18 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/flood>
+:flood
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   Usually the same as flood stream, but sometimes used with reference to the vertical tidal movement.  Opposite to ebb, see also streams."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "flood"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/streams> ;
+    skos:relatedMatch :streams ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/fortnightly-tides>
+:fortnightly-tides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -612,18 +611,18 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/geoid>
+:geoid
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":  an equipotential surface (ie.  having the same potential gravity at each point) that would be assumed by the sea level in the absence of tides, currents, water density variations and atmospheric effects.  It is the surface of reference for astronomical observations and geodetic levelling, see also geopotential"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geoid"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/geopotential> ;
+    skos:relatedMatch :geopotential ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/harmonic-constants>
+:harmonic-constants
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -633,7 +632,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/high-water-full-and-change-HWFC>
+:high-water-full-and-change-HWFC
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -643,7 +642,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/higher-high-water-HHW>
+:higher-high-water-HHW
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -653,7 +652,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/highest-astronomical-tide-HAT>
+:highest-astronomical-tide-HAT
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -673,7 +672,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/inference-of-constituents>
+:inference-of-constituents
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -683,7 +682,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/intertidal-zone>
+:intertidal-zone
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -693,7 +692,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/inverse-barometer-effect>
+:inverse-barometer-effect
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -703,7 +702,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/kappa-phase>
+:kappa-phase
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -713,29 +712,29 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/king-tide>
+:king-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Term used colloquially in some parts of Australia and elsewhere for a seasonal high tide often combined with onshore winds, or any exceptionally high tide, in some cases due to a storm surge (see storm surge)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "king tide"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/storm-surge> ;
+    skos:relatedMatch :storm-surge ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/lagging-of-the-tide>
+:lagging-of-the-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The retardation in the time of occurrence of high and low water due to changes in relative position of the Moon and the Sun, see also lunitidal interval."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "lagging of the tide"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/lunitidal-interval> ;
+    skos:relatedMatch :lunitidal-interval ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/low-water-LW>
+:low-water-LW
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -745,7 +744,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/lower-low-water-LLW>
+:lower-low-water-LLW
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -755,7 +754,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/lowest-astronomical-tide-LAT>
+:lowest-astronomical-tide-LAT
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -765,7 +764,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/lunisolar-tide>
+:lunisolar-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -775,7 +774,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/mean-high-water-MHW>
+:mean-high-water-MHW
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -785,7 +784,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/mean-sea-level-MSL>
+:mean-sea-level-MSL
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -795,29 +794,29 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/meteorological-tides>
+:meteorological-tides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Periodical or quasi-periodical changes in water level caused by the daily or seasonal variations in local meteorological conditions.  They are recognised principally by Sa, Ssa, and S1 constituents, see also radiational tides."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "meteorological tides"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/radiational-tides> ;
+    skos:relatedMatch :radiational-tides ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/mixed-tide>
+:mixed-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The type of tide characterised by large diurnal inequalities in heights and/or times of successive high and/or low waters.  In general, a type of tide intermediate between predominantly semidiurnal and predominantly diurnal.  see also form factor."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mixed tide"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/form-factor> ;
+    skos:relatedMatch :form-factor ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/nodal-cycle>
+:nodal-cycle
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -827,7 +826,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/nodal-factors>
+:nodal-factors
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -837,7 +836,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/nonlinear-tides>
+:nonlinear-tides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -847,7 +846,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/orthotide>
+:orthotide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -857,7 +856,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/overtide>
+:overtide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -867,7 +866,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/perigeal-cycle>
+:perigeal-cycle
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -877,7 +876,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/perigean-tide>
+:perigean-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -887,7 +886,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/perigee>
+:perigee
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -897,7 +896,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/perihelion>
+:perihelion
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -907,7 +906,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/phase-lag>
+:phase-lag
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -917,7 +916,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/pole-tide>
+:pole-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -927,7 +926,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/primary-port>
+:primary-port
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -937,7 +936,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/prime-meridian>
+:prime-meridian
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -947,7 +946,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/priming-of-the-tide>
+:priming-of-the-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -957,7 +956,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/range>
+:range
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -967,18 +966,18 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/rectilinear-currents>
+:rectilinear-currents
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   Also known as a reversing stream; a tidal stream which flows alternately in approximately opposite directions with slack water at each reversal of direction.  Encountered mainly in straits and channels.  See also streams"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "rectilinear currents"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/streams> ;
+    skos:relatedMatch :streams ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/red-tide>
+:red-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -988,7 +987,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/regression-of-lunar-nodes>
+:regression-of-lunar-nodes
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -998,18 +997,18 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/relative-sea-level>
+:relative-sea-level
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   Mean sea level relative to the network of benchmarks on the adjacent land.  It may be composed of both the absolute mean sea level change and a vertical land movement component.  See also absolute sea level."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "relative sea level"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/absolute-sea-level> ;
+    skos:relatedMatch :absolute-sea-level ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/residuals>
+:residuals
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1019,7 +1018,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/resonance>
+:resonance
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1029,7 +1028,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/response-analysis>
+:response-analysis
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1039,7 +1038,7 @@ The Canadian Department of Fisheries and Ocean website glossary defines a very s
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/revolution-without-rotation>
+:revolution-without-rotation
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1051,7 +1050,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/rip>
+:rip
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1061,7 +1060,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/satellite-altimetry>
+:satellite-altimetry
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1071,18 +1070,18 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/secondary-port>
+:secondary-port
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "In the context of tide tables, a port for which predictions are required, but for which insufficient data for a reliable harmonic analysis is available and hence, predictions from the nearest standard port (see standard port) must be used (with suitable corrections).  Also called a subordinate port."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "secondary port"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/standard-port> ;
+    skos:relatedMatch :standard-port ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/secular-trend>
+:secular-trend
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1092,7 +1091,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/seiche>
+:seiche
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1102,7 +1101,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/seismic-sea-wave>
+:seismic-sea-wave
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1112,7 +1111,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/semi-diurnal-tides>
+:semi-diurnal-tides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1122,7 +1121,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/set>
+:set
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1132,29 +1131,29 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/sidereal-day>
+:sidereal-day
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   Of or pertaining to the stars; when applied to time or its units (eg.  sidereal day, month, etc.), it refers the motion to vernal equinox.  see also day."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sidereal (day)"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/day> ;
+    skos:relatedMatch :day ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/slack-water>
+:slack-water
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   The state of a tidal stream when its speed is zero or nearly so, especially the moment when the reversing stream changes its direction.  Also known as slack tide or slack.  see also streams."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "slack water"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/streams> ;
+    skos:relatedMatch :streams ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/speed-of-constituent>
+:speed-of-constituent
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1164,7 +1163,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/speed-of-stream-or-current>
+:speed-of-stream-or-current
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1174,7 +1173,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/spring-high-or-low-water>
+:spring-high-or-low-water
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1184,7 +1183,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/spring-tides-or-streams>
+:spring-tides-or-streams
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1194,18 +1193,18 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/stand-of-tide>
+:stand-of-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":  The condition at high or low water when there is no perceptible change in the height of tide for a period of time.  Sometimes called platform tide.   see also streams."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "stand of tide"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/streams> ;
+    skos:relatedMatch :streams ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/stilling-well>
+:stilling-well
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1215,7 +1214,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/strand-line>
+:strand-line
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1225,29 +1224,29 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/synodical-month>
+:synodical-month
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":  The average period of the revolution of the Moon around the Earth with respect to the Sun or the average interval between corresponding phases of the moon.  The synodical month is 29.5305888 mean solar days long.  Also known as lunation or lunar month.  see also month"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "synodical month"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/month> ;
+    skos:relatedMatch :month ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/terdiurnal-or-third-diurnal-constituents>
+:terdiurnal-or-third-diurnal-constituents
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A harmonic constituent with three periods in a constituent day, indicated by subscript 3.  see also species."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "terdiurnal (or third-diurnal) constituents"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/species> ;
+    skos:relatedMatch :species ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/thermocline>
+:thermocline
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1257,7 +1256,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/tidal-datum>
+:tidal-datum
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1267,7 +1266,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/tidal-plane>
+:tidal-plane
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1277,7 +1276,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/tidal-prism>
+:tidal-prism
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1287,7 +1286,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/tidal-pumping>
+:tidal-pumping
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1297,7 +1296,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/tidal-wave>
+:tidal-wave
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1307,18 +1306,18 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/tropic-tides>
+:tropic-tides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "At latitudes near the maximum declination of the moon (which varies between 18.3° and 28.6° latitude north and south over the course of the nodal cycle) the diurnal tides are greatest when the moon is near maximum declination.  These so-called “tropic tides” are the equivalent of the more common spring tides, with the beat frequencies being diurnal (eg.  O1 and K1) instead of semidiurnal.  The beat period for O1 and K1 is 13.66 days.  The tides at Karumba, Queensland, which are dominated by O1 and K1, exhibit this pattern.  The term may be slightly misleading in that the “Tropics” on the earth are the latitudes ±23.5° where the sun’s declination reaches its maximum (see solstitial tides); nevertheless, the Tropics are also the maximum declinations of the moon when averaged over a nodal cycle.  The range (peak to peak distance between high and low tide) at the time when these diurnal tides are greatest is known as the tropic range."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "tropic tides"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/solstitial-tides> ;
+    skos:relatedMatch :solstitial-tides ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/tsunami>
+:tsunami
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1328,7 +1327,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/twenty-nine-day-anaysis>
+:twenty-nine-day-anaysis
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1338,7 +1337,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/universal-time-UT>
+:universal-time-UT
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1348,7 +1347,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/upwelling>
+:upwelling
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1358,7 +1357,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/vanishing-tide>
+:vanishing-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1368,7 +1367,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/variational>
+:variational
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1378,7 +1377,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/year>
+:year
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1388,7 +1387,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/absolute-sea-level>
+:absolute-sea-level
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1398,7 +1397,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/day>
+:day
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1408,7 +1407,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/form-factor>
+:form-factor
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1418,7 +1417,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/geopotential>
+:geopotential
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1428,7 +1427,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/internal-tide>
+:internal-tide
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1438,7 +1437,7 @@ If an observer in space above the North Pole watched an illuminated point on the
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/lunitidal-interval>
+:lunitidal-interval
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1449,7 +1448,7 @@ Since the lunar day is about 50 minutes longer than a solar day, the lunar wave 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/month>
+:month
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1459,18 +1458,18 @@ Since the lunar day is about 50 minutes longer than a solar day, the lunar wave 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/quadrature>
+:quadrature
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The condition whereby the angle formed by the sun, earth, and moon is 90°.  See also syzygy."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "quadrature"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/syzygy> ;
+    skos:relatedMatch :syzygy ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/radiational-tides>
+:radiational-tides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1480,18 +1479,18 @@ Since the lunar day is about 50 minutes longer than a solar day, the lunar wave 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/rotary-flow>
+:rotary-flow
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "From the \"Australian Hydrographic Office Glossary\":   A tidal stream that flows continually with the direction of flow changing through all points of the compass during a tidal cycle.  Usually found offshore where there are no restricting barriers.  This natural tendency of tidal flows (they become rectilinear only when restricted) has its origins in the Coriolis force and thus it tends to rotate counterclockwise in the southern hemisphere.  See also streams."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "rotary flow"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/streams> ;
+    skos:relatedMatch :streams ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/self-attraction-and-loading>
+:self-attraction-and-loading
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1501,7 +1500,7 @@ Since the lunar day is about 50 minutes longer than a solar day, the lunar wave 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/solstitial-tides>
+:solstitial-tides
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1511,7 +1510,7 @@ Since the lunar day is about 50 minutes longer than a solar day, the lunar wave 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/standard-port>
+:standard-port
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1521,7 +1520,7 @@ Since the lunar day is about 50 minutes longer than a solar day, the lunar wave 
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/storm-surge>
+:storm-surge
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1533,7 +1532,7 @@ If the alongshore progression of a tropical cyclone is close to the speed of a l
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/synodic-period>
+:synodic-period
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1543,18 +1542,18 @@ If the alongshore progression of a tropical cyclone is close to the speed of a l
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/syzygy>
+:syzygy
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The condition whereby the sun, earth and moon are in alignment.  See also quadrature."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "syzygy"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/quadrature> ;
+    skos:relatedMatch :quadrature ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/tidal-bore>
+:tidal-bore
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1569,7 +1568,7 @@ If the alongshore progression of a tropical cyclone is close to the speed of a l
     schema:name "Environmental Prediction Services Program, Bureau of Meteorology" ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/celestial-sphere>
+:celestial-sphere
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1580,7 +1579,7 @@ The ecliptic is generally used as a reference because most planets, our moon, an
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/species>
+:species
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -1590,14 +1589,14 @@ The ecliptic is generally used as a reference because most planets, our moon, an
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/def/tidal-terminology/streams>
+:streams
     a skos:Concept ;
     dcterms:created "2020-09-09"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Same as tidal currents, although some hydrographic authorities use \"streams\" to refer exclusively to the tidal currents along the principal directions of ebb and flood (which may not differ by 180°, but usually do!).  The set of the current is the direction in which it flows.  On the incoming tide, the streams are said to be in flood; the outgoing streams are in ebb.  The stand of the tide occurs near high and low water when the water level is unchanging.  The analogous term for streams is the slack water that may or may not occur at the same time.  Tidal streams which flow back and forth along a line are rectilinear, whereas those that follow an elliptical circuit (due to the coriolis force) are rotary (see also rotary flow).  The ellipse traced out by a tidal current vector in a rotary flow regime is called a tidal ellipse."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "streams"@en ;
-    skos:relatedMatch <https://linked.data.gov.au/def/tidal-terminology/rotary-flow> ;
+    skos:relatedMatch :rotary-flow ;
     skos:topConceptOf cs: ;
 .
 
@@ -1621,159 +1620,159 @@ cs:
     owl:versionInfo "Version 1" ;
     skos:definition "'This glossary includes a variety of terms associated with tides and sea level and is based on material sourced from the Bureau of Meteorology (http://www.bom.gov.au) and Australian Hydrographic Office."@en ;
     skos:hasTopConcept
-        <https://linked.data.gov.au/def/tidal-terminology/Loading-Love-numbers> ,
-        <https://linked.data.gov.au/def/tidal-terminology/NGWLMS> ,
-        <https://linked.data.gov.au/def/tidal-terminology/Nyquist-frequency> ,
-        <https://linked.data.gov.au/def/tidal-terminology/Rayleigh-criterion> ,
-        <https://linked.data.gov.au/def/tidal-terminology/SEAFRAME> ,
-        <https://linked.data.gov.au/def/tidal-terminology/TASK-2000> ,
-        <https://linked.data.gov.au/def/tidal-terminology/Time-and-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/Van-de-Casteele-test> ,
-        <https://linked.data.gov.au/def/tidal-terminology/absolute-sea-level> ,
-        <https://linked.data.gov.au/def/tidal-terminology/acoustic-tide-gauge> ,
-        <https://linked.data.gov.au/def/tidal-terminology/admittance> ,
-        <https://linked.data.gov.au/def/tidal-terminology/age-of-the-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/alias-frequencies> ,
-        <https://linked.data.gov.au/def/tidal-terminology/amphidrome> ,
-        <https://linked.data.gov.au/def/tidal-terminology/amplitude> ,
-        <https://linked.data.gov.au/def/tidal-terminology/angular-velocity> ,
-        <https://linked.data.gov.au/def/tidal-terminology/aphelion> ,
-        <https://linked.data.gov.au/def/tidal-terminology/apogee> ,
-        <https://linked.data.gov.au/def/tidal-terminology/apsides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/astronomical-argument> ,
-        <https://linked.data.gov.au/def/tidal-terminology/atmospheric-tides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/azimuth> ,
-        <https://linked.data.gov.au/def/tidal-terminology/baroclinic> ,
-        <https://linked.data.gov.au/def/tidal-terminology/barotropic> ,
-        <https://linked.data.gov.au/def/tidal-terminology/beat-frequency> ,
-        <https://linked.data.gov.au/def/tidal-terminology/benchmark> ,
-        <https://linked.data.gov.au/def/tidal-terminology/black-moon> ,
-        <https://linked.data.gov.au/def/tidal-terminology/bore> ,
-        <https://linked.data.gov.au/def/tidal-terminology/bubbler> ,
-        <https://linked.data.gov.au/def/tidal-terminology/cadastre> ,
-        <https://linked.data.gov.au/def/tidal-terminology/canal-theory> ,
-        <https://linked.data.gov.au/def/tidal-terminology/celestial-sphere> ,
-        <https://linked.data.gov.au/def/tidal-terminology/chart-datum-CD> ,
-        <https://linked.data.gov.au/def/tidal-terminology/circadian-rhythms> ,
-        <https://linked.data.gov.au/def/tidal-terminology/co-phase-line> ,
-        <https://linked.data.gov.au/def/tidal-terminology/co-range-line> ,
-        <https://linked.data.gov.au/def/tidal-terminology/co-tidal-line> ,
-        <https://linked.data.gov.au/def/tidal-terminology/component> ,
-        <https://linked.data.gov.au/def/tidal-terminology/compound-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/constants> ,
-        <https://linked.data.gov.au/def/tidal-terminology/constituent> ,
-        <https://linked.data.gov.au/def/tidal-terminology/coriolis-force> ,
-        <https://linked.data.gov.au/def/tidal-terminology/datum> ,
-        <https://linked.data.gov.au/def/tidal-terminology/day> ,
-        <https://linked.data.gov.au/def/tidal-terminology/declination> ,
-        <https://linked.data.gov.au/def/tidal-terminology/diurnal-inequality> ,
-        <https://linked.data.gov.au/def/tidal-terminology/diurnal-tides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/dodge-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/doodson-numbers> ,
-        <https://linked.data.gov.au/def/tidal-terminology/earth-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/ebb> ,
-        <https://linked.data.gov.au/def/tidal-terminology/ecliptic> ,
-        <https://linked.data.gov.au/def/tidal-terminology/epoch> ,
-        <https://linked.data.gov.au/def/tidal-terminology/equilibrium-theory> ,
-        <https://linked.data.gov.au/def/tidal-terminology/equilibrium-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/establishment-of-a-port> ,
-        <https://linked.data.gov.au/def/tidal-terminology/eustatic-sea-level-change> ,
-        <https://linked.data.gov.au/def/tidal-terminology/evection-and-variation> ,
-        <https://linked.data.gov.au/def/tidal-terminology/extended-harmonic-method> ,
-        <https://linked.data.gov.au/def/tidal-terminology/flood> ,
-        <https://linked.data.gov.au/def/tidal-terminology/form-factor> ,
-        <https://linked.data.gov.au/def/tidal-terminology/fortnightly-tides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/geoid> ,
-        <https://linked.data.gov.au/def/tidal-terminology/geopotential> ,
-        <https://linked.data.gov.au/def/tidal-terminology/harmonic-constants> ,
-        <https://linked.data.gov.au/def/tidal-terminology/high-water-full-and-change-HWFC> ,
-        <https://linked.data.gov.au/def/tidal-terminology/higher-high-water-HHW> ,
-        <https://linked.data.gov.au/def/tidal-terminology/highest-astronomical-tide-HAT> ,
+        :Loading-Love-numbers ,
+        :NGWLMS ,
+        :Nyquist-frequency ,
+        :Rayleigh-criterion ,
+        :SEAFRAME ,
+        :TASK-2000 ,
+        :Time-and-tide ,
+        :Van-de-Casteele-test ,
+        :absolute-sea-level ,
+        :acoustic-tide-gauge ,
+        :admittance ,
+        :age-of-the-tide ,
+        :alias-frequencies ,
+        :amphidrome ,
+        :amplitude ,
+        :angular-velocity ,
+        :aphelion ,
+        :apogee ,
+        :apsides ,
+        :astronomical-argument ,
+        :atmospheric-tides ,
+        :azimuth ,
+        :baroclinic ,
+        :barotropic ,
+        :beat-frequency ,
+        :benchmark ,
+        :black-moon ,
+        :bore ,
+        :bubbler ,
+        :cadastre ,
+        :canal-theory ,
+        :celestial-sphere ,
+        :chart-datum-CD ,
+        :circadian-rhythms ,
+        :co-phase-line ,
+        :co-range-line ,
+        :co-tidal-line ,
+        :component ,
+        :compound-tide ,
+        :constants ,
+        :constituent ,
+        :coriolis-force ,
+        :datum ,
+        :day ,
+        :declination ,
+        :diurnal-inequality ,
+        :diurnal-tides ,
+        :dodge-tide ,
+        :doodson-numbers ,
+        :earth-tide ,
+        :ebb ,
+        :ecliptic ,
+        :epoch ,
+        :equilibrium-theory ,
+        :equilibrium-tide ,
+        :establishment-of-a-port ,
+        :eustatic-sea-level-change ,
+        :evection-and-variation ,
+        :extended-harmonic-method ,
+        :flood ,
+        :form-factor ,
+        :fortnightly-tides ,
+        :geoid ,
+        :geopotential ,
+        :harmonic-constants ,
+        :high-water-full-and-change-HWFC ,
+        :higher-high-water-HHW ,
+        :highest-astronomical-tide-HAT ,
         <https://linked.data.gov.au/def/tidal-terminology/indian-spring-high/low-water> ,
-        <https://linked.data.gov.au/def/tidal-terminology/inference-of-constituents> ,
-        <https://linked.data.gov.au/def/tidal-terminology/internal-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/intertidal-zone> ,
-        <https://linked.data.gov.au/def/tidal-terminology/inverse-barometer-effect> ,
-        <https://linked.data.gov.au/def/tidal-terminology/kappa-phase> ,
-        <https://linked.data.gov.au/def/tidal-terminology/king-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/lagging-of-the-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/low-water-LW> ,
-        <https://linked.data.gov.au/def/tidal-terminology/lower-low-water-LLW> ,
-        <https://linked.data.gov.au/def/tidal-terminology/lowest-astronomical-tide-LAT> ,
-        <https://linked.data.gov.au/def/tidal-terminology/lunisolar-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/lunitidal-interval> ,
-        <https://linked.data.gov.au/def/tidal-terminology/mean-high-water-MHW> ,
-        <https://linked.data.gov.au/def/tidal-terminology/mean-sea-level-MSL> ,
-        <https://linked.data.gov.au/def/tidal-terminology/meteorological-tides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/mixed-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/month> ,
-        <https://linked.data.gov.au/def/tidal-terminology/nodal-cycle> ,
-        <https://linked.data.gov.au/def/tidal-terminology/nodal-factors> ,
-        <https://linked.data.gov.au/def/tidal-terminology/nonlinear-tides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/orthotide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/overtide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/perigeal-cycle> ,
-        <https://linked.data.gov.au/def/tidal-terminology/perigean-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/perigee> ,
-        <https://linked.data.gov.au/def/tidal-terminology/perihelion> ,
-        <https://linked.data.gov.au/def/tidal-terminology/phase-lag> ,
-        <https://linked.data.gov.au/def/tidal-terminology/pole-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/primary-port> ,
-        <https://linked.data.gov.au/def/tidal-terminology/prime-meridian> ,
-        <https://linked.data.gov.au/def/tidal-terminology/priming-of-the-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/quadrature> ,
-        <https://linked.data.gov.au/def/tidal-terminology/radiational-tides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/range> ,
-        <https://linked.data.gov.au/def/tidal-terminology/rectilinear-currents> ,
-        <https://linked.data.gov.au/def/tidal-terminology/red-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/regression-of-lunar-nodes> ,
-        <https://linked.data.gov.au/def/tidal-terminology/relative-sea-level> ,
-        <https://linked.data.gov.au/def/tidal-terminology/residuals> ,
-        <https://linked.data.gov.au/def/tidal-terminology/resonance> ,
-        <https://linked.data.gov.au/def/tidal-terminology/response-analysis> ,
-        <https://linked.data.gov.au/def/tidal-terminology/revolution-without-rotation> ,
-        <https://linked.data.gov.au/def/tidal-terminology/rip> ,
-        <https://linked.data.gov.au/def/tidal-terminology/rotary-flow> ,
-        <https://linked.data.gov.au/def/tidal-terminology/satellite-altimetry> ,
-        <https://linked.data.gov.au/def/tidal-terminology/secondary-port> ,
-        <https://linked.data.gov.au/def/tidal-terminology/secular-trend> ,
-        <https://linked.data.gov.au/def/tidal-terminology/seiche> ,
-        <https://linked.data.gov.au/def/tidal-terminology/seismic-sea-wave> ,
-        <https://linked.data.gov.au/def/tidal-terminology/self-attraction-and-loading> ,
-        <https://linked.data.gov.au/def/tidal-terminology/semi-diurnal-tides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/set> ,
-        <https://linked.data.gov.au/def/tidal-terminology/sidereal-day> ,
-        <https://linked.data.gov.au/def/tidal-terminology/slack-water> ,
-        <https://linked.data.gov.au/def/tidal-terminology/solstitial-tides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/species> ,
-        <https://linked.data.gov.au/def/tidal-terminology/speed-of-constituent> ,
-        <https://linked.data.gov.au/def/tidal-terminology/speed-of-stream-or-current> ,
-        <https://linked.data.gov.au/def/tidal-terminology/spring-high-or-low-water> ,
-        <https://linked.data.gov.au/def/tidal-terminology/spring-tides-or-streams> ,
-        <https://linked.data.gov.au/def/tidal-terminology/stand-of-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/standard-port> ,
-        <https://linked.data.gov.au/def/tidal-terminology/stilling-well> ,
-        <https://linked.data.gov.au/def/tidal-terminology/storm-surge> ,
-        <https://linked.data.gov.au/def/tidal-terminology/strand-line> ,
-        <https://linked.data.gov.au/def/tidal-terminology/streams> ,
-        <https://linked.data.gov.au/def/tidal-terminology/synodic-period> ,
-        <https://linked.data.gov.au/def/tidal-terminology/synodical-month> ,
-        <https://linked.data.gov.au/def/tidal-terminology/syzygy> ,
-        <https://linked.data.gov.au/def/tidal-terminology/terdiurnal-or-third-diurnal-constituents> ,
-        <https://linked.data.gov.au/def/tidal-terminology/thermocline> ,
-        <https://linked.data.gov.au/def/tidal-terminology/tidal-bore> ,
-        <https://linked.data.gov.au/def/tidal-terminology/tidal-datum> ,
-        <https://linked.data.gov.au/def/tidal-terminology/tidal-plane> ,
-        <https://linked.data.gov.au/def/tidal-terminology/tidal-prism> ,
-        <https://linked.data.gov.au/def/tidal-terminology/tidal-pumping> ,
-        <https://linked.data.gov.au/def/tidal-terminology/tidal-wave> ,
-        <https://linked.data.gov.au/def/tidal-terminology/tropic-tides> ,
-        <https://linked.data.gov.au/def/tidal-terminology/tsunami> ,
-        <https://linked.data.gov.au/def/tidal-terminology/twenty-nine-day-anaysis> ,
-        <https://linked.data.gov.au/def/tidal-terminology/universal-time-UT> ,
-        <https://linked.data.gov.au/def/tidal-terminology/upwelling> ,
-        <https://linked.data.gov.au/def/tidal-terminology/vanishing-tide> ,
-        <https://linked.data.gov.au/def/tidal-terminology/variational> ,
-        <https://linked.data.gov.au/def/tidal-terminology/year> ;
+        :inference-of-constituents ,
+        :internal-tide ,
+        :intertidal-zone ,
+        :inverse-barometer-effect ,
+        :kappa-phase ,
+        :king-tide ,
+        :lagging-of-the-tide ,
+        :low-water-LW ,
+        :lower-low-water-LLW ,
+        :lowest-astronomical-tide-LAT ,
+        :lunisolar-tide ,
+        :lunitidal-interval ,
+        :mean-high-water-MHW ,
+        :mean-sea-level-MSL ,
+        :meteorological-tides ,
+        :mixed-tide ,
+        :month ,
+        :nodal-cycle ,
+        :nodal-factors ,
+        :nonlinear-tides ,
+        :orthotide ,
+        :overtide ,
+        :perigeal-cycle ,
+        :perigean-tide ,
+        :perigee ,
+        :perihelion ,
+        :phase-lag ,
+        :pole-tide ,
+        :primary-port ,
+        :prime-meridian ,
+        :priming-of-the-tide ,
+        :quadrature ,
+        :radiational-tides ,
+        :range ,
+        :rectilinear-currents ,
+        :red-tide ,
+        :regression-of-lunar-nodes ,
+        :relative-sea-level ,
+        :residuals ,
+        :resonance ,
+        :response-analysis ,
+        :revolution-without-rotation ,
+        :rip ,
+        :rotary-flow ,
+        :satellite-altimetry ,
+        :secondary-port ,
+        :secular-trend ,
+        :seiche ,
+        :seismic-sea-wave ,
+        :self-attraction-and-loading ,
+        :semi-diurnal-tides ,
+        :set ,
+        :sidereal-day ,
+        :slack-water ,
+        :solstitial-tides ,
+        :species ,
+        :speed-of-constituent ,
+        :speed-of-stream-or-current ,
+        :spring-high-or-low-water ,
+        :spring-tides-or-streams ,
+        :stand-of-tide ,
+        :standard-port ,
+        :stilling-well ,
+        :storm-surge ,
+        :strand-line ,
+        :streams ,
+        :synodic-period ,
+        :synodical-month ,
+        :syzygy ,
+        :terdiurnal-or-third-diurnal-constituents ,
+        :thermocline ,
+        :tidal-bore ,
+        :tidal-datum ,
+        :tidal-plane ,
+        :tidal-prism ,
+        :tidal-pumping ,
+        :tidal-wave ,
+        :tropic-tides ,
+        :tsunami ,
+        :twenty-nine-day-anaysis ,
+        :universal-time-UT ,
+        :upwelling ,
+        :vanishing-tide ,
+        :variational ,
+        :year ;
     skos:prefLabel "Tidal Terminology"@en ;
 .
