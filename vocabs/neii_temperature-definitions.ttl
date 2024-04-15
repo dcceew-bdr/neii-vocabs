@@ -1,237 +1,240 @@
+PREFIX : <https://linked.data.gov.au/def/temperature-definitions/>
+PREFIX cs: <https://linked.data.gov.au/def/temperature-definitions>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Air-Temperature>
+:Air-Temperature
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Air temperature is measured in a shaded enclosure (most often a Stevenson Screen) at a height of approximately 1.2 m above the ground. Maximum and minimum temperatures for the previous 24 hours are nominally recorded at 9 am local clock time. Minimum temperature is recorded against the day of observation, and the maximum temperature against the previous day. If, for some reason, an observation is unable to be made, the next observation is recorded as an accumulation. Accumulated data can affect statistics such as the Date of the Highest Temperature, since the exact date of occurrence is unknown."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Air Temperature"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Date>
+:Date
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Date of occurrence of the respective climate extreme statistic. When there has been more than one occurrence of the extreme the most recent date is provided. The date may not be known if the value is an accumulated value, which occurs when one or more consecutive observations have been missed."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Date"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Decile-1-maximum-or-minimum-temperature-C>
+:Decile-1-maximum-or-minimum-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Monthly or annual decile 1 (10th percentile) of maximum or minimum air temperature. The annual decile value must be calculated from yearly data, and cannot be obtained by adding together the monthly deciles. Decile values are used to give an indication of the spread of the observations over the period of record; in this case, daily observations within a month. To determine decile 1of a series of observations, they are first arranged in order from lowest to highest, and then divided into 10 equal groups. Decile 1 is the value at the top of the 1st grouping. Over the long term about one day in ten can be expected to have a (maximum or minimum) temperature below the decile 1 value."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Decile 1 maximum (or minimum) temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Decile-9-maximum-or-minimum-temperature-C>
+:Decile-9-maximum-or-minimum-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Monthly decile 9 (90th percentile) of maximum or minimum air temperature. The annual decile value must be calculated from yearly data, and cannot be obtained by adding together the monthly deciles. Decile values are used to give an indication of the spread of the observations over the period of record; in this case, daily observations within a month. To determine decile 9 of a series of observations, the data are first arranged in order from lowest to highest, and then divided into 10 equal groups. Decile 9 is the value at the top of the 9th grouping. Over the long term about one day in ten can be expected to have a (maximum or minimum) temperature exceed the decile 9 value."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Decile 9 maximum (or minimum) temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Highest-minimum-temperature-C>
+:Highest-minimum-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The highest recorded minimum temperature observed at the site, calculated over all years of record."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Highest minimum temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Highest-temperature-C>
+:Highest-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The highest (by month and overall) maximum air temperature observed at the site."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Highest temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Lowest-maximum-temperature-C>
+:Lowest-maximum-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The lowest (by month and overall) maximum air temperature observed at the site."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Lowest maximum temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Lowest-temperature-C>
+:Lowest-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The lowest recorded temperature observed at the site, calculated over all years of record."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Lowest temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Lowest-terrestrial-temperature-C>
+:Lowest-terrestrial-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The lowest terrestrial minimum temperature observed at the site over the period."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Lowest terrestrial temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-daily-terrestrial-minimum-temperature-C>
+:Mean-daily-terrestrial-minimum-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The long-term average daily terrestrial (ground) minimum temperature observed at the site for each month and the year."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean daily terrestrial minimum temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-maximum-temperature-C>
+:Mean-maximum-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The average daily maximum air temperature, for each month and as an annual statistic, calculated over all years of record."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean maximum temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-minimum-temperature-C>
+:Mean-minimum-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The long-term average daily minimum air temperature observed during a calendar month and over the year."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean minimum temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-number-of-days--0-C>
+:Mean-number-of-days--0-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The average number of days in a calendar month or year when the daily minimum air temperature was equal to, or below 0 °C."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean number of days ≤ 0 °C"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-number-of-days--2-C>
+:Mean-number-of-days--2-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The average number of days in the period when the daily minimum air temperature was less than or equal to 2 °C. Significant variation in air temperature can occur in the layer of air closest to the ground. Under many conditions a temperature of 2 °C measured at the height of the thermometer (about 1.2 m above the ground) is approximately equivalent to a temperature of 0 °C at ground level."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean number of days ≤ 2 °C"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-number-of-days--30,-35-or-40-C>
+:Mean-number-of-days--30-35-or-40-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The average number of days in the period when the daily maximum air temperature was equal to, or exceeded 30, 35 or 40 °C."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean number of days ≥ 30, 35 or 40 °C"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-number-of-days-terrestrial-minimum-temperature---1-C>
+:Mean-number-of-days-terrestrial-minimum-temperature---1-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The average number of days in a calendar month or a year when the daily terrestrial minimum air temperature was equal to, or below -1.0°C. This gives an indication of the average number of days when frost occurred. Frost: a deposit of soft white ice crystals or frozen dew drops."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean number of days terrestrial minimum temperature ≤ -1 °C"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Terrestrial-Ground-Temperature>
+:Terrestrial-Ground-Temperature
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Terrestrial minimum temperature is nominally measured at 9 am and is the lowest temperature recorded since 6 pm the previous day. It is measured by a thermometer placed close to the horizontal and just above the surface of the ground. The overnight temperature, particularly on windless nights, can be lower at ground level than at the level of a Stevenson screen where air temperature is measured. Thus, the terrestrial minimum temperature gives a more accurate indication of whether a frost has occurred. Just as with maximum and minimum air temperature, accumulated observations may, for some sites, increase the uncertainty associated with the date of the lowest observed terrestrial minimum temperature."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Terrestrial (Ground) Temperature"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://editor.vocabs.ands.org.au/user/67149a84-5350-49cd-811e-86fc9cca5478>
+<https://linked.data.gov.au/org/bom-cs>
     a dcterms:Agent ;
-    foaf:name "Climate Services, Bureau of Meteorology" ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions>
-    a skos:ConceptScheme ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/67149a84-5350-49cd-811e-86fc9cca5478> ;
-    dcterms:created "2021-07-30"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/neii> ;
-    dcterms:description "Definitions for temperature"@en ;
-    dcterms:issued "2021-08-04" ;
-    dcterms:publisher <http://editor.vocabs.ands.org.au/user/67149a84-5350-49cd-811e-86fc9cca5478> ;
-    dcterms:subject "Temperature Definitions"@en ;
-    dcterms:title "Temperature Definitions"@en ;
-    owl:versionInfo "Version 1.0" ;
-    skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Air-Temperature> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Date> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Decile-1-maximum-or-minimum-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Decile-9-maximum-or-minimum-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Highest-minimum-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Highest-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Lowest-maximum-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Lowest-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Lowest-terrestrial-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-daily-terrestrial-minimum-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-maximum-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-minimum-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-number-of-days--0-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-number-of-days--2-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-number-of-days--30,-35-or-40-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Mean-number-of-days-terrestrial-minimum-temperature---1-C> ,
-        <http://www.neii.gov.au/def/voc/CS/temperature-definitions/Terrestrial-Ground-Temperature> ;
+    schema:name "Climate Services, Bureau of Meteorology" ;
 .
 
 <https://linked.data.gov.au/org/neii>
     a
         dcterms:Agent ,
         schema:Organization ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name "NEII" ;
+    schema:name "National Environmental Information Infrastructure" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:contributor <https://linked.data.gov.au/org/bom-cs> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2021-08-04" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/bom-cs> ;
+    dcterms:subject "Temperature Definitions"@en ;
+    owl:versionInfo "Version 1.0" ;
+    skos:definition "Definitions for temperature"@en ;
+    skos:hasTopConcept
+        :Air-Temperature ,
+        :Date ,
+        :Decile-1-maximum-or-minimum-temperature-C ,
+        :Decile-9-maximum-or-minimum-temperature-C ,
+        :Highest-minimum-temperature-C ,
+        :Highest-temperature-C ,
+        :Lowest-maximum-temperature-C ,
+        :Lowest-temperature-C ,
+        :Lowest-terrestrial-temperature-C ,
+        :Mean-daily-terrestrial-minimum-temperature-C ,
+        :Mean-maximum-temperature-C ,
+        :Mean-minimum-temperature-C ,
+        :Mean-number-of-days--0-C ,
+        :Mean-number-of-days--2-C ,
+        :Mean-number-of-days--30-35-or-40-C ,
+        :Mean-number-of-days-terrestrial-minimum-temperature---1-C ,
+        :Terrestrial-Ground-Temperature ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/CS/temperature-definitions/Temperature-Definitions for the ConceptScheme and http://www.neii.gov.au/def/voc/CS/temperature-definitions/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "Temperature Definitions"@en ;
 .

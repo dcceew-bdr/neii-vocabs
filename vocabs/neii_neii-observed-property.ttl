@@ -1,1202 +1,898 @@
+PREFIX : <https://linked.data.gov.au/def/neii-observed-property/>
+PREFIX cs: <https://linked.data.gov.au/def/neii-observed-property>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://editor.vocabs.ands.org.au/user/NEII_Kaur.Hardeep_Admin>
-    a
-        dcterms:Agent ,
-        schema:Person ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
-    dcterms:modified "2017-06-19"^^xsd:date ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/NEII-Observed-property>
-    a rdfs:Resource ;
-    rdfs:label "NEII Observed property"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/agriculture-soils>
-    a rdfs:Resource ;
-    rdfs:label "agriculture-soils"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-Aerosols>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-Aerosols"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-AirQuality>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-AirQuality"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-Altitude>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-Altitude"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-Clouds>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-Clouds"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-Precipitation>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-Precipitation"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-atmosphericChemistry>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-atmosphericChemistry"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-atmosphericElectricity>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-atmosphericElectricity"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-atmosphericPhenomena>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-atmosphericPhenomena"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-atmosphericPressure>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-atmosphericPressure"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-atmosphericRadiation>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-atmosphericRadiation"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-atmosphericTemperature>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-atmosphericTemperature"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-atmosphericWaterVapor>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-atmosphericWaterVapor"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/atmosphere-atmosphericWinds>
-    a rdfs:Resource ;
-    rdfs:label "atmosphere-atmosphericWinds"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biologicalClassification-animalsOrInvertebrates>
-    a rdfs:Resource ;
-    rdfs:label "biologicalClassification-animalsOrInvertebrates"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biologicalClassification-animalsOrVertebrates>
-    a rdfs:Resource ;
-    rdfs:label "biologicalClassification-animalsOrVertebrates"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biologicalClassification-bacteriaOArchaea>
-    a rdfs:Resource ;
-    rdfs:label "biologicalClassification-bacteriaOArchaea"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biologicalClassification-fungi>
-    a rdfs:Resource ;
-    rdfs:label "biologicalClassification-fungi"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biologicalClassification-plants>
-    a rdfs:Resource ;
-    rdfs:label "biologicalClassification-plants"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biologicalClassification-protists>
-    a rdfs:Resource ;
-    rdfs:label "biologicalClassification-protists"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biologicalClassification-viruses>
-    a rdfs:Resource ;
-    rdfs:label "biologicalClassification-viruses"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biosphere-aquaticEcosystems>
-    a rdfs:Resource ;
-    rdfs:label "biosphere-aquaticEcosystems"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biosphere-ecologicalDynamics>
-    a rdfs:Resource ;
-    rdfs:label "biosphere-ecologicalDynamics"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biosphere-terrestrialEcosystems>
-    a rdfs:Resource ;
-    rdfs:label "biosphere-terrestrialEcosystems"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/biosphere-vegetation>
-    a rdfs:Resource ;
-    rdfs:label "biosphere-vegetation"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/cryosphere-frozenGround>
-    a rdfs:Resource ;
-    rdfs:label "cryosphere-frozenGround"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/cryosphere-glaciersOrIceSheets>
-    a rdfs:Resource ;
-    rdfs:label "cryosphere-glaciersOrIceSheets"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/cryosphere-seaIce>
-    a rdfs:Resource ;
-    rdfs:label "cryosphere-seaIce"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/cryosphere-snowOrIce>
-    a rdfs:Resource ;
-    rdfs:label "cryosphere-snowOrIce"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/landSurface-erosionOrSedimentation>
-    a rdfs:Resource ;
-    rdfs:label "landSurface-erosionOrSedimentation"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/landSurface-geomorphicLandformsOrProcesses>
-    a rdfs:Resource ;
-    rdfs:label "landSurface-geomorphicLandformsOrProcesses"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/landSurface-landUseOrLandCover>
-    a rdfs:Resource ;
-    rdfs:label "landSurface-landUseOrLandCover"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/landSurface-landscape>
-    a rdfs:Resource ;
-    rdfs:label "landSurface-landscape"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/landSurface-surfaceRadiativeProperties>
-    a rdfs:Resource ;
-    rdfs:label "landSurface-surfaceRadiativeProperties"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/landSurface-surfaceThermalProperties>
-    a rdfs:Resource ;
-    rdfs:label "landSurface-surfaceThermalProperties"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/landSurface-topography>
-    a rdfs:Resource ;
-    rdfs:label "landSurface-topography"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-aquaticSciences>
-    a rdfs:Resource ;
-    rdfs:label "oceans-aquaticSciences"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-bathymetryOrSeafloorTopography>
-    a rdfs:Resource ;
-    rdfs:label "oceans-bathymetryOrSeafloorTopography"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-coastalProcesses>
-    a rdfs:Resource ;
-    rdfs:label "oceans-coastalProcesses"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-marineEnvironmentMonitoring>
-    a rdfs:Resource ;
-    rdfs:label "oceans-marineEnvironmentMonitoring"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-marineGeophysics>
-    a rdfs:Resource ;
-    rdfs:label "oceans-marineGeophysics"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-marineSediments>
-    a rdfs:Resource ;
-    rdfs:label "oceans-marineSediments"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-marineVolcanism>
-    a rdfs:Resource ;
-    rdfs:label "oceans-marineVolcanism"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-oceanAcoustics>
-    a rdfs:Resource ;
-    rdfs:label "oceans-oceanAcoustics"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-oceanChemistry>
-    a rdfs:Resource ;
-    rdfs:label "oceans-oceanChemistry"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-oceanCirculation>
-    a rdfs:Resource ;
-    rdfs:label "oceans-oceanCirculation"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-oceanHeatBudget>
-    a rdfs:Resource ;
-    rdfs:label "oceans-oceanHeatBudget"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-oceanOptics>
-    a rdfs:Resource ;
-    rdfs:label "oceans-oceanOptics"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-oceanPressure>
-    a rdfs:Resource ;
-    rdfs:label "oceans-oceanPressure"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-oceanTemperature>
-    a rdfs:Resource ;
-    rdfs:label "oceans-oceanTemperature"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-oceanWaves>
-    a rdfs:Resource ;
-    rdfs:label "oceans-oceanWaves"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-oceanWinds>
-    a rdfs:Resource ;
-    rdfs:label "oceans-oceanWinds"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-salinityOrDensity>
-    a rdfs:Resource ;
-    rdfs:label "oceans-salinityOrDensity"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-seaSurfaceTopography>
-    a rdfs:Resource ;
-    rdfs:label "oceans-seaSurfaceTopography"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-tides>
-    a rdfs:Resource ;
-    rdfs:label "oceans-tides"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/oceans-waterQuality>
-    a rdfs:Resource ;
-    rdfs:label "oceans-waterQuality"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/paleoclimate-iceCoreRecords>
-    a rdfs:Resource ;
-    rdfs:label "paleoclimate-iceCoreRecords"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/paleoclimate-landRecords>
-    a rdfs:Resource ;
-    rdfs:label "paleoclimate-landRecords"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/paleoclimate-oceanOrLakeRecords>
-    a rdfs:Resource ;
-    rdfs:label "paleoclimate-oceanOrLakeRecords"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/paleoclimate-paleoclimateReconstructions>
-    a rdfs:Resource ;
-    rdfs:label "paleoclimate-paleoclimateReconstructions"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/solidEarth-earthGasesOrLiquids>
-    a rdfs:Resource ;
-    rdfs:label "solidEarth-earthGasesOrLiquids"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/solidEarth-geochemistry>
-    a rdfs:Resource ;
-    rdfs:label "solidEarth-geochemistry"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/solidEarth-geodetics>
-    a rdfs:Resource ;
-    rdfs:label "solidEarth-geodetics"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/solidEarth-geomagnetism>
-    a rdfs:Resource ;
-    rdfs:label "solidEarth-geomagnetism"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/solidEarth-geothermalDynamics>
-    a rdfs:Resource ;
-    rdfs:label "solidEarth-geothermalDynamics"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/solidEarth-gravityOrGravitationalField>
-    a rdfs:Resource ;
-    rdfs:label "solidEarth-gravityOrGravitationalField"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/solidEarth-rocksOrMineralsOrCrystals>
-    a rdfs:Resource ;
-    rdfs:label "solidEarth-rocksOrMineralsOrCrystals"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/solidEarth-tectonics>
-    a rdfs:Resource ;
-    rdfs:label "solidEarth-tectonics"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/terrestrialHydrosphere-groundWater>
-    a rdfs:Resource ;
-    rdfs:label "terrestrialHydrosphere-groundWater"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/terrestrialHydrosphere-surfaceWater>
-    a rdfs:Resource ;
-    rdfs:label "terrestrialHydrosphere-surfaceWater"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-observed-property/terrestrialHydrosphere-waterQualityOrWaterChemistry>
-    a rdfs:Resource ;
-    rdfs:label "terrestrialHydrosphere-waterQualityOrWaterChemistry"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/agriculture-soils>
+:agriculture-soils
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The range of dynamic natural bodies composed of mineral and organic materials and living forms in which plants grow."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "agriculture-soils"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-Aerosols>
+:atmosphere-Aerosols
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Suspension of particles of condensed matter (liquid, solid, or mixed) in a carrier gas (usually air). Aerosols are important in the atmosphere as nuclei for the condensation of water droplets and ice crystals, as participants in various chemical cycles, and as absorbers and scatterers of solar radiation, thereby influencing the radiation budget of the earth-atmosphere system, which in turn influences the climate on the surface of the Earth."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-Aerosols"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-AirQuality>
+:atmosphere-AirQuality
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The study of air pollutants in the atmosphere."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-AirQuality"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-Altitude>
+:atmosphere-Altitude
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "A measure of height, especially of great height, as a mountain top or aircraft flight level. In meteorology, altitude is used almost exclusively with respect to the height of an airborne object above the earth’s surface, above a constant pressure surface, or above mean sea level."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-Altitude"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-Clouds>
+:atmosphere-Clouds
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "A visible aggregate of minute water droplets and/or ice crystals in the atmosphere above the Earth’s surface."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-Clouds"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-Precipitation>
+:atmosphere-Precipitation
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "All liquid or solid phase aqueous particles that originate in the atmosphere and fall to the earth’s surface."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-Precipitation"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericChemistry>
+:atmosphere-atmosphericChemistry
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Measurements of chemical constituents in the atmosphere including the major (non-H2O) greenhouse gases (CO2, CH4, CFC, N2O)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-atmosphericChemistry"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericElectricity>
+:atmosphere-atmosphericElectricity
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Electrical phenomena, regarded collectively, which occur in the Earth’s atmosphere."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-atmosphericElectricity"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericPhenomena>
+:atmosphere-atmosphericPhenomena
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The study of significant weather events."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-atmosphericPhenomena"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericPressure>
+:atmosphere-atmosphericPressure
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The pressure exerted by the atmosphere as a consequence of gravitational attraction exerted upon the “column” of air lying directly above the point in question."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-atmosphericPressure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericRadiation>
+:atmosphere-atmosphericRadiation
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Radiation budget refers to the difference between the absorbed solar radiation and the net infrared radiation. The radiation budget takes into account the sum of all radiation, transferred in all directions, through the Earth’s atmosphere and to and from space. The radiation budget (or radiation balance) controls the Earth’s temperature and rainfall."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-atmosphericRadiation"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericTemperature>
+:atmosphere-atmosphericTemperature
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "A measure of temperature at different levels of the Earth’s atmosphere."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-atmosphericTemperature"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericWaterVapor>
+:atmosphere-atmosphericWaterVapor
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Water present in the atmosphere in gaseous form; the source of all forms of condensation and precipitation. Water vapor, clouds, and carbon dioxide are the main atmospheric components in the exchange of terrestrial radiation in the troposphere, serving as a regulator of planetary temperatures via the greenhouse effect. Approximately 50 percent of the atmosphere’s moisture lies within about 1.84 km of the earth’s surface, and only a minute fraction of the total occurs above the tropopause."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-atmosphericWaterVapor"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericWinds>
+:atmosphere-atmosphericWinds
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Air in motion relative to the surface of the Earth. Since vertical components of atmospheric motion are relatively small especially near the surface of the Earth, meteorologists use the term to denote almost exclusively the horizontal (wind) component. Vertical winds are always identified as such."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "atmosphere-atmosphericWinds"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-animalsOrInvertebrates>
+:biologicalClassification-animalsOrInvertebrates
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Invertebrates are animals lacking a backbone, or without bones."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biologicalClassification-animalsOrInvertebrates"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-animalsOrVertebrates>
+:biologicalClassification-animalsOrVertebrates
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Vertebrates are chordates with a backbone, either of cartilage or bone, and a brain located inside a protective chamber of skull bones."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biologicalClassification-animalsOrVertebrates"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-bacteriaOArchaea>
+:biologicalClassification-bacteriaOArchaea
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Blue-Green Algae, now called cyanobacteria, are good examples of photoautotrophic eubacteria. They are also among the most common photoautotrophs on Earth. Most live in ponds and other freshwater habitats. They may grow as mucus-sheathed chains of cells, which can form dense, slimy mats near the surface of nutrient-enriched water."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biologicalClassification-bacteriaOArchaea"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-fungi>
+:biologicalClassification-fungi
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "One of the taxonomic kingdoms, comprising eukaryotic, non-photosynthetic organisms, which obtain nutrients by the absorption of organic compounds from their surroundings. Fungi usually have chitin-containing cell walls and may be unicellular, filamentous (mycelial), or plasmoidal."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biologicalClassification-fungi"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-plants>
+:biologicalClassification-plants
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Pertaining to the scientific classification of plants."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biologicalClassification-plants"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-protists>
+:biologicalClassification-protists
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Protists are of the Kingdom Protista and are one of the diverse eukaryotes, single-celled species of which may resemble the first eukaryotic cells. At the present they are categorized by what they are not (not bacteria, fungi, plants, or animals)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biologicalClassification-protists"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-viruses>
+:biologicalClassification-viruses
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Biological Classification Viruses."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biologicalClassification-viruses"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biosphere-aquaticEcosystems>
+:biosphere-aquaticEcosystems
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The water environments, such as rivers, and oceans in which the life needs of a plant or animal are supplied."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biosphere-aquaticEcosystems"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biosphere-ecologicalDynamics>
+:biosphere-ecologicalDynamics
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Describes coupled dynamics of human-ecological systems."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biosphere-ecologicalDynamics"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biosphere-terrestrialEcosystems>
+:biosphere-terrestrialEcosystems
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The dry land environment in which the life needs of a plant or animal are supplied."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biosphere-terrestrialEcosystems"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biosphere-vegetation>
+:biosphere-vegetation
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Vegetation, as used, here are types of plants and vegetation structures."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "biosphere-vegetation"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/cryosphere-frozenGround>
+:cryosphere-frozenGround
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Soil within which the moisture has predominantly changed to ice, the unfrozen portion being in vapor phase. Ice within the soil bonds (adfreezes) adjacent soil particles and renders frozen ground very hard. Permanently frozen ground is called permafrost. Dry frozen ground is relatively loose and crumbly because of the lack of bonding ice. Frozen ground is sometimes inadvisedly called frost or ground frost."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "cryosphere-frozenGround"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/cryosphere-glaciersOrIceSheets>
+:cryosphere-glaciersOrIceSheets
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Glaciers are masses of land ice, formed by the further recrystallization of firn, flowing continuously from higher to lower elevations. Ice sheets are a continuous sheet of land ice that covers a very large area and moves outward in many directions. This type of ice mass is so thick as to mask the land surface contours, in contrast to the smaller and thinner highland ice. The continental glacier of Greenland is sometimes called the Inland Ice. This term is often used to describe the great ice masses that characterized the ice ages."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "cryosphere-glaciersOrIceSheets"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/cryosphere-seaIce>
+:cryosphere-seaIce
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Pertaining to the study of frozen seawater over the ocean surface."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "cryosphere-seaIce"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/cryosphere-snowOrIce>
+:cryosphere-snowOrIce
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Pertaining to the study of frozen water over the Earth’s surface."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "cryosphere-snowOrIce"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-erosionOrSedimentation>
+:landSurface-erosionOrSedimentation
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The natural processes relating to the break down of soil and rock, and the movement and deposition of the resulting particles."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "landSurface-erosionOrSedimentation"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-geomorphicLandformsOrProcesses>
+:landSurface-geomorphicLandformsOrProcesses
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The science that treats the general configuration of the Earth’s surface, specifically the study of the classification, description, nature, origin, and development of present landforms and their relationships to underlying structures, and of the history of geologic changes as recorded by these surface features."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "landSurface-geomorphicLandformsOrProcesses"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-landUseOrLandCover>
+:landSurface-landUseOrLandCover
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The observed physical cover and natural use of the land including the vegetation and human construction, which covers the earth’s surface."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "landSurface-landUseOrLandCover"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-landscape>
+:landSurface-landscape
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The fundamental traits of a specific geographic area; including its biological composition, physical environment and anthropogenic or social patterns."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "landSurface-landscape"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-surfaceRadiativeProperties>
+:landSurface-surfaceRadiativeProperties
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Any measurement involving the scattering, absorption, or reflection of electromagnetic radiation at the land surface."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "landSurface-surfaceRadiativeProperties"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-surfaceThermalProperties>
+:landSurface-surfaceThermalProperties
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Refers to the measurements of any sort related to the amount of heat on the surface of the land."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "landSurface-surfaceThermalProperties"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-topography>
+:landSurface-topography
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The general configuration of the land surface, including its relief and the position of its natural features."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "landSurface-topography"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-aquaticSciences>
+:oceans-aquaticSciences
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The study of Fisheries and Aquaculture."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-aquaticSciences"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-bathymetryOrSeafloorTopography>
+:oceans-bathymetryOrSeafloorTopography
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The measurement and charting of the spatial variation of the ocean depths."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-bathymetryOrSeafloorTopography"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-coastalProcesses>
+:oceans-coastalProcesses
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Coastal processes refers to the action of natural forces (e.g., erosion, deposition, tectonic uplift) on the shoreline, and the nearshore seabed. Some examples of landforms resulting from these processes are wave-cut cliffs, beaches, and wave-cut benches."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-coastalProcesses"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-marineEnvironmentMonitoring>
+:oceans-marineEnvironmentMonitoring
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The act of watching,keeping track of or checking the ocean(pelagic or bottom conditions) for a special purpose."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-marineEnvironmentMonitoring"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-marineGeophysics>
+:oceans-marineGeophysics
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Scientific field of study pertaining to the physics of the oceanic crust and ocean-inundated continental crust. Variables include marine morphological features, geophysical processes of the marine environment, and geophysical measurements of the marine environment."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-marineGeophysics"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-marineSediments>
+:oceans-marineSediments
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Loose particles of inorganic or organic origin, suspended in the water column, found on the seafloor, or found in the coastal zone. Variables include types of sediment, processes affecting sediment and sediment distribution, and characteristics of sediment."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-marineSediments"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-marineVolcanism>
+:oceans-marineVolcanism
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The set of geological processes within the ocean that result in the volcanic expulsions of carbon dioxide and sulfur dioxide at the Earth’s surface through vents."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-marineVolcanism"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanAcoustics>
+:oceans-oceanAcoustics
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Scientific field of study pertaining to sound propagation in the marine environment. Variables include measurements of the characteristics of sound."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-oceanAcoustics"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanChemistry>
+:oceans-oceanChemistry
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Scientific field of study pertaining to the composition and properties of seawater. Variables include concentrations of seawater’s constituent materials."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-oceanChemistry"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanCirculation>
+:oceans-oceanCirculation
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Pertaining to or measuring the movement of water in the marine environment. Variables include types of motion, as well as, circulation features. Proper names of oceanic currents are not included."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-oceanCirculation"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanHeatBudget>
+:oceans-oceanHeatBudget
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Study of the heat energy gains and losses of the oceans, on global or regional scales. Variables include the terms in the heat budget equation."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-oceanHeatBudget"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanOptics>
+:oceans-oceanOptics
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Scientific field of study of light in the oceans. Variables include measurable characteristics of underwater light."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-oceanOptics"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanPressure>
+:oceans-oceanPressure
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Pertaining to the measurement of force per unit area exerted on water by the overlying column of water."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-oceanPressure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanTemperature>
+:oceans-oceanTemperature
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Pertaining to the measurement of the average kinetic energy of oceanic water."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-oceanTemperature"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanWaves>
+:oceans-oceanWaves
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Study of the disturbances of the ocean medium caused by the movement of energy through that medium. Variables include types and characteristics of waves."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-oceanWaves"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanWinds>
+:oceans-oceanWinds
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Study of the mass movement of air over the surface of the oceans."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-oceanWinds"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-salinityOrDensity>
+:oceans-salinityOrDensity
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The total amount of dissolved material in water and its effect on water’s mass-to-volume ratio. Scientific measurements related to either salinity or density are included under this Term."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-salinityOrDensity"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-seaSurfaceTopography>
+:oceans-seaSurfaceTopography
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "To measure sea surface height, or surface topography, scientists need to obtain the precise distance between the satellite and the center of the Earth and the precise distance between the satellite and the sea surface. Sea surface height is then calculated by subtracting the distance between the sea surface and the satellite from the distance between the center of the Earth and the satellite. The distance between the satellite and the center of the Earth is obtained by carefully monitoring the satellite position at all times."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-seaSurfaceTopography"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-tides>
+:oceans-tides
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Pertaining to the study of the periodic rise and fall of the sea surface, generated by long-wavelength waves which are caused by the interaction of gravitational force and inertia. Variables include characteristics of tides and other aspects important to their study."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-tides"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-tsunamis>
+:oceans-tsunamis
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+
     dcterms:created "2020-09-23"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-09-23"^^xsd:date ;
     skos:definition "A wave train, or series of waves, generated in a body of water by an impulse disturbance that vertically displaces the water column. Earthquakes, landslides, volcanic eruptions, explosions, and even the impact of cosmic bodies, such as meteorites, can generate tsunamis. Tsunamis can savagely attack coastlines, causing devastating property damage and loss of life."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-tsunamis"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-waterQuality>
+:oceans-waterQuality
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The fitness of water for use (by plants or animals), being affected by physical, chemical and biological factors. A Water Quality Advisory may include information on the types of contaminants that may decrease the water quality in a particular area."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "oceans-waterQuality"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/paleoclimate-iceCoreRecords>
+:paleoclimate-iceCoreRecords
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "An ice core is a section of ice drilled from a glacier or ice sheet. Ice deposits contain samples of the atmosphere at the time the ice formed; they also record seasonal fluctuations of temperature and dust. That’s why ice cores are extremely valuable sources of paleoclimate data on the Earth’s climate in the distant past. Researchers drill sections of ice cores hundreds of meters long and then match sections at different depths with particular eras in the Earth’s past. These sections can then be analyzed for clues about atmospheric gases and temperatures from hundreds of thousands of years ago."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "paleoclimate-iceCoreRecords"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/paleoclimate-landRecords>
+:paleoclimate-landRecords
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Non-marine geological information pertinent to paleoclimatology consists of all continental sedimentary records including loess,volcanic deposits, glaciation, spelothems, tree ring, pollen, and other land-based records."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "paleoclimate-landRecords"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/paleoclimate-oceanOrLakeRecords>
+:paleoclimate-oceanOrLakeRecords
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Paleoclimatic information can be inferred from biogenic material in ocean sediments, oxygen isotopic analyses of sea water (via deep sea cores), coral growth, inorganic material such as from weathering and erosion, lake levels and glacial varves, and ocean circulation changes as a result of glacial-interglacial cycles."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "paleoclimate-oceanOrLakeRecords"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/paleoclimate-paleoclimateReconstructions>
+:paleoclimate-paleoclimateReconstructions
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Reconstruction of past climatic conditions using paleoclimate proxy records (tree rings, ice cores, etc.)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "paleoclimate-paleoclimateReconstructions"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-earthGasesOrLiquids>
+:solidEarth-earthGasesOrLiquids
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Properties and characteristics related to the gases and liquids within the solid earth."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "solidEarth-earthGasesOrLiquids"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-geochemistry>
+:solidEarth-geochemistry
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Pertaining to the study of the chemical composition of the various phases of the earth, and the physical and chemical processes which have produced the observed distribution of the elements and the nuclides in these phases."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "solidEarth-geochemistry"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-geodetics>
+:solidEarth-geodetics
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The scientific discipline that deals with the measurement and representation of the earth, its gravitational field and geodynamic phenomena (polar motion, earth tides, and tectonic motion) in three-dimensional, time-varying space."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "solidEarth-geodetics"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-geomagnetism>
+:solidEarth-geomagnetism
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The magnetism of the earth. Also known as terrestrial magnetism."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "solidEarth-geomagnetism"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-geothermalDynamics>
+:solidEarth-geothermalDynamics
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The relation between the earth’s interior heat and other related matter, using the properties of macroscopic variables such as temperature, entropy, and pressure."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "solidEarth-geothermalDynamics"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-gravityOrGravitationalField>
+:solidEarth-gravityOrGravitationalField
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Dealing with the determination of the size and shape of the earth, the Earth’s gravitational field, and the location of points fixed to the Earth’s crust in an Earth-referred coordinate system."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "solidEarth-gravityOrGravitationalField"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-rocksOrMineralsOrCrystals>
+:solidEarth-rocksOrMineralsOrCrystals
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "A naturally occurring solid aggregate of one or more minerals that make up the solid earth."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "solidEarth-rocksOrMineralsOrCrystals"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-tectonics>
+:solidEarth-tectonics
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Branch of geology that deals with regional structure and deformational features of the Earth’s crust."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "solidEarth-tectonics"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/terrestrialHydrosphere-groundWater>
+:terrestrialHydrosphere-groundWater
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Ground water in its broadest sense includes all subsurface water whether in its liquid, solid or gaseous state, provided it is not chemically combined with the minerals present. In practice, it is all subsurface water that participates in the hydrological cycle."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "terrestrialHydrosphere-groundWater"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/terrestrialHydrosphere-surfaceWater>
+:terrestrialHydrosphere-surfaceWater
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Pertains to all water present above the substrate or soil surface including water contained in an ocean, river, stream, lake, pond, lagoon, or impoundment reservoir."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "terrestrialHydrosphere-surfaceWater"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/terrestrialHydrosphere-waterQualityOrWaterChemistry>
+:terrestrialHydrosphere-waterQualityOrWaterChemistry
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Water quality refers to the physical, chemical, and biological characteristics of water with respect to its suitability for a particular use. Water chemistry refers to the chemical characteristics of water."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "terrestrialHydrosphere-waterQualityOrWaterChemistry"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property> ;
-.
-
-<http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure>
-    a dcterms:Agent ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
-    dcterms:modified "2017-08-09"^^xsd:date ;
-    foaf:name "National Environmental Information Infrastructure" ;
-.
-
-<http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property>
-    a skos:ConceptScheme ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
-    dcterms:created "2017-08-10"^^xsd:date ;
-    dcterms:creator <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
-    dcterms:description "Observed property is the  environmental phenomenon (property) being measured at a site, for example, streamflow, soil moisture, or air pressure. The vocabulary of  observed properties is based on a subset of NASA's Global Change Master Directory (GCMD) Science and Services keywords (http://gcmd.nasa.gov/learn/keyword_list.html)."@en ;
-    dcterms:issued "2020-09-23" ;
-    dcterms:publisher <https://linked.data.gov.au/org/neii> ;
-    dcterms:subject "NEII"@en ;
-    dcterms:title "NEII Observed Property"@en ;
-    owl:versionInfo "Version 2" ;
-    skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/agriculture-soils> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-Aerosols> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-AirQuality> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-Altitude> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-Clouds> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-Precipitation> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericChemistry> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericElectricity> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericPhenomena> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericPressure> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericRadiation> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericTemperature> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericWaterVapor> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/atmosphere-atmosphericWinds> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-animalsOrInvertebrates> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-animalsOrVertebrates> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-bacteriaOArchaea> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-fungi> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-plants> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-protists> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biologicalClassification-viruses> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biosphere-aquaticEcosystems> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biosphere-ecologicalDynamics> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biosphere-terrestrialEcosystems> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/biosphere-vegetation> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/cryosphere-frozenGround> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/cryosphere-glaciersOrIceSheets> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/cryosphere-seaIce> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/cryosphere-snowOrIce> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-erosionOrSedimentation> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-geomorphicLandformsOrProcesses> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-landUseOrLandCover> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-landscape> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-surfaceRadiativeProperties> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-surfaceThermalProperties> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/landSurface-topography> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-aquaticSciences> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-bathymetryOrSeafloorTopography> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-coastalProcesses> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-marineEnvironmentMonitoring> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-marineGeophysics> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-marineSediments> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-marineVolcanism> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanAcoustics> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanChemistry> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanCirculation> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanHeatBudget> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanOptics> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanPressure> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanTemperature> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanWaves> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-oceanWinds> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-salinityOrDensity> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-seaSurfaceTopography> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-tides> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-tsunamis> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/oceans-waterQuality> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/paleoclimate-iceCoreRecords> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/paleoclimate-landRecords> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/paleoclimate-oceanOrLakeRecords> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/paleoclimate-paleoclimateReconstructions> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-earthGasesOrLiquids> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-geochemistry> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-geodetics> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-geomagnetism> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-geothermalDynamics> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-gravityOrGravitationalField> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-rocksOrMineralsOrCrystals> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/solidEarth-tectonics> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/terrestrialHydrosphere-groundWater> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/terrestrialHydrosphere-surfaceWater> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-observed-property/terrestrialHydrosphere-waterQualityOrWaterChemistry> ;
+    skos:topConceptOf cs: ;
 .
 
 <https://linked.data.gov.au/org/neii>
     a
         dcterms:Agent ,
         schema:Organization ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+
     dcterms:modified "2017-08-09"^^xsd:date ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name
-        "NEII" ,
-        "National Environmental Information Infrastructure (NEII)" ;
+    schema:name "National Environmental Information Infrastructure (NEII)" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2020-09-23" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/neii> ;
+    dcterms:subject "NEII"@en ;
+    owl:versionInfo "Version 2" ;
+    skos:definition "Observed property is the  environmental phenomenon (property) being measured at a site, for example, streamflow, soil moisture, or air pressure. The vocabulary of  observed properties is based on a subset of NASA's Global Change Master Directory (GCMD) Science and Services keywords (http://gcmd.nasa.gov/learn/keyword_list.html)."@en ;
+    skos:hasTopConcept
+        :agriculture-soils ,
+        :atmosphere-Aerosols ,
+        :atmosphere-AirQuality ,
+        :atmosphere-Altitude ,
+        :atmosphere-Clouds ,
+        :atmosphere-Precipitation ,
+        :atmosphere-atmosphericChemistry ,
+        :atmosphere-atmosphericElectricity ,
+        :atmosphere-atmosphericPhenomena ,
+        :atmosphere-atmosphericPressure ,
+        :atmosphere-atmosphericRadiation ,
+        :atmosphere-atmosphericTemperature ,
+        :atmosphere-atmosphericWaterVapor ,
+        :atmosphere-atmosphericWinds ,
+        :biologicalClassification-animalsOrInvertebrates ,
+        :biologicalClassification-animalsOrVertebrates ,
+        :biologicalClassification-bacteriaOArchaea ,
+        :biologicalClassification-fungi ,
+        :biologicalClassification-plants ,
+        :biologicalClassification-protists ,
+        :biologicalClassification-viruses ,
+        :biosphere-aquaticEcosystems ,
+        :biosphere-ecologicalDynamics ,
+        :biosphere-terrestrialEcosystems ,
+        :biosphere-vegetation ,
+        :cryosphere-frozenGround ,
+        :cryosphere-glaciersOrIceSheets ,
+        :cryosphere-seaIce ,
+        :cryosphere-snowOrIce ,
+        :landSurface-erosionOrSedimentation ,
+        :landSurface-geomorphicLandformsOrProcesses ,
+        :landSurface-landUseOrLandCover ,
+        :landSurface-landscape ,
+        :landSurface-surfaceRadiativeProperties ,
+        :landSurface-surfaceThermalProperties ,
+        :landSurface-topography ,
+        :oceans-aquaticSciences ,
+        :oceans-bathymetryOrSeafloorTopography ,
+        :oceans-coastalProcesses ,
+        :oceans-marineEnvironmentMonitoring ,
+        :oceans-marineGeophysics ,
+        :oceans-marineSediments ,
+        :oceans-marineVolcanism ,
+        :oceans-oceanAcoustics ,
+        :oceans-oceanChemistry ,
+        :oceans-oceanCirculation ,
+        :oceans-oceanHeatBudget ,
+        :oceans-oceanOptics ,
+        :oceans-oceanPressure ,
+        :oceans-oceanTemperature ,
+        :oceans-oceanWaves ,
+        :oceans-oceanWinds ,
+        :oceans-salinityOrDensity ,
+        :oceans-seaSurfaceTopography ,
+        :oceans-tides ,
+        :oceans-tsunamis ,
+        :oceans-waterQuality ,
+        :paleoclimate-iceCoreRecords ,
+        :paleoclimate-landRecords ,
+        :paleoclimate-oceanOrLakeRecords ,
+        :paleoclimate-paleoclimateReconstructions ,
+        :solidEarth-earthGasesOrLiquids ,
+        :solidEarth-geochemistry ,
+        :solidEarth-geodetics ,
+        :solidEarth-geomagnetism ,
+        :solidEarth-geothermalDynamics ,
+        :solidEarth-gravityOrGravitationalField ,
+        :solidEarth-rocksOrMineralsOrCrystals ,
+        :solidEarth-tectonics ,
+        :terrestrialHydrosphere-groundWater ,
+        :terrestrialHydrosphere-surfaceWater ,
+        :terrestrialHydrosphere-waterQualityOrWaterChemistry ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/NEII/neii-observed-property/NEII-Observed-Property for the ConceptScheme and http://www.neii.gov.au/def/voc/NEII/neii-observed-property/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "NEII Observed Property"@en ;
 .

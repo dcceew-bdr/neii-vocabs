@@ -1,98 +1,70 @@
+PREFIX cs: <https://linked.data.gov.au/def/neii-srs-name>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://editor.vocabs.ands.org.au/user/NEII_Kaur.Hardeep_Admin>
-    a
-        dcterms:Agent ,
-        schema:Person ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
-    dcterms:modified "2017-06-19"^^xsd:date ;
-.
-
-<http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure>
-    a dcterms:Agent ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
-    dcterms:modified "2017-08-09"^^xsd:date ;
-    foaf:name "National Environmental Information Infrastructure" ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-srs-name/NEII-SRS-Name>
-    a rdfs:Resource ;
-    rdfs:label "NEII SRS Name"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/4283>
-    a rdfs:Resource ;
-    rdfs:label "http://www.opengis.net/def/crs/EPSG/0/4283"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/4326>
-    a rdfs:Resource ;
-    rdfs:label "http://www.opengis.net/def/crs/EPSG/0/4326"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/4979>
-    a rdfs:Resource ;
-    rdfs:label "http://www.opengis.net/def/crs/EPSG/0/4979"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/4283>
+<http://www.opengis.net/def/crs/EPSG/0/4283>
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "GDA94"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "http://www.opengis.net/def/crs/EPSG/0/4283"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-srs-name/NEII-SRS-Name> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/4326>
+<http://www.opengis.net/def/crs/EPSG/0/4326>
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "WGS84 2D"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "http://www.opengis.net/def/crs/EPSG/0/4326"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-srs-name/NEII-SRS-Name> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/4979>
+<http://www.opengis.net/def/crs/EPSG/0/4979>
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "WGS84 3D"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "http://www.opengis.net/def/crs/EPSG/0/4979"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-srs-name/NEII-SRS-Name> ;
-.
-
-<http://www.neii.gov.au/def/voc/NEII/neii-srs-name/NEII-SRS-Name>
-    a skos:ConceptScheme ;
-    rdfs:label "NEII SRS Name"@en ;
-    dcterms:created "2017-08-10"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/neii> ;
-    dcterms:description "SRS name is the Spatial Reference System (EPSG code) used to locate the geographic entity."@en ;
-    dcterms:issued "2016-09-01" ;
-    dcterms:publisher <https://linked.data.gov.au/org/neii> ;
-    dcterms:subject "NEII"@en ;
-    dcterms:title "NEII SRS Name"@en ;
-    owl:versionInfo "Version 1" ;
-    skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/4283> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/4326> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-srs-name/http/www.opengis.net/def/crs/EPSG/0/4979> ;
+    skos:topConceptOf cs: ;
 .
 
 <https://linked.data.gov.au/org/neii>
-    a dcterms:Agent ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    a
+        dcterms:Agent ,
+        schema:Organization ;
     dcterms:modified "2017-08-09"^^xsd:date ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name "National Environmental Information Infrastructure (NEII)" ;
+    schema:name "National Environmental Information Infrastructure (NEII)" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
+cs:
+    a
+        rdfs:Resource ,
+        skos:ConceptScheme ;
+    dcterms:created "2017-08-10"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2016-09-01" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/neii> ;
+    dcterms:subject "NEII"@en ;
+    owl:deprecated true ;
+    owl:versionInfo "Version 1" ;
+    skos:definition "SRS name is the Spatial Reference System (EPSG code) used to locate the geographic entity."@en ;
+    skos:hasTopConcept
+        <http://www.opengis.net/def/crs/EPSG/0/4283> ,
+        <http://www.opengis.net/def/crs/EPSG/0/4326> ,
+        <http://www.opengis.net/def/crs/EPSG/0/4979> ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/NEII/neii-srs-name/NEII-SRS-Name for the ConceptScheme and http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "NEII SRS Name"@en ;
 .

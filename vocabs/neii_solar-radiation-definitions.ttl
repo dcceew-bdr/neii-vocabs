@@ -1,131 +1,62 @@
+PREFIX : <https://linked.data.gov.au/def/solar-radiation-definitions/>
+PREFIX cs: <https://linked.data.gov.au/def/solar-radiation-definitions>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Accuracies-of-satellite-estimates>
-    a rdfs:Resource ;
-    rdfs:label "Accuracies of satellite estimates"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Diffuse-solar-exposure>
-    a rdfs:Resource ;
-    rdfs:label "Diffuse solar exposure"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Diffuse-solar-irradiance>
-    a rdfs:Resource ;
-    rdfs:label "Diffuse solar irradiance"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Direct-solar-irradiance>
-    a rdfs:Resource ;
-    rdfs:label "Direct solar irradiance"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Downward-infrared-terrestrial-irradiance>
-    a rdfs:Resource ;
-    rdfs:label "Downward infrared (terrestrial) irradiance"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Global-solar-exposure>
-    a rdfs:Resource ;
-    rdfs:label "Global solar exposure"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Global-solar-irradiance>
-    a rdfs:Resource ;
-    rdfs:label "Global solar irradiance"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Ground-instrument-calibration>
-    a rdfs:Resource ;
-    rdfs:label "Ground instrument calibration"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Pyranometers-ground-based-instrumentation>
-    a rdfs:Resource ;
-    rdfs:label "Pyranometers (ground-based instrumentation)"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Radiation-units>
-    a rdfs:Resource ;
-    rdfs:label "Radiation units"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Satellite-derived-solar-exposure>
-    a rdfs:Resource ;
-    rdfs:label "Satellite derived solar exposure"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-radiation-quantities-measured>
-    a rdfs:Resource ;
-    rdfs:label "Solar radiation quantities measured"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Sunshine-duration>
-    a rdfs:Resource ;
-    rdfs:label "Sunshine duration"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Accuracies-of-satellite-estimates_2>
+:Accuracies-of-satellite-estimates
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition """As one example of testing the satellite method of determining radiant exposure from the visible images from GMS-5 an intercomparison was undertaken using pyranometer data from 9 network sites from July and August 1997. On average the model agreed with the measurements to within 0.17% (around 0.04 MJ/m2 on a typical clear day) and the majority of measurements agreed within 6% (around 1.5 MJ/m2 on a typical clear day). The satellite method tends to slightly over-estimate the radiant exposure in wet, cloudy conditions, such as those present in Adelaide in the 1997 winter and to under estimate it in dry conditions such as those commonly present in Alice Springs. On the basis of these and subsequent intercomparisons it is concluded that the satellite model provides useful daily global solar exposure estimates in all conditions, with an error of 7% or better in clear sky conditions and up to 20% in cloudy conditions.
 
 To put these numbers into perspective, one can imagine using the measured radiant exposure at a pyranometer location to estimate the radiant exposure at a point some distance away. The accuracy of the estimation will decrease as we move away from the radiation station. The further we go, the less reliable the estimate will be. In a typical agricultural area such as that around Wagga Wagga, the satellite method becomes more accurate than using the surface station values  at a distance typically 40 km from the pyranometer."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Accuracies of satellite estimates"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Diffuse-solar-exposure_2>
+:Diffuse-solar-exposure
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Diffuse solar exposure is the total amount of solar energy falling on a horizontal surface from all parts of the sky apart from the direct sun. The daily diffuse solar exposure is the total diffuse solar energy for a day. Typical values for daily diffuse solar exposure range from 1 to 20 MJ/m2 (megajoule(s) per square metre). The values are usually highest during the cloudy conditions, and lowest during clear sky days. The diffuse exposure is always less than or equal to the global exposures for the same period."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Diffuse solar exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Diffuse-solar-irradiance_2>
+:Diffuse-solar-irradiance
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Diffuse solar irradiance is a measure of the rate of incoming solar energy on a horizontal plane at the Earth's surface resulting from scattering of the Sun's beam due to atmospheric constituents. Diffuse solar irradiance is measured by a pyranometer, with its glass dome shaded from the Sun's beam. The shading is accomplished either by an occulting disc or a shading arm attached to a solar tracker. The angle subtended by the shading disc of the diffuse pyranometer should be the same as the field of view of the pyrheliometer. It is important that the dome of the pyranometer is always fully shaded from the Sun's beam to ensure accuracy of measurement, and should be checked for correct alignment on a regular basis. As diffuse solar irradiance is a component of global solar irradiance, diffuse solar irradiance should be less than or equal to global irradiance measured at the same time. Global and diffuse irradiance will be equal when the contribution from direct solar irradiance is zero, that is, when the Sun is obscured by thick cloud, or the sun is below the horizon."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Diffuse solar irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Direct-solar-irradiance_2>
+:Direct-solar-irradiance
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Direct solar irradiance (also referred to as direct normal irradiance) is a measure of the rate of solar energy arriving at the Earth's surface from the Sun's direct beam, on a plane perpendicular to the beam, and is usually measured by a pyrheliometer mounted on a solar tracker. The tracker ensures that the Sun's beam is always directed into the instrument's field of view during the day. The pyrheliometer has a field of view of 5° . In order to use this measurement for comparison with global and diffuse irradiances, it is necessary to obtain the horizontal component of the direct solar irradiance. This is achieved by multiplying the direct solar irradiance by the cosine of the Sun's zenith angle."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Direct solar irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Downward-infrared-terrestrial-irradiance_2>
+:Downward-infrared-terrestrial-irradiance
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition """All matter with a temperature greater than 0 K (Kelvin) emits electromagnetic energy; the amount of energy and wavelengths at which the energy is emitted are dependent on the temperature of the body. The higher the temperature of the body, the greater the magnitude of the energy radiated and the shorter the wavelengths at which that peak energy is radiated. A body will radiate energy over a range of wavelengths, called the body's radiation spectrum (a subset of the complete electromagnetic spectrum). Most of the Sun's spectrum lies in the wavelength range of 0.25 - 4.0 μm (1 μm (micrometre)= 10-6 m), the so-called short wave range. Downward infrared irradiance is a measurement of the irradiance arriving on a horizontal plane at the Earth's surface, for wavelengths in the range 4 - 100 μm (the wavelength emitted by atmospheric gases and aerosols). It is related to a `representative (or effective radiative) temperature' of the Earth's atmosphere by the Stefan-Boltzmann Law:
 
 E = σ T4
@@ -134,63 +65,75 @@ Where: E = irradiance measured [W/m2]
 σ = Stefan-Boltzmann constant [5.67 x 10-8 W/m2/K4
 T = representative atmospheric temperature [K] 
 Consequently, this quantity will continue to have a positive value, even at night time. It can be measured using an Eppley PIR pyrgeometer. As in the case of diffuse solar irradiance measurement, it is required that this instrument is shaded from the direct beam of the Sun during the day, since the Sun's beam can heat the pyrgeometer dome and contribute to error in the measurement. Accordingly, the pyrgeometer is mounted on a tracker. The 'representative temperature' is dependent on a number of factors, but typically larger values are recorded when middle to low level clouds cover the sky than those recorded during clear sky episodes."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Downward infrared (terrestrial) irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Global-solar-exposure_2>
+:Global-solar-exposure
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Global solar exposure is the total amount of solar energy falling on a horizontal surface. The daily global solar exposure is the total solar energy for a day. Typical values for daily global solar exposure range from 1 to 35 MJ/m2 (megajoules per square metre). The values are usually highest in clear sun conditions during the summer, and lowest during winter or very cloudy days."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Global solar exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Global-solar-irradiance_2>
+:Global-solar-irradiance
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Global solar irradiance is a measure of the rate of total incoming solar energy (both direct and diffuse) on a horizontal plane at the Earth's surface. A pyranometer sensor can be used to measure this quantity with limited accuracy. The most accurate measurements are obtained by summing the diffuse and horizontal component of the direct irradiance."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Global solar irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Ground-instrument-calibration_2>
+:Ground-instrument-calibration
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition """Since pyranometers and most pyrheliometers are not absolute devices, they need to be calibrated. Furthermore, pyranometer sensitivity may change with time and exposure to radiation, mainly due to the deterioration of the black paint. The pyranometers in the radiation network are calibrated every clear sky and totally cloudy day.
 The Bureau has played an important role in developing methods for calibrating pyranometers. In Network operations the Bureau of Meteorology uses the 'Alternate Method' devised by a Bureau scientist, Dr. Bruce Forgan. For the initial calibration at the Bureau of Meteorology the 'Component Sum Method' is used. The 'Alternate Method' has recently been adopted as the primary calibration method for the Baseline Surface Radiation Network, and Dr. Forgan recently received the 12th WMO Vaisala Award for his paper outlining the method. Both methods rely on measurements of global and diffuse irradiance by pyranometers and direct irradiance by pyrheliometers. Both methods give an estimate of the directional response of the pyranometer, and hence allow a very good estimate of the diffuse sensor calibration constant. The main difference between the methods is that the 'Alternate Method' only requires the use of a calibrated pyrheliometer, while the 'Component Sum Method' requires a calibrated pyrheliometer and diffuse pyranometer.
 Each year the Bureau's Radiation Unit staff visit field sites to calibrate the on-site pyrheliometer and to swap (alternate) the global and diffuse pyranometers. In this way, between visits the pyranometer being used to measure global irradiance is being calibrated every clear sky day, prior to it being swapped for use as a diffuse pyranometer. As a result, the sum of pyrheliometer direct irradiance measurements and the well-calibrated diffuse pyranometer provide the most accurate measurement of the global irradiance."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Ground instrument calibration"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Pyranometers-ground-based-instrumentation_2>
+:Pyranometers-ground-based-instrumentation
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition """Global and diffuse solar irradiance are measured by ground-based pyranometers. The Bureau of Meteorology's new ground-based radiation network uses CM-11 pyranometers manufactured by Kipp & Zonen. A black painted ceramic (Al2 O3) disk acts as a sensing element and absorbs radiant energy. One hundred thermocouples are imprinted on this disk. Only the border of the disk is in good thermal contact with the pyranometer body, which acts as a heat sink. The one hundred cold junctions are located near this border. The one hundred hot junctions are located near the centre of the disk in a rotationally symmetric arrangement. When the pyranometer is irradiated, the absorbed energy results in a heat flow from the centre to the edge of the disk. The temperature difference across the thermal resistance of the disk creates an electromotive force which is then measured by a voltmeter. The rise of temperature is easily effected by wind, rain and thermal radiation losses to the environment ('cold' sky). Therefore, two glass domes shield the detector.
 
 Glass domes allow isotropic transmission of the solar component from every position of the sun in the sky. The spectral range of the pyranometer is limited by the transmission of the glass. The sensing element of the pyranometer is coated with highly absorbent black paint. This element absorbs all wavelengths equally well, but the absorptance will vary with the angle of incidence. For most pyranometers the absorptance remains constant until the incident angle reaches about 70°. Beyond this point, the absorptance drops rapidly as the angle of incidence approaches 90°. Fortunately, at low solar elevations the energy contained in the solar beam is very small and a small percentage change in the measurement is non-critical, and reflections from the dome compensate for loss of absorptance."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Pyranometers (ground-based instrumentation)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Radiation-units_2>
+:Radiation-units
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
-    skos:definition "Radiation quantities are generally expressed in terms of either irradiance or radiant exposure. Irradiance is a measure of the rate of energy received per unit area, and has units of watts per square metre (W/m2), where 1 watt (W) is equal to 1 Joule (J) per second. Radiant exposure is a time integral (or sum) of irradiance. Thus a 1 minute radiant exposure is a measure of the energy received per square metre over a period of 1 minute. Therefore a 1-minute radiant exposure = mean irradiance (W/m2) x 60(s), and has units of joule(s) per square metre (J/m2). A half-hour radiant exposure would then be the sum of 30 one-minute (or 1800 one-second) radiant exposures. For example: a mean irradiance of 500 W/m2 over 1 minute yields a radiant exposure of 30 000 J/m2 or 30 KJ/m2. The output of the Bureau of Meteorology's computer model, which estimates the daily global solar exposure from satellite data, provides irradiance integrated over a period of a day i.e. radiant or global exposure, with units of megajoule(s) per square metre. In terms of remote sensing by satellite, radiance refers to energy received by a satellite sensor and is the rate of energy received per unit area per unit of solid angle (with units of watt(s) per square metre per steradian)."@en ;
+    owl:deprecated true ;
+    skos:definition "Radiation quantities are generally expressed in terms of either irradiance or radiant exposure. Irradiance is a measure of the rate of energy received per unit area, and has units of watts per square metre (W/m2), where 1 watt (W) is equal to 1 Joule (J) per second. Radiant exposure is a time integral (or sum) of irradiance. Thus a 1 minute radiant exposure is a measure of the energy received per square metre over a period of 1 minute. Therefore a 1-minute radiant exposure = mean irradiance (W/m2) x 60(s), and has units of joule(s) per square metre (J/m2). A half-hour radiant exposure would then be the sum of 30 one-minute (or 1800 one-second) radiant exposures. For example: a mean irradiance of 500W/m2 over 1 minute yields a radiant exposure of 30000J/m2 or 30KJ/m2. The output of the Bureau of Meteorology's computer model, which estimates the daily global solar exposure from satellite data, provides irradiance integrated over a period of a day i.e. radiant or global exposure, with units of megajoule(s) per square metre. In terms of remote sensing by satellite, radiance refers to energy received by a satellite sensor and is the rate of energy received per unit area per unit of solid angle (with units of watt(s) per square metre per steradian)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Radiation units"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Satellite-derived-solar-exposure_2>
+:Satellite-derived-solar-exposure
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition """Solar exposure estimates are important for many agricultural applications. Research into crop yields, irrigation, crop and animal diseases all depend on solar measurements. The solar energy community also relies on measurements of solar parameters to further its research. Clearly it would be impractical (not to mention exorbitantly expensive and labor intensive) to maintain high quality solar measurements at all locations across Australia. To circumvent this problem scientists (notably Dr. Gary Weymouth from the Bureau of Meteorology Research Centre) have developed a computer model using visible images from the geostationary meteorological satellites to estimate daily global solar exposures at ground level. Visible and near infrared spectrum (0.5-1.1μ m) images are used hourly to generate the product. The image is divided into pixels, each pixel covering an area of 1.25 by 1.25 km at the equator and a larger area at mid-latitudes. Each pixel has 1024 different brightness levels (the brighter the image, the more radiation is being reflected from that point).
 
 To estimate the daily radiant exposure at each location, the images are averaged over at least four pixels and integrated over the entire day. Simplistically, the irradiance at the ground can be calculated from the irradiance at the top of the earth's atmosphere, the amount absorbed in the atmosphere (dependent on the amount of water vapor present), the amount reflected from the surface (surface albedo) and the amount reflected from clouds (cloud albedo).
@@ -202,14 +145,16 @@ Other small effects include ozone absorption and Rayleigh (or molecular) scatter
 The largest source of uncertainty in the calculations is the reflected radiance measurement. Since cloud tops are not flat but are irregularly shaped, the reflected irradiance from a given cloud may vary with the relative positions of the sun and satellite. This introduces an error of approximately 5% into the model. The next largest source of error is the estimation of water vapor in the atmosphere. This is calculated using numerical predictions and using data from radiosondes as input into the model. The result is an uncertainty of approximately 2%.
 
 Satellite calibration may introduce a small bias into the calculations. However, the drift in satellite calibration changes only slowly with time and can be easily corrected. Other factors contribute to the overall uncertainty of the model, but they contribute less than 1%. Tuning of the model can be performed by comparing the satellite results to accurate radiant exposure measurements made at ground level. Bureau scientists have used data from the Bureau's radiation network stations to test and calibrate the algorithm used in the computer model. It is extremely important to maintain accurate pyranometer readings to provide a reliable ongoing test of the model output."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Satellite derived solar exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-radiation-quantities-measured_2>
+:Solar-radiation-quantities-measured
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition """Solar energy received at the Earth's surface can be separated into two basic components: direct solar energy and diffuse solar energy. Direct solar energy is the energy arriving at the Earth's surface with the Sun's beam. The Sun's beam is quite intense, and hence has also been described a 'shadow producing' radiation.
 
 Diffuse solar energy is the result of the atmosphere attenuating, or reducing the magnitude of the Sun's beam. Some of the energy removed from the beam is redirected or scattered towards the ground - the rate at which this energy falls on a unit horizontal surface per second is called the diffuse solar irradiance.
@@ -219,55 +164,59 @@ The remaining energy from the beam is either scattered back into space, or absor
 Eg = Ed + Eb cos(z)
 
 where: Eg = global irradiance on a horizontal surface, Ed = diffuse irradiance, Eb = direct beam irradiance on a surface perpendicular to the direct beam, z = Sun's zenith angle. By measuring the three components independently, a useful quality assurance test is immediately available by comparing the measured quantity with that calculated from the other two."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Solar radiation quantities measured"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Sunshine-duration_2>
+:Sunshine-duration
     a skos:Concept ;
     dcterms:created "2021-08-04"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "Sunshine duration is defined to be the sum of all time periods during the day when the direct solar irradiance equals or exceeds 120 W/m2. This measurement is only obtained from configurations that measure direct solar irradiance."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Sunshine duration"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://editor.vocabs.ands.org.au/user/8ea4d133-e5c1-480b-a88a-19acbaafb79f>
+<https://linked.data.gov.au/org/bom-cs>
     a dcterms:Agent ;
-    foaf:name "Climate Services, Bureau of Meteorology" ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions>
-    a skos:ConceptScheme ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/8ea4d133-e5c1-480b-a88a-19acbaafb79f> ;
-    dcterms:created "2021-08-02"^^xsd:date ;
-    dcterms:creator <http://editor.vocabs.ands.org.au/user/8ea4d133-e5c1-480b-a88a-19acbaafb79f> ;
-    dcterms:description "Definitions of solar radiation terms"@en ;
-    dcterms:issued "2021-08-05" ;
-    dcterms:publisher <http://editor.vocabs.ands.org.au/user/8ea4d133-e5c1-480b-a88a-19acbaafb79f> ;
-    dcterms:subject "Solar Radiation Definitions"@en ;
-    dcterms:title "Solar Radiation Definitions"@en ;
-    owl:versionInfo "Version 1.0" ;
-    skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Accuracies-of-satellite-estimates_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Diffuse-solar-exposure_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Diffuse-solar-irradiance_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Direct-solar-irradiance_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Downward-infrared-terrestrial-irradiance_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Global-solar-exposure_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Global-solar-irradiance_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Ground-instrument-calibration_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Pyranometers-ground-based-instrumentation_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Radiation-units_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Satellite-derived-solar-exposure_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-radiation-quantities-measured_2> ,
-        <http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Sunshine-duration_2> ;
+    schema:name "Climate Services, Bureau of Meteorology" ;
 .
 
 <https://linked.data.gov.au/org/neii>
     a
         dcterms:Agent ,
         schema:Organization ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name "NEII" ;
+    schema:name "National Environmental Information Infrastructure" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/bom-cs> ;
+    dcterms:issued "2021-08-05" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/bom-cs> ;
+    dcterms:subject "Solar Radiation Definitions"@en ;
+    owl:versionInfo "Version 1.0" ;
+    skos:definition "Definitions of solar radiation terms"@en ;
+    skos:hasTopConcept
+        :Accuracies-of-satellite-estimates ,
+        :Diffuse-solar-exposure ,
+        :Diffuse-solar-irradiance ,
+        :Direct-solar-irradiance ,
+        :Downward-infrared-terrestrial-irradiance ,
+        :Global-solar-exposure ,
+        :Global-solar-irradiance ,
+        :Ground-instrument-calibration ,
+        :Pyranometers-ground-based-instrumentation ,
+        :Radiation-units ,
+        :Satellite-derived-solar-exposure ,
+        :Solar-radiation-quantities-measured ,
+        :Sunshine-duration ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/Solar-Radiation-Definitions for the ConceptScheme and http://www.neii.gov.au/def/voc/CS/solar-radiation-definitions/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "Solar Radiation Definitions"@en ;
 .

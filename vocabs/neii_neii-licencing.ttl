@@ -1,99 +1,72 @@
+PREFIX : <https://linked.data.gov.au/def/neii-licencing/>
+PREFIX cs: <https://linked.data.gov.au/def/neii-licencing>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://editor.vocabs.ands.org.au/user/NEII_Kaur.Hardeep_Admin>
-    a
-        dcterms:Agent ,
-        schema:Person ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
-    dcterms:modified "2017-06-22"^^xsd:date ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-licencing/NEII-Licencing>
-    a rdfs:Resource ;
-    rdfs:label "NEII Licencing"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-licencing/open-CC>
-    a rdfs:Resource ;
-    rdfs:label "open-CC"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-licencing/open-Other>
-    a rdfs:Resource ;
-    rdfs:label "open-Other"@en ;
-    owl:deprecated true ;
-.
-
-<https://www.neii.gov.au/voc/def/NEII/neii-licencing/open-agencySpecific>
-    a rdfs:Resource ;
-    rdfs:label "open-agencySpecific"@en ;
-    owl:deprecated true ;
-.
-
-<http://www.neii.gov.au/def/voc/NEII/neii-licencing/open-CC>
+:open-CC
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The licensing is Creative Commons"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "open-CC"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-licencing/open-Other>
+:open-Other
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The licensing is open under a different license."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "open-Other"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/NEII/neii-licencing/open-agencySpecific>
+:open-agencySpecific
     a skos:Concept ;
     dcterms:created "2017-08-10"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    owl:deprecated true ;
     skos:definition "The licencing is agency specific."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "open-agencySpecific"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure>
-    a dcterms:Agent ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
-    dcterms:modified "2017-08-09"^^xsd:date ;
-    foaf:name "National Environmental Information Infrastructure" ;
-.
-
-<http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing>
-    a skos:ConceptScheme ;
-    rdfs:label "NEII Licencing"@en ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
+cs:
+    a
+        rdfs:Resource ,
+        skos:ConceptScheme ;
     dcterms:created "2017-08-10"^^xsd:date ;
-    dcterms:creator <http://editor.vocabs.ands.org.au/user/National-Environmental-Information-Infrastructure> ;
-    dcterms:description "NEII Licencing describes the type of licence that data are available under."@en ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:issued "2016-09-01" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/neii> ;
     dcterms:subject "NEII"@en ;
-    dcterms:title "NEII Licencing"@en ;
+    owl:deprecated true ;
     owl:versionInfo "Version 1" ;
+    skos:definition "NEII Licencing describes the type of licence that data are available under."@en ;
     skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/NEII/neii-licencing/open-CC> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-licencing/open-Other> ,
-        <http://www.neii.gov.au/def/voc/NEII/neii-licencing/open-agencySpecific> ;
+        :open-CC ,
+        :open-Other ,
+        :open-agencySpecific ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/NEII/neii-licencing/NEII-Licencing for the ConceptScheme and http://www.neii.gov.au/def/voc/NEII/neii-licencing/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "NEII Licencing"@en ;
 .
 
 <https://linked.data.gov.au/org/neii>
-    a dcterms:Agent ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
+    a
+        dcterms:Agent ,
+        schema:Organization ;
+
     dcterms:modified "2017-08-09"^^xsd:date ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name "National Environmental Information Infrastructure (NEII)" ;
+    schema:name "National Environmental Information Infrastructure (NEII)" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
 .

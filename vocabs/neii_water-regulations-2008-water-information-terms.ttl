@@ -1,5 +1,6 @@
+PREFIX : <https://linked.data.gov.au/def/water-regulations-2008-water-information-terms/>
+PREFIX cs: <https://linked.data.gov.au/def/water-regulations-2008-water-information-terms>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -7,290 +8,286 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://editor.vocabs.ands.org.au/user/Water-Program,-Bureau-of-Meteorology>
-    a dcterms:Agent ;
-    foaf:name "Water Program, Bureau of Meteorology" ;
+skos:related
+    a
+        rdf:Property ,
+        rdfs:Resource ;
+    rdfs:subPropertyOf skos:related ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms>
-    a rdfs:Resource ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
-.
-
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Australian-water-access-entitlement>
+:Australian-water-access-entitlement
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A perpetual or ongoing entitlement, by or under a law of a State, to exclusive access to a share of the water resources of a water resource plan area or other water management area.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "1" ;
     skos:prefLabel "Australian water access entitlement"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Australian-water-allocation>
+:Australian-water-allocation
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The specific volume of water allocated to an Australian water access entitlement in a given water accounting period.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "2" ;
     skos:prefLabel "Australian water allocation"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category>
+:Category
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition "In relation to water information, means a category of water information specified in regulation 7.03."@en ;
+    skos:inScheme cs: ;
     skos:notation "7" ;
     skos:prefLabel "Category"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-A-person>
+:Category-A-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category A person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "18" ;
     skos:prefLabel "Category A person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-B-person>
+:Category-B-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category B person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "19" ;
     skos:prefLabel "Category B person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-C-person>
+:Category-C-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category C person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "20" ;
     skos:prefLabel "Category C person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-D-person>
+:Category-D-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category D person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "21" ;
     skos:prefLabel "Category D person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-E-person>
+:Category-E-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category E person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "22" ;
     skos:prefLabel "Category E person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-F-person>
+:Category-F-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category F person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "23" ;
     skos:prefLabel "Category F person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-G-person>
+:Category-G-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category G person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "24" ;
     skos:prefLabel "Category G person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-H-person>
+:Category-H-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category H person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "25" ;
     skos:prefLabel "Category H person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-K-person>
+:Category-K-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category K person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "26" ;
     skos:prefLabel "Category K person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-L-person>
+:Category-L-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category L person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03(1)."""@en ;
+    skos:inScheme cs: ;
     skos:notation "27" ;
     skos:prefLabel "Category L person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-M-person>
+:Category-M-person
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A person specified as a Category M person in the document titled Persons and Classes of Persons (http://www.bom.gov.au/water/regulations/schedules/classesOfPerson.shtml)
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03(1)."""@en ;
+    skos:inScheme cs: ;
     skos:notation "28" ;
     skos:prefLabel "Category M person"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Irrigation-water-scheme>
+:Irrigation-water-scheme
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition "The water service infrastructure for delivering water for the primary purpose of being used for irrigation."@en ;
+    skos:inScheme cs: ;
     skos:notation "46" ;
     skos:prefLabel "Irrigation water scheme"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Major-storage>
+:Major-storage
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Any water storage that has a total storage capacity of 1000 million litres or more.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "47" ;
     skos:prefLabel "Major storage"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Minor-storage>
+:Minor-storage
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Any water storage in which water is stored for taking and that meets the following  criteria: (a) it is not a major storage; (b) it has a storage capacity of 100 million litres or more; (c) it is not used primarily for the precipitation of ash; (d) it is not a mine tailings dam; (e) it is not managed by an urban infrastructure operator primarily for the purpose of flood management or pollution abatement.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "48" ;
     skos:prefLabel "Minor storage"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/State-NGIS-information>
+:State-NGIS-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Any water information in a State's National Groundwater Information System (NGIS) database.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "61" ;
     skos:prefLabel "State NGIS information"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/State-aquifer-framework-information>
+:State-aquifer-framework-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Any water information in the aquifer framework used by a State.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "60" ;
     skos:prefLabel "State aquifer framework information"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/U-code>
+:U-code
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """A detailed component water volumes describing the availability, movement and use of water within urban water systems.  Typically, U code volumes are at the plant or transfer party scale and provide a detailed breakdown of W indicator volumes.
 Source: Category 7 Reporting Handbook"""@en ;
+    skos:inScheme cs: ;
     skos:notation "126" ;
     skos:prefLabel "U code"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/W-indicator>
+:W-indicator
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """A component water volumes describing the availability, movement and use of water within urban water systems. W indicators are the water resources indicators used to compile the urban National Performance Report.  W indicator volumes are at the scale of the urban National Performance Reporting regions.
 Source: Category 7 Reporting Handbook"""@en ;
+    skos:inScheme cs: ;
     skos:notation "146" ;
     skos:prefLabel "W indicator"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/bulk-water-charge>
+:bulk-water-charge
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
@@ -306,443 +303,443 @@ In the Regulation 1.05A, a person is prescribed for the above paragraph (c) if:
 (iv) stock and domestic water use; and
 (b) the water is made available through a bulk water service.
 Source: Derived from Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4 and Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.05A, at 8 February 2019."""@en ;
+    skos:inScheme cs: ;
     skos:notation "3" ;
     skos:prefLabel "bulk water charge"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/bulk-water-service>
+:bulk-water-service
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Means one or more of the following:
 (a) a service that is provided for the storage of water that is primarily stored on-river;
 (b) a service that is provided for the storage of water that is primarily delivered on-river."""@en ;
+    skos:inScheme cs: ;
     skos:notation "4" ;
     skos:prefLabel "bulk water service"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/bulk-water-supplier>
+:bulk-water-supplier
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """An entity who imposes a bulk water charge for a bulk water service.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 4.01A."""@en ;
+    skos:inScheme cs: ;
     skos:notation "5" ;
     skos:prefLabel "bulk water supplier"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/calendar-month>
+:calendar-month
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A period commencing at the beginning of a day of one of the 12 months of the year and ending immediately before the beginning of the corresponding day of the next month or, if there is no such corresponding day, ending at the expiration of the next month.
 Source: Acts Interpretation Act 1901 (http://www.comlaw.gov.au/Details/C2009C00554) Part V 22"""@en ;
+    skos:inScheme cs: ;
     skos:notation "6" ;
     skos:prefLabel "calendar month"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/data-management-system>
+:data-management-system
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The software and hardware used to manage the storage of and access to information held in a set of related files.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "29" ;
     skos:prefLabel "data management system"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/day>
+:day
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A period of 24 hours starting at 12:00 midnight.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.04."""@en ;
+    skos:inScheme cs: ;
     skos:notation "30" ;
     skos:prefLabel "day"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/dewpoint-temperature>
+:dewpoint-temperature
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The temperature to which air must be cooled, at constant pressure and constant moisture content, to reach saturation.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "31" ;
     skos:prefLabel "dewpoint temperature"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/downward-longwave-exposure>
+:downward-longwave-exposure
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The total amount of terrestrial electromagnetic energy that falls on a specified unit horizontal surface.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "32" ;
     skos:prefLabel "downward longwave exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/downward-longwave-irradiance>
+:downward-longwave-irradiance
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The longwave irradiance emitted from the sky that falls on a specified unit horizontal surface.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "33" ;
     skos:prefLabel "downward longwave irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/dry-bulb-air-temperature>
+:dry-bulb-air-temperature
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The temperature of air, measured by a thermometer freely exposed to the air but shielded from radiation and moisture.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "34" ;
     skos:prefLabel "dry bulb air temperature"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/electrical-conductivity>
+:electrical-conductivity
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """In relation to water, means the capacity of the water to transmit a flow of electricity, and is a common measure of the salinity of the water.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "35" ;
     skos:prefLabel "electrical conductivity"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/electronic-format>
+:electronic-format
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A format that is machine readable, but does not include scanned documents.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "36" ;
     skos:prefLabel "electronic format"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/exposure>
+:exposure
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The measure of the energy received per unit area.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "37" ;
     skos:prefLabel "exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/global-solar-exposure>
+:global-solar-exposure
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The total amount of electromagnetic energy emitted from the sun that falls on a specified unit horizontal surface.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "38" ;
     skos:prefLabel "global solar exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/global-solar-irradiance>
+:global-solar-irradiance
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The irradiance emitted from the sun that falls on a specified unit horizontal surface.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "39" ;
     skos:prefLabel "global solar irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/grace-period>
+:grace-period
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The period beginning on the day the person is specified in the new category and ending 3 months after that day.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Subregulation 7.04(1A)."""@en ;
+    skos:inScheme cs: ;
     skos:notation "40" ;
     skos:prefLabel "grace period"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/groundwater>
+:groundwater
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """(a) water occurring naturally below ground level (whether in an aquifer or otherwise) or (b) water occurring at a place below ground that has been pumped, diverted or released to that place for the purpose of being stored there.  It does not include water held in underground tanks, pipes or other works.
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4 at 8 February 2019."""@en ;
+    skos:inScheme cs: ;
     skos:notation "41" ;
     skos:prefLabel "groundwater"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/hour>
+:hour
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A period of 60 minutes starting on the hour (e.g. 12:00).
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.04."""@en ;
+    skos:inScheme cs: ;
     skos:notation "42" ;
     skos:prefLabel "hour"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/irradiance>
+:irradiance
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The measure of the rate of electromagnetic energy received per unit area.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "43" ;
     skos:prefLabel "irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/irrigation-network>
+:irrigation-network
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The water service infrastructure for delivering water for the primary purpose of being used for irrigation.
 Source: Derived from Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 7 at 8 February 2019."""@en ;
+    skos:inScheme cs: ;
     skos:notation "44" ;
     skos:prefLabel "irrigation network"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/irrigation-right>
+:irrigation-right
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A right that: (a) a person has against an irrigation infrastructure operator to receive water and (b) is not a water access right or a water delivery right.
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4 at 8 February 2019."""@en ;
+    skos:inScheme cs: ;
     skos:notation "45" ;
     skos:prefLabel "irrigation right"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/month>
+:month
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """One of the 12 months of the calendar year (e.g. January).
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.04."""@en ;
+    skos:inScheme cs: ;
     skos:notation "49" ;
     skos:prefLabel "month"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-exposure>
+:net-exposure
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The net global solar exposure plus the net longwave exposure.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "50" ;
     skos:prefLabel "net exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-global-solar-exposure>
+:net-global-solar-exposure
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The global solar exposure less the reflected global solar exposure.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "51" ;
     skos:prefLabel "net global solar exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-global-solar-irradiance>
+:net-global-solar-irradiance
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The global solar irradiance less the reflected global solar irradiance.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "52" ;
     skos:prefLabel "net global solar irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-irradiance>
+:net-irradiance
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The net global solar irradiance plus the net longwave irradiance.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "53" ;
     skos:prefLabel "net irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-longwave-exposure>
+:net-longwave-exposure
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The downward longwave exposure less the upward longwave exposure.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "54" ;
     skos:prefLabel "net longwave exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-longwave-irradiance>
+:net-longwave-irradiance
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The downward longwave irradiance less the upward longwave exposure.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "55" ;
     skos:prefLabel "net longwave irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/plant>
+:plant
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A treatment plant, relevant to the particular urban water system, of the reporting organisation.  It includes water treatment plants (WTP), wastewater treatment plants (WWTP) and water reclamation plants (WRP).
 Source: Category 7 Reporting Handbook"""@en ;
+    skos:inScheme cs: ;
     skos:notation "56" ;
     skos:prefLabel "plant"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/reflected-global-solar-exposure>
+:reflected-global-solar-exposure
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The total amount of electromagnetic energy emitted from the sun that is reflected from the ground and irradiates a specified unit horizontal surface from underneath.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "57" ;
     skos:prefLabel "reflected global solar exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/reflected-global-solar-irradiance>
+:reflected-global-solar-irradiance
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """The irradiance emitted from the sun that is reflected from the ground and irradiates a specified unit horizontal surface from underneath.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "58" ;
     skos:prefLabel "reflected global solar irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/self-extract>
+:self-extract
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """To take water directly from a water resource for the use of the person who takes water, but does not include taking water: (a) to provide it to another person, (b) under a stock and domestic right or (c) from an infrastructure operator.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "59" ;
     skos:prefLabel "self extract"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory>
+:subcategory
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition "In relation to water information, means a subcategory of water information sepcified in regulation 7.03 and Schedule 3."@en ;
+    skos:inScheme cs: ;
     skos:notation "62" ;
     skos:prefLabel "subcategory"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/surface-water>
+:surface-water
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Includes: (a) water in a watercourse, lake or wetland and (b) any water flowing over or lying on land: (i) after having precipitated naturally or (ii) after having risen to the surface naturally from underground.
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019."""@en ;
+    skos:inScheme cs: ;
     skos:notation "118" ;
     skos:prefLabel "surface water"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/take>
+:take
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
@@ -753,222 +750,222 @@ Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part
 (d) permitting water to flow from the water resource if the water resource is a well or watercourse;
 and includes storing water as part of, or in a way that is ancillary to, any of the processes or activities referred to in paragraphs (a) to (d).
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019."""@en ;
+    skos:inScheme cs: ;
     skos:notation "119" ;
     skos:prefLabel "take"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/tidal-limit>
+:tidal-limit
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """In relation to a watercourse, the maximum upstream location on that watercourse at which a tidal variation in water-level is observed.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "120" ;
     skos:prefLabel "tidal limit"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/total-nitrogen-concentration>
+:total-nitrogen-concentration
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """In relation to a water sample, the total concentration of all forms of nitrogen found in the water sample, including nitrate, nitrite, ammonia-N and organic forms of nitrogen.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "121" ;
     skos:prefLabel "total nitrogen concentration"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/total-phosphorus-concentration>
+:total-phosphorus-concentration
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """In relation to a water sample, the total concentration of all forms of phosphorus found in the water sample.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "122" ;
     skos:prefLabel "total phosphorus concentration"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/total-suspended-solids>
+:total-suspended-solids
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """In relation to a water sample, the measure of the particles mixed in the water sample.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "123" ;
     skos:prefLabel "total suspended solids"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/transfer-party>
+:transfer-party
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """Another service provider or other operational area within one's own operation.
 Transfer party includes: (i) water utility; (ii) defined operational area of a utility; and (iii) private water manager.
 Source: Category 7 Reporting Handbook"""@en ;
+    skos:inScheme cs: ;
     skos:notation "124" ;
     skos:prefLabel "transfer party"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/turbidity>
+:turbidity
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """Means the measure of the light scattering properties of water, and is an indicator of the presence of suspended solids.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "125" ;
     skos:prefLabel "turbidity"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/upward-longwave-exposure>
+:upward-longwave-exposure
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The total amount of terrestrial electromagnetic energy emitted from the Earth's surface that irradiates a specified unit horizontal surface from underneath.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "127" ;
     skos:prefLabel "upward longwave exposure"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/upward-longwave-irradiance>
+:upward-longwave-irradiance
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The longwave irradiance emitted from the Earth's surface that irradiates a specified unit horizontal surface from underneath.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "128" ;
     skos:prefLabel "upward longwave irradiance"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/urban-recycled-water-information>
+:urban-recycled-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """Information about the treatment and reuse of urban wastewater.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "129" ;
     skos:prefLabel "urban recycled water information"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/urban-stormwater-information>
+:urban-stormwater-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """Information about water in the urban water stormwater drainage system.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "130" ;
     skos:prefLabel "urban stormwater information"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/urban-wastewater-information>
+:urban-wastewater-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """Information about wastewater that is disposed of through a sewerage system.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "131" ;
     skos:prefLabel "urban wastewater information"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/urban-water-supply-information>
+:urban-water-supply-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """Information about water supplied by urban water utilities.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "132" ;
     skos:prefLabel "urban water supply information"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/vapour-pressure-deficit>
+:vapour-pressure-deficit
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The difference between the amount of moisture in the air and how much moisture the air can hold when it is saturated.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "133" ;
     skos:prefLabel "vapour pressure deficit"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/wastewater-treatment-plant-WWTP>
+:wastewater-treatment-plant-WWTP
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The general name given to a plant used to treat wastewater collected through the urban wastewater system to meet quality requirements for effluent discharge to receiving waterways or land based re-use.
 Source: Category 7 Reporting Handbook"""@en ;
+    skos:inScheme cs: ;
     skos:notation "134" ;
     skos:prefLabel "wastewater treatment plant (WWTP)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-connection>
+:water-connection
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition "A distribution point for a water service provided to an end user."@en ;
+    skos:inScheme cs: ;
     skos:notation "135" ;
     skos:prefLabel "water connection"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-equivalent-precipitation>
+:water-equivalent-precipitation
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The depth of water that would result if solid precipitation were melted.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "137" ;
     skos:prefLabel "water-equivalent precipitation"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-information>
+:water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
@@ -978,14 +975,14 @@ Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L0217
 (b) any metadata relating to data of a kind referred to in paragraph (a);
 and includes contextual information relating to water (such as land use information, geological information and ecological information).
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 7 Section 125, at 8 February 2019."""@en ;
+    skos:inScheme cs: ;
     skos:notation "138" ;
     skos:prefLabel "water information"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-management-area>
+:water-management-area
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
@@ -997,53 +994,53 @@ Note: The following are examples of water management areas:
 (d) water sources;
 (e) sustainable diversion limit resource units.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "139" ;
     skos:prefLabel "water management area"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-reclamation-plant-WRP>
+:water-reclamation-plant-WRP
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The general name given to a plant used to treated wastewater treatment plant effluent for recycling.
 Source: Category 7 Reporting Handbook"""@en ;
+    skos:inScheme cs: ;
     skos:notation "140" ;
     skos:prefLabel "water reclamation plant (WRP)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-storage>
+:water-storage
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """A body of water that is naturally occurring, is impounded by a constructed barrier or is within an excavation, and includes ponds, swamps, lakes, wetlands, weirs, dams, basins, reservoirs and open pits.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "141" ;
     skos:prefLabel "water storage"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-treatment-plant-WTP>
+:water-treatment-plant-WTP
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The general name given to a plant typically used to treat water sourced from surface or groundwater for supply into the urban water system.
 Source: Category 7 Reporting Handbook"""@en ;
+    skos:inScheme cs: ;
     skos:notation "142" ;
     skos:prefLabel "water treatment plant (WTP)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/watercourse>
+:watercourse
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
@@ -1054,1209 +1051,1207 @@ Source: Category 7 Reporting Handbook"""@en ;
 (iv) part of a watercourse; and
 (v) an estuary through which water flows
 Source: Based on content from the Federal Register of Legislation (https://www.legislation.gov.au/Details/C2018C00505), at 8 February 2019."""@en ;
+    skos:inScheme cs: ;
     skos:notation "136" ;
     skos:prefLabel "watercourse"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/web-service>
+:web-service
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """A software system designed to support machine-to-machine interaction, in which the machines are capable of being used or operated reciprocally over a network of computers.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.03."""@en ;
+    skos:inScheme cs: ;
     skos:notation "143" ;
     skos:prefLabel "web service"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/week>
+:week
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """A period of seven consecutive days starting on the first moment of a Monday and finishing at the end of the following Sunday.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.04."""@en ;
+    skos:inScheme cs: ;
     skos:notation "144" ;
     skos:prefLabel "week"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/wet-bulb-air-temperature>
+:wet-bulb-air-temperature
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The temperature of air measured by a thermometer that has its bulb wrapped in wet muslin.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "145" ;
     skos:prefLabel "wet bulb air temperature"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/wind-run>
+:wind-run
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The product of the average wind speed and the period over which that average speed was measured.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 1."""@en ;
+    skos:inScheme cs: ;
     skos:notation "147" ;
     skos:prefLabel "wind run"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/year>
+:year
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """The financial year.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Regulation 1.04."""@en ;
+    skos:inScheme cs: ;
     skos:notation "148" ;
     skos:prefLabel "year"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:topConceptOf cs: ;
 .
 
-skos:related
-    a
-        rdf:Property ,
-        rdfs:Resource ;
-    rdfs:subPropertyOf skos:related ;
-.
-
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-8-water-information>
+:Category-8-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Information about water restrictions
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 9."""@en ;
+    skos:inScheme cs: ;
     skos:notation "15" ;
     skos:prefLabel "Category 8 water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-8a-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :subcategory-8a-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-11a-water-information>
+:subcategory-11a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Level of a watercourse, expressed in metres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 11."""@en ;
+    skos:inScheme cs: ;
     skos:notation "115" ;
     skos:prefLabel "subcategory 11a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-11-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-11-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-11b-water-information>
+:subcategory-11b-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Discharge of a watercourse, expressed in cumecs.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 11."""@en ;
+    skos:inScheme cs: ;
     skos:notation "116" ;
     skos:prefLabel "subcategory 11b water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-11-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-11-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-11c-water-information>
+:subcategory-11c-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Accumulated precipitation depth, including water-equivalent precipitation depth, expressed in millimetres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 11."""@en ;
+    skos:inScheme cs: ;
     skos:notation "117" ;
     skos:prefLabel "subcategory 11c water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-11-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-11-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-1a-water-information>
+:subcategory-1a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Level of a watercourse (other than a water storage), expressed in metres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 2."""@en ;
+    skos:inScheme cs: ;
     skos:notation "63" ;
     skos:prefLabel "subcategory 1a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-1-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-1-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-1b-water-information>
+:subcategory-1b-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Discharge of a watercourse (other than a water storage), expressed in cumecs.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 2."""@en ;
+    skos:inScheme cs: ;
     skos:notation "64" ;
     skos:prefLabel "subcategory 1b water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-1-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-1-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2a-water-information>
+:subcategory-2a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Ground water level, expressed in metres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 3."""@en ;
+    skos:inScheme cs: ;
     skos:notation "65" ;
     skos:prefLabel "subcategory 2a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-2-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-2-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2b-water-information>
+:subcategory-2b-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Ground water pressure, expressed in kilopascals.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 3."""@en ;
+    skos:inScheme cs: ;
     skos:notation "66" ;
     skos:prefLabel "subcategory 2b water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-2-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-2-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2d-water-information>
+:subcategory-2d-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """State aquifer framework information
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 3."""@en ;
+    skos:inScheme cs: ;
     skos:notation "67" ;
     skos:prefLabel "subcategory 2d water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-2-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-2-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2e-water-information>
+:subcategory-2e-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """State NGIS information
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 3."""@en ;
+    skos:inScheme cs: ;
     skos:notation "68" ;
     skos:prefLabel "subcategory 2e water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-2-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-2-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3a-water-information>
+:subcategory-3a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Level of water in a major storage, expressed in metres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 4."""@en ;
+    skos:inScheme cs: ;
     skos:notation "69" ;
     skos:prefLabel "subcategory 3a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-3-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-3-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3b-water-information>
+:subcategory-3b-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of water in a major storage, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 4."""@en ;
+    skos:inScheme cs: ;
     skos:notation "70" ;
     skos:prefLabel "subcategory 3b water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-3-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-3-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3c-water-information>
+:subcategory-3c-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of water released from a major storage, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 4."""@en ;
+    skos:inScheme cs: ;
     skos:notation "71" ;
     skos:prefLabel "subcategory 3c water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-3-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-3-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3d-water-information>
+:subcategory-3d-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """Total volume of water delivered to a major storage, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 4."""@en ;
+    skos:inScheme cs: ;
     skos:notation "72" ;
     skos:prefLabel "subcategory 3d water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-3-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-3-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3da-water-information>
+:subcategory-3da-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """Volume of water delivered to a major storage from each water source, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 4."""@en ;
+    skos:inScheme cs: ;
     skos:notation "73" ;
     skos:prefLabel "subcategory 3da water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-3-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-3-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3e-water-information>
+:subcategory-3e-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of water in a minor storage, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 4."""@en ;
+    skos:inScheme cs: ;
     skos:notation "74" ;
     skos:prefLabel "subcategory 3e water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-3-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-3-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3f-water-information>
+:subcategory-3f-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """A list of major storages owned, operated or regulated by the person required to give the information.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 4."""@en ;
+    skos:inScheme cs: ;
     skos:notation "75" ;
     skos:prefLabel "subcategory 3f water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-3-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-3-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4a-water-information>
+:subcategory-4a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Accumulated precipitation depth, including the water-equivalent precipitation depth, expressed in millimetres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "76" ;
     skos:prefLabel "subcategory 4a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4b-water-information>
+:subcategory-4b-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Wind speed (expressed in metres per second), wind direction and wind run (expressed in kilometres over a specified period).
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "77" ;
     skos:prefLabel "subcategory 4b water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4c-water-information>
+:subcategory-4c-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Evaporation, expressed in millimetres per day.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "78" ;
     skos:prefLabel "subcategory 4c water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4d-water-information>
+:subcategory-4d-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Global solar exposure, reflected global solar exposure, downward longwave exposure, upward longwave exposure and net exposure, each expressed in joules per square metre.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "79" ;
     skos:prefLabel "subcategory 4d water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4e-water-information>
+:subcategory-4e-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Global solar irradiance, reflected global solar irradiance, downward longwave irradiance, upward longwave irradiance and net irradiance, each expressed in watts per square metre.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "80" ;
     skos:prefLabel "subcategory 4e water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4f-water-information>
+:subcategory-4f-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Dry-bulb air temperature, expressed in degrees Celsius.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "81" ;
     skos:prefLabel "subcategory 4f water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4g-water-information>
+:subcategory-4g-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Wet-bulb air temperature, expressed in degrees Celsius.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "82" ;
     skos:prefLabel "subcategory 4g water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4h-water-information>
+:subcategory-4h-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Relative humidity, expressed as a percentage.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "83" ;
     skos:prefLabel "subcategory 4h water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4i-water-information>
+:subcategory-4i-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Vapour pressure deficit, expressed in millibars.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "84" ;
     skos:prefLabel "subcategory 4i water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4j-water-information>
+:subcategory-4j-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Dewpoint temperature, expressed in degrees Celsius.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "85" ;
     skos:prefLabel "subcategory 4j water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-4-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5a-water-information>
+:subcategory-5a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Total volume of surface water take in each water management area, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 6."""@en ;
+    skos:inScheme cs: ;
     skos:notation "86" ;
     skos:prefLabel "subcategory 5a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-5-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5b-water-information>
+:subcategory-5b-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of surface water take for irrigation networks in each water management area, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 6."""@en ;
+    skos:inScheme cs: ;
     skos:notation "87" ;
     skos:prefLabel "subcategory 5b water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-5-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5c-water-information>
+:subcategory-5c-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of surface water returned from irrigation networks to a watercourse in each water management area, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 6."""@en ;
+    skos:inScheme cs: ;
     skos:notation "88" ;
     skos:prefLabel "subcategory 5c water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-5-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5d-water-information>
+:subcategory-5d-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of surface water take (excluding take for irrigation networks) in each water management area, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 6."""@en ;
+    skos:inScheme cs: ;
     skos:notation "89" ;
     skos:prefLabel "subcategory 5d water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-5-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5e-water-information>
+:subcategory-5e-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of water delivered to a surface water resource through inter-basin transfer (excluding transfers relating to water trades) in each water management area, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 6."""@en ;
+    skos:inScheme cs: ;
     skos:notation "90" ;
     skos:prefLabel "subcategory 5e water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-5-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5f-water-information>
+:subcategory-5f-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of ground water extracted under each ground water licence, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 6."""@en ;
+    skos:inScheme cs: ;
     skos:notation "91" ;
     skos:prefLabel "subcategory 5f water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-5-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5g-water-information>
+:subcategory-5g-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of ground water extracted under each water management area, otherwise than under a ground water licence, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 6."""@en ;
+    skos:inScheme cs: ;
     skos:notation "92" ;
     skos:prefLabel "subcategory 5g water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-5-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5h-water-information>
+:subcategory-5h-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Volume of water delivered to a ground water resource for aquifer replenishment in each water management area, expressed in megalitres.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 6."""@en ;
+    skos:inScheme cs: ;
     skos:notation "93" ;
     skos:prefLabel "subcategory 5h water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-5-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6a-water-information>
+:subcategory-6a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Water access rights
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 7."""@en ;
+    skos:inScheme cs: ;
     skos:notation "94" ;
     skos:prefLabel "subcategory 6a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-6-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-6-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6b-water-information>
+:subcategory-6b-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Trades or leases of Australian water access entitlements and irrigation rights
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 7."""@en ;
+    skos:inScheme cs: ;
     skos:notation "95" ;
     skos:prefLabel "subcategory 6b water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-6-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-6-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6c-water-information>
+:subcategory-6c-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Trades of Australian water allocations
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 7."""@en ;
+    skos:inScheme cs: ;
     skos:notation "96" ;
     skos:prefLabel "subcategory 6c water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-6-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-6-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6d-water-information>
+:subcategory-6d-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Formal announcements of Australian water allocations
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 7."""@en ;
+    skos:inScheme cs: ;
     skos:notation "97" ;
     skos:prefLabel "subcategory 6d water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-6-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-6-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6e-water-information>
+:subcategory-6e-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Permits to operate or construct a minor storage
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 7."""@en ;
+    skos:inScheme cs: ;
     skos:notation "98" ;
     skos:prefLabel "subcategory 6e water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-6-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-6-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6f-water-information>
+:subcategory-6f-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Permits to self extract water from a bore
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 7."""@en ;
+    skos:inScheme cs: ;
     skos:notation "99" ;
     skos:prefLabel "subcategory 6f water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-6-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-6-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6g-water-information>
+:subcategory-6g-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Permits to self extract water from a watercourse
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 7."""@en ;
+    skos:inScheme cs: ;
     skos:notation "100" ;
     skos:prefLabel "subcategory 6g water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-6-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-6-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7a-water-information>
+:subcategory-7a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Urban water supply information, provided as volumes and expressed in megalitres, of a kind specified for the purposes of this item in the document titled Urban Water Management Information Requirements (http://www.bom.gov.au/water/regulations/schedules/urbanWater.shtml) (see Regulation 1.06).
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 8."""@en ;
+    skos:inScheme cs: ;
     skos:notation "101" ;
     skos:prefLabel "subcategory 7a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-7-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-7-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7b-water-information>
+:subcategory-7b-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Urban wastewater information, provided as volumes and expressed in megalitres, of a kind specified for the purposes of this item in the document titled Urban Water Management Information Requirements (http://www.bom.gov.au/water/regulations/schedules/urbanWater.shtml) (see Regulation 1.06).
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 8."""@en ;
+    skos:inScheme cs: ;
     skos:notation "102" ;
     skos:prefLabel "subcategory 7b water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-7-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-7-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7c-water-information>
+:subcategory-7c-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Urban recycled water information, provided as volumes and expressed in megalitres, of a kind specified for the purposes of this item in the document titled Urban Water Management Information Requirements (http://www.bom.gov.au/water/regulations/schedules/urbanWater.shtml) (see Regulation 1.06).
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 8."""@en ;
+    skos:inScheme cs: ;
     skos:notation "103" ;
     skos:prefLabel "subcategory 7c water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-7-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-7-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7d-water-information>
+:subcategory-7d-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Urban stormwater information, provided as volumes and expressed in megalitres, of a kind specified for the purposes of this item in the document titled Urban Water Management Information Requirements (http://www.bom.gov.au/water/regulations/schedules/urbanWater.shtml) (see Regulation 1.06).
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 8."""@en ;
+    skos:inScheme cs: ;
     skos:notation "104" ;
     skos:prefLabel "subcategory 7d water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-7-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-7-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-8a-water-information>
+:subcategory-8a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Water use restriction announcements
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 9."""@en ;
+    skos:inScheme cs: ;
     skos:notation "105" ;
     skos:prefLabel "subcategory 8a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-8-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-8-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9a-water-information>
+:subcategory-9a-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Electrical conductivity of surface water above the tidal limit of a watercourse, expressed in microsiemens per centimetre at 25 °C.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "106" ;
     skos:prefLabel "subcategory 9a water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-9-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9b-water-information>
+:subcategory-9b-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Electrical conductivity of ground water, expressed in microsiemens per centimetre at 25 °C.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "107" ;
     skos:prefLabel "subcategory 9b water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-9-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9c-water-information>
+:subcategory-9c-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Total suspended solids concentration of surface water collected above the tidal limit of a watercourse, expressed in milligrams per litre.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "108" ;
     skos:prefLabel "subcategory 9c water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-9-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9d-water-information>
+:subcategory-9d-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Turbidity of surface water above the tidal limit of a watercourse, expressed in nephelometric turbidity units.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "109" ;
     skos:prefLabel "subcategory 9d water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-9-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9e-water-information>
+:subcategory-9e-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Total phosphorus concentration of a surface water sample collected above the tidal limit of a watercourse, expressed in milligrams per litre.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "110" ;
     skos:prefLabel "subcategory 9e water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-9-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9f-water-information>
+:subcategory-9f-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Total nitrogen concentration of a surface water sample collected above the tidal limit of a watercourse, expressed in milligrams per litre.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "111" ;
     skos:prefLabel "subcategory 9f water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-9-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9g-water-information>
+:subcategory-9g-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """pH of surface water collected above the tidal limit of a watercourse
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "112" ;
     skos:prefLabel "subcategory 9g water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-9-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9ga-water-information>
+:subcategory-9ga-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-19"^^xsd:date ;
     skos:definition """pH of ground water
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "113" ;
     skos:prefLabel "subcategory 9ga water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-9-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9h-water-information>
+:subcategory-9h-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Temperature of surface water collected above the tidal limit of a watercourse, expressed in degrees Celsius.
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "114" ;
     skos:prefLabel "subcategory 9h water information"@en ;
-    skos:related <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+    skos:related :Category-9-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-1-water-information>
+:Category-1-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Surface water resource information
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 2."""@en ;
+    skos:inScheme cs: ;
     skos:notation "8" ;
     skos:prefLabel "Category 1 water information"@en ;
     skos:related
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-1a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-1b-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+        :subcategory-1a-water-information ,
+        :subcategory-1b-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-11-water-information>
+:Category-11-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Water information for flood warning purposes
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 11."""@en ;
+    skos:inScheme cs: ;
     skos:notation "17" ;
     skos:prefLabel "Category 11 water information"@en ;
     skos:related
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-11a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-11b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-11c-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+        :subcategory-11a-water-information ,
+        :subcategory-11b-water-information ,
+        :subcategory-11c-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-2-water-information>
+:Category-2-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Ground water resource information
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 3."""@en ;
+    skos:inScheme cs: ;
     skos:notation "9" ;
     skos:prefLabel "Category 2 water information"@en ;
     skos:related
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2e-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+        :subcategory-2a-water-information ,
+        :subcategory-2b-water-information ,
+        :subcategory-2d-water-information ,
+        :subcategory-2e-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-7-water-information>
+:Category-7-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Information about urban water management
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 8."""@en ;
+    skos:inScheme cs: ;
     skos:notation "14" ;
     skos:prefLabel "Category 7 water information"@en ;
     skos:related
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7d-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+        :subcategory-7a-water-information ,
+        :subcategory-7b-water-information ,
+        :subcategory-7c-water-information ,
+        :subcategory-7d-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-3-water-information>
+:Category-3-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Water storage information
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 4."""@en ;
+    skos:inScheme cs: ;
     skos:notation "10" ;
     skos:prefLabel "Category 3 water information"@en ;
     skos:related
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3da-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3f-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+        :subcategory-3a-water-information ,
+        :subcategory-3b-water-information ,
+        :subcategory-3c-water-information ,
+        :subcategory-3d-water-information ,
+        :subcategory-3da-water-information ,
+        :subcategory-3e-water-information ,
+        :subcategory-3f-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-6-water-information>
+:Category-6-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Information about water rights, allocations and trades
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 7."""@en ;
+    skos:inScheme cs: ;
     skos:notation "13" ;
     skos:prefLabel "Category 6 water information"@en ;
     skos:related
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6f-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6g-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+        :subcategory-6a-water-information ,
+        :subcategory-6b-water-information ,
+        :subcategory-6c-water-information ,
+        :subcategory-6d-water-information ,
+        :subcategory-6e-water-information ,
+        :subcategory-6f-water-information ,
+        :subcategory-6g-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information>
+:Category-5-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Water use information
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 6."""@en ;
+    skos:inScheme cs: ;
     skos:notation "12" ;
     skos:prefLabel "Category 5 water information"@en ;
     skos:related
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5f-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5g-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5h-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+        :subcategory-5a-water-information ,
+        :subcategory-5b-water-information ,
+        :subcategory-5c-water-information ,
+        :subcategory-5d-water-information ,
+        :subcategory-5e-water-information ,
+        :subcategory-5f-water-information ,
+        :subcategory-5g-water-information ,
+        :subcategory-5h-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information>
+:Category-9-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Water quality information
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 10."""@en ;
+    skos:inScheme cs: ;
     skos:notation "16" ;
     skos:prefLabel "Category 9 water information"@en ;
     skos:related
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9f-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9g-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9ga-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9h-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
+        :subcategory-9a-water-information ,
+        :subcategory-9b-water-information ,
+        :subcategory-9c-water-information ,
+        :subcategory-9d-water-information ,
+        :subcategory-9e-water-information ,
+        :subcategory-9f-water-information ,
+        :subcategory-9g-water-information ,
+        :subcategory-9ga-water-information ,
+        :subcategory-9h-water-information ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information>
+:Category-4-water-information
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2020-05-18"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2020-05-18"^^xsd:date ;
     skos:definition """Meteorological information
 Source: Water Regulations 2008 (https://www.legislation.gov.au/Series/F2008L02170) Schedule 3 Part 5."""@en ;
+    skos:inScheme cs: ;
     skos:notation "11" ;
     skos:prefLabel "Category 4 water information"@en ;
     skos:related
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4f-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4g-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4h-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4i-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4j-water-information> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms> ;
-.
-
-<http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms>
-    a skos:ConceptScheme ;
-    dcterms:created "2020-05-18"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/neii> ;
-    dcterms:issued "2020-06-11" ;
-    dcterms:title "Water Regulations 2008 water information terms"@en ;
-    owl:versionInfo "Version 1" ;
-    skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Australian-water-access-entitlement> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Australian-water-allocation> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-1-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-11-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-2-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-3-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-4-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-5-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-6-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-7-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-8-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-9-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-A-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-B-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-C-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-D-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-E-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-F-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-G-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-H-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-K-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-L-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Category-M-person> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Irrigation-water-scheme> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Major-storage> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Minor-storage> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/State-NGIS-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/State-aquifer-framework-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/U-code> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/W-indicator> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/bulk-water-charge> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/bulk-water-service> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/bulk-water-supplier> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/calendar-month> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/data-management-system> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/day> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/dewpoint-temperature> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/downward-longwave-exposure> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/downward-longwave-irradiance> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/dry-bulb-air-temperature> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/electrical-conductivity> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/electronic-format> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/exposure> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/global-solar-exposure> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/global-solar-irradiance> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/grace-period> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/groundwater> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/hour> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/irradiance> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/irrigation-network> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/irrigation-right> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/month> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-exposure> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-global-solar-exposure> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-global-solar-irradiance> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-irradiance> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-longwave-exposure> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/net-longwave-irradiance> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/plant> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/reflected-global-solar-exposure> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/reflected-global-solar-irradiance> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/self-extract> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-11a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-11b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-11c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-1a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-1b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-2e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3da-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-3f-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4f-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4g-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4h-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4i-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-4j-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5f-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5g-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-5h-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6f-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-6g-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-7d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-8a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9a-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9b-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9c-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9d-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9e-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9f-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9g-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9ga-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/subcategory-9h-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/surface-water> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/take> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/tidal-limit> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/total-nitrogen-concentration> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/total-phosphorus-concentration> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/total-suspended-solids> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/transfer-party> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/turbidity> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/upward-longwave-exposure> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/upward-longwave-irradiance> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/urban-recycled-water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/urban-stormwater-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/urban-wastewater-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/urban-water-supply-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/vapour-pressure-deficit> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/wastewater-treatment-plant-WWTP> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-connection> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-equivalent-precipitation> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-information> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-management-area> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-reclamation-plant-WRP> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-storage> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/water-treatment-plant-WTP> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/watercourse> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/web-service> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/week> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/wet-bulb-air-temperature> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/wind-run> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/year> ;
+        :subcategory-4a-water-information ,
+        :subcategory-4b-water-information ,
+        :subcategory-4c-water-information ,
+        :subcategory-4d-water-information ,
+        :subcategory-4e-water-information ,
+        :subcategory-4f-water-information ,
+        :subcategory-4g-water-information ,
+        :subcategory-4h-water-information ,
+        :subcategory-4i-water-information ,
+        :subcategory-4j-water-information ;
+    skos:topConceptOf cs: ;
 .
 
 <https://linked.data.gov.au/org/neii>
     a
         dcterms:Agent ,
         schema:Organization ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name "NEII" ;
+    schema:name "National Environmental Information Infrastructure" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2020-05-18"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2020-06-11" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/neii> ;
+    owl:versionInfo "Version 1" ;
+    skos:definition "Water Regulations 2008 water information terms"@en ;
+    skos:hasTopConcept
+        :Australian-water-access-entitlement ,
+        :Australian-water-allocation ,
+        :Category ,
+        :Category-1-water-information ,
+        :Category-11-water-information ,
+        :Category-2-water-information ,
+        :Category-3-water-information ,
+        :Category-4-water-information ,
+        :Category-5-water-information ,
+        :Category-6-water-information ,
+        :Category-7-water-information ,
+        :Category-8-water-information ,
+        :Category-9-water-information ,
+        :Category-A-person ,
+        :Category-B-person ,
+        :Category-C-person ,
+        :Category-D-person ,
+        :Category-E-person ,
+        :Category-F-person ,
+        :Category-G-person ,
+        :Category-H-person ,
+        :Category-K-person ,
+        :Category-L-person ,
+        :Category-M-person ,
+        :Irrigation-water-scheme ,
+        :Major-storage ,
+        :Minor-storage ,
+        :State-NGIS-information ,
+        :State-aquifer-framework-information ,
+        :U-code ,
+        :W-indicator ,
+        :bulk-water-charge ,
+        :bulk-water-service ,
+        :bulk-water-supplier ,
+        :calendar-month ,
+        :data-management-system ,
+        :day ,
+        :dewpoint-temperature ,
+        :downward-longwave-exposure ,
+        :downward-longwave-irradiance ,
+        :dry-bulb-air-temperature ,
+        :electrical-conductivity ,
+        :electronic-format ,
+        :exposure ,
+        :global-solar-exposure ,
+        :global-solar-irradiance ,
+        :grace-period ,
+        :groundwater ,
+        :hour ,
+        :irradiance ,
+        :irrigation-network ,
+        :irrigation-right ,
+        :month ,
+        :net-exposure ,
+        :net-global-solar-exposure ,
+        :net-global-solar-irradiance ,
+        :net-irradiance ,
+        :net-longwave-exposure ,
+        :net-longwave-irradiance ,
+        :plant ,
+        :reflected-global-solar-exposure ,
+        :reflected-global-solar-irradiance ,
+        :self-extract ,
+        :subcategory ,
+        :subcategory-11a-water-information ,
+        :subcategory-11b-water-information ,
+        :subcategory-11c-water-information ,
+        :subcategory-1a-water-information ,
+        :subcategory-1b-water-information ,
+        :subcategory-2a-water-information ,
+        :subcategory-2b-water-information ,
+        :subcategory-2d-water-information ,
+        :subcategory-2e-water-information ,
+        :subcategory-3a-water-information ,
+        :subcategory-3b-water-information ,
+        :subcategory-3c-water-information ,
+        :subcategory-3d-water-information ,
+        :subcategory-3da-water-information ,
+        :subcategory-3e-water-information ,
+        :subcategory-3f-water-information ,
+        :subcategory-4a-water-information ,
+        :subcategory-4b-water-information ,
+        :subcategory-4c-water-information ,
+        :subcategory-4d-water-information ,
+        :subcategory-4e-water-information ,
+        :subcategory-4f-water-information ,
+        :subcategory-4g-water-information ,
+        :subcategory-4h-water-information ,
+        :subcategory-4i-water-information ,
+        :subcategory-4j-water-information ,
+        :subcategory-5a-water-information ,
+        :subcategory-5b-water-information ,
+        :subcategory-5c-water-information ,
+        :subcategory-5d-water-information ,
+        :subcategory-5e-water-information ,
+        :subcategory-5f-water-information ,
+        :subcategory-5g-water-information ,
+        :subcategory-5h-water-information ,
+        :subcategory-6a-water-information ,
+        :subcategory-6b-water-information ,
+        :subcategory-6c-water-information ,
+        :subcategory-6d-water-information ,
+        :subcategory-6e-water-information ,
+        :subcategory-6f-water-information ,
+        :subcategory-6g-water-information ,
+        :subcategory-7a-water-information ,
+        :subcategory-7b-water-information ,
+        :subcategory-7c-water-information ,
+        :subcategory-7d-water-information ,
+        :subcategory-8a-water-information ,
+        :subcategory-9a-water-information ,
+        :subcategory-9b-water-information ,
+        :subcategory-9c-water-information ,
+        :subcategory-9d-water-information ,
+        :subcategory-9e-water-information ,
+        :subcategory-9f-water-information ,
+        :subcategory-9g-water-information ,
+        :subcategory-9ga-water-information ,
+        :subcategory-9h-water-information ,
+        :surface-water ,
+        :take ,
+        :tidal-limit ,
+        :total-nitrogen-concentration ,
+        :total-phosphorus-concentration ,
+        :total-suspended-solids ,
+        :transfer-party ,
+        :turbidity ,
+        :upward-longwave-exposure ,
+        :upward-longwave-irradiance ,
+        :urban-recycled-water-information ,
+        :urban-stormwater-information ,
+        :urban-wastewater-information ,
+        :urban-water-supply-information ,
+        :vapour-pressure-deficit ,
+        :wastewater-treatment-plant-WWTP ,
+        :water-connection ,
+        :water-equivalent-precipitation ,
+        :water-information ,
+        :water-management-area ,
+        :water-reclamation-plant-WRP ,
+        :water-storage ,
+        :water-treatment-plant-WTP ,
+        :watercourse ,
+        :web-service ,
+        :week ,
+        :wet-bulb-air-temperature ,
+        :wind-run ,
+        :year ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/Water-Regulations-2008-water-information-terms for the ConceptScheme and http://www.neii.gov.au/def/voc/waterprogram/water-regulations-2008-water-information-terms/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "Water Regulations 2008 water information terms"@en ;
 .

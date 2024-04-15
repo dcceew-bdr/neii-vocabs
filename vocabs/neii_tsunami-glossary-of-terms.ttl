@@ -1,19 +1,13 @@
 PREFIX : <https://linked.data.gov.au/def/tsunami-glossary-of-terms/>
 PREFIX cs: <https://linked.data.gov.au/def/tsunami-glossary-of-terms>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX old: <http://www.neii.gov.au/def/voc/OSO/tsunami-glossary-of-terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:Tsunami-Glossary-of-Terms
-    owl:sameAs cs: ;
-.
-
 :Bathymetry
     a skos:Concept ;
-    dcterms:replaces old:Bathymetry ;
     skos:definition "The measurement of the depth of the ocean floor from the water surface and is the oceanic equivalent of topography."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bathymetry"@en ;
@@ -22,7 +16,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Inundation
     a skos:Concept ;
-    dcterms:replaces old:Inundation ;
     skos:definition "The horizontal extent of flooding from the sea."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Inundation"@en ;
@@ -31,7 +24,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Moment-Magnitude-Mw
     a skos:Concept ;
-    dcterms:replaces old:Moment-Magnitude-Mw ;
     skos:definition "A measure of the energy release by an earthquake.  There are a number of different scales for measuring the magnitude.  The Moment Magnitude is based on the size and characteristics of the fault rupture, and can be determined from long-period seismic waves."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Moment Magnitude (Mw)"@en ;
@@ -41,7 +33,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :Run-up
     a skos:Concept ;
     dcterms:created "2020-10-08"^^xsd:date ;
-    dcterms:replaces old:Run-up ;
     skos:definition "The maximum height of the water onshore observed above a reference sea level. Run-up is usually measured at the horizontal inundation limit."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Run-up"@en ;
@@ -51,7 +42,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :Seismic
     a skos:Concept ;
     dcterms:created "2020-10-08"^^xsd:date ;
-    dcterms:replaces old:Seismic ;
     skos:definition "Of or having to do with earthquakes."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Seismic"@en ;
@@ -61,7 +51,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :Subduction-zone
     a skos:Concept ;
     dcterms:created "2020-10-08"^^xsd:date ;
-    dcterms:replaces old:Subduction-zone ;
     skos:definition "An area on the Earth where two tectonic plates meet and move towards one another, with one sliding underneath the other and moving down into the earth at rates typically measured in centimetres per year."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Subduction zone"@en ;
@@ -71,7 +60,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :Wave-amplitude
     a skos:Concept ;
     dcterms:created "2020-10-08"^^xsd:date ;
-    dcterms:replaces old:Wave-amplitude ;
     skos:definition "This is quoted as half the wave height.  It should be recognised that tsunami waves are typically not symmetrical."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Wave amplitude"@en ;
@@ -80,7 +68,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Wave-height
     a skos:Concept ;
-    dcterms:replaces old:Wave-height ;
     skos:definition "The vertical distance between the trough and the crest of a wave."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Wave height"@en ;
@@ -89,7 +76,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Wave-period
     a skos:Concept ;
-    dcterms:replaces old:Wave-period ;
     skos:definition "The time taken for a one wavelength to pass a given point."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Wave period"@en ;
@@ -98,7 +84,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :Wavelength
     a skos:Concept ;
-    dcterms:replaces old:Wavelength ;
     skos:definition "The mean horizontal distance between successive crests or troughs of a wave pattern."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Wavelength"@en ;
@@ -114,10 +99,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 cs:
     a skos:ConceptScheme ;
     dcterms:created "2020-10-08"^^xsd:date ;
+    dcterms:issued "2020-10-09"^^xsd:date ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
     owl:versionIRI :2.0 ;
     owl:versionInfo "Version 2" ;
-    skos:definition """A tsunami is a series of ocean waves with very long wavelengths (typically hundreds of kilometres) caused by large-scale disturbances of the ocean, such as: earthquakes; landslide; volcanic eruptions; explosions; meteorites. These disturbances can either be from below (e.g. underwater earthquakes with large vertical displacements, submarine landslides) or from above (e.g. meteorite impacts).\r\r\r\r\r
-Tsunami is a Japanese word with the English translation: "harbour wave".\r\r\r\r\r
+    skos:definition """A tsunami is a series of ocean waves with very long wavelengths (typically hundreds of kilometres) caused by large-scale disturbances of the ocean, such as: earthquakes; landslide; volcanic eruptions; explosions; meteorites. These disturbances can either be from below (e.g. underwater earthquakes with large vertical displacements, submarine landslides) or from above (e.g. meteorite impacts).
+Tsunami is a Japanese word with the English translation: "harbour wave".
 This vocabulary contains words relating to a tsunami."""@en ;
     skos:hasTopConcept
         :Bathymetry ,
@@ -130,10 +117,10 @@ This vocabulary contains words relating to a tsunami."""@en ;
         :Wave-height ,
         :Wave-period ,
         :Wavelength ;
-    skos:historyNote "This vocabulary was originally created in 202 using NEII identifiers (IRIs). In Feb 2024 it has been updated to use linked.data.gov.au identifiers but the content has not been changed. Correspondences to previous identifiers have been added with dcterms:replaces predicates" ;
+    skos:historyNote
+        "2024-04: IRIs changed from https://linked.data.gov.au/def/tsunami-glossary-of-terms for the ConceptScheme and https://linked.data.gov.au/def/tsunami-glossary-of-terms/ for the Concept namespace to linked.data.gov.au-based IRIs" ,
+        "This vocabulary was originally created in 202 using NEII identifiers (IRIs). In Feb 2024 it has been updated to use linked.data.gov.au identifiers but the content has not been changed. Correspondences to previous identifiers have been added with dcterms:replaces predicates" ;
     skos:prefLabel "Tsunami Glossary of Terms"@en ;
     schema:creator <https://linked.data.gov.au/org/neii> ;
-    schema:dateIssued "2020-10-09"^^xsd:date ;
-    schema:dateModified "2024-02-21"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/neii> ;
 .

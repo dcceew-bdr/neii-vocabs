@@ -1,25 +1,12 @@
+PREFIX : <https://linked.data.gov.au/def/australian-water-assessment-landscape-model/>
+PREFIX cs: <https://linked.data.gov.au/def/australian-water-assessment-landscape-model>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://editor.vocabs.ands.org.au/user/Andrew-Frost>
-    a dcterms:Agent ;
-    foaf:name "Andrew Frost" ;
-.
-
-dcterms:abstract
-    a
-        rdf:Property ,
-        rdfs:Resource ;
-    rdfs:subPropertyOf dcterms:abstract ;
-.
-
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/actual-evapotranspiration>
+:actual-evapotranspiration
     a skos:Concept ;
     dcterms:abstract "evapotranspiration"@en ;
     dcterms:created "2018-05-29"^^xsd:date ;
@@ -27,54 +14,58 @@ dcterms:abstract
     dcterms:hasFormat "Millimeter"@en ;
     dcterms:hasPart "water"@en ;
     dcterms:isPartOf "critical zone"@en ;
-    dcterms:source "mechanics quantity kind | Concept | scaled quantity kind | quantity kind"@en ;
-    skos:broader <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/evapotranspiration> ;
+    dcterms:source "mechanics quantity kind | Concept | scaled quantity kind | quantity kind"@en ;
+    skos:broader :evapotranspiration ;
     skos:definition "Actual Evapotranspiration is an estimate of the total evapotranspiration from vegetation, soil and groundwater. Water is evaporated directly from the canopy interception, the upper soil water store and the groundwater store. In addition water is withdrawn by transpiration from the lower soil water store, the deep soil water store and the groundwater store. The evaporation from canopy uses the event-based approach of Gash (1979) and the Van Dijk and Bruijnzeel (2001) modification for sparse canopies. Evaporation from groundwater occurs only in those saturated parts of the landscape where the water table intersects the surface. Soil evaporation depends on the moisture content of the upper layer for the unsaturated parts of the landscape. The actual transpiration is limited by a potential transpiration rate and a maximum root water uptake. Actual evapotranspiration is not well represented in major urban areas due to a current lack of impervious layers in the Hydrological Response Units (HRU). Similarly, the estimated actual evapotranspiration for irrigation areas and open water needs to be taken with caution due to the current lack of irrigated crops and waterbodies in the HRU."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "actual evapotranspiration"@en ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/deep-drainage>
+:deep-drainage
     a skos:Concept ;
     dcterms:created "2018-05-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:hasFormat "Millimeter"@en ;
     dcterms:hasPart "water"@en ;
     dcterms:isPartOf "pedosphere"@en ;
-    dcterms:source "scaled quantity kind | Concept | quantity kind | mechanics quantity kind"@en ;
-    skos:definition "Deep drainage is an estimate of the water that drains from the bottom of the deep soil layer (6 m) into the groundwater stores. Soil drainage and moisture dynamics are based on water balance considerations for each layer, and unsaturated downward movement of water under gravity only. There is assumed to be no lateral drainage from the deep soil layer. Drainage from each layer is subject to limits imposed by water availability and hydraulic conductivity. Deep Drainage generally describes diffuse groundwater recharge."@en ;
+    dcterms:source "scaled quantity kind | Concept | quantity kind | mechanics quantity kind"@en ;
+    skos:definition "Deep drainage is an estimate of the water that drains from the bottom of the deep soil layer (6 m) into the groundwater stores. Soil drainage and moisture dynamics are based on water balance considerations for each layer, and unsaturated downward movement of water under gravity only. There is assumed to be no lateral drainage from the deep soil layer. Drainage from each layer is subject to limits imposed by water availability and hydraulic conductivity. Deep Drainage generally describes diffuse groundwater recharge."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "deep drainage"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/Australian-Water-Assessment-Landscape-Model> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/deep-soil-moisture>
+:deep-soil-moisture
     a skos:Concept ;
-    dcterms:abstract "dimensionless ratio | soil moisture"@en ;
+    dcterms:abstract "dimensionless ratio | soil moisture"@en ;
     dcterms:created "2018-05-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:hasFormat "Percent"@en ;
     dcterms:hasPart "water"@en ;
     dcterms:isPartOf "pedosphere"@en ;
-    dcterms:source "scaled quantity kind | mechanics quantity kind | quantity kind |Concept"@en ;
-    skos:broader <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/soil-moisture> ;
+    dcterms:source "scaled quantity kind | mechanics quantity kind | quantity kind |Concept"@en ;
+    skos:broader :soil-moisture ;
     skos:definition "Deep Soil Moisture represents the percentage of available water content between 1 m and 6 m in the soil profile. The maximum storage within the soil layer is calculated from the depth of the soil and the relative soil water storage capacity. The soil properties of the deep soil layer are indirectly derived from ASRIS based on the lower soil layer properties. In this case it is assumed that the bulk density of the deep soil is higher than the lower soil and so the relative available water capacity is lower. The 6 m bottom boundary of the deep soil layer is based on the assumption that the deep rooted vegetation can access water down to 6 m. Only the deep rooted vegetation can access the deep soil moisture. The Actual soil moisture grids estimate the percentage of available water content rather than total soil water volume. The Relative soil moisture grids, like the other grids, represent the long term deciles. The soil moisture is not well represented in major urban areas due to a current lack of impervious layers in the Hydrological Response Units (HRU). Similarly, the estimated soil moisture for irrigation areas and open water needs to be taken with caution due to the current lack of irrigated crops and water bodies in the HRU."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "deep soil moisture"@en ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/lower-soil-moisture>
+:lower-soil-moisture
     a skos:Concept ;
-    dcterms:abstract "dimensionless ratio | root zone soil moisture"@en ;
+    dcterms:abstract "dimensionless ratio | root zone soil moisture"@en ;
     dcterms:created "2018-05-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:hasFormat "Percent"@en ;
     dcterms:hasPart "water"@en ;
     dcterms:isPartOf "pedosphere"@en ;
-    dcterms:source "Concept | quantity kind | mechanics quantity kind | scaled quantity kind"@en ;
-    skos:broader <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/root-zone-soil-moisture> ;
+    dcterms:source "Concept | quantity kind | mechanics quantity kind | scaled quantity kind"@en ;
+    skos:broader :root-zone-soil-moisture ;
     skos:definition "Lower Soil Moisture estimate represents the percentage of available water content between 10 cm and 100 cm in the soil profile. The maximum storage within the soil layer is calculated from the depth of the soil and the relative soil water storage capacity. The soil properties that control the storage of water are derived from the continental scale mapping within Australian Soil Resources Information System (Johnston et al., 2003). The relative available water capacity of the lower soil layer is derived from ASRIS information as the available water capacity of a layer divided by its thickness. Pedotransfer functions are used to relate soil hydraulic properties to soil textural class. Soil drainage and moisture dynamics are then based on water balance considerations for each soil layer. The shallow and deep rooted vegetation can draw on this Lower Soil Moisture layer. The Actual soil moisture grids estimate the percentage of available water content rather than total soil water volume. The Relative soil moisture grids, like the other grids, represent the long term deciles. The soil moisture is not well represented in major urban areas due to a current lack of impervious layers in the Hydrological Response Units (HRU). Similarly, the estimated soil moisture for irrigation areas and open water needs to be taken with caution due to the current lack of irrigated crops and waterbodies in the HRU."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "lower soil moisture"@en ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/potential-evapotranspiration>
+:potential-evapotranspiration
     a skos:Concept ;
     dcterms:abstract "evapotranspiration"@en ;
     dcterms:created "2018-05-29"^^xsd:date ;
@@ -82,90 +73,96 @@ dcterms:abstract
     dcterms:hasFormat "Millimeter"@en ;
     dcterms:hasPart "water"@en ;
     dcterms:isPartOf "critical zone"@en ;
-    dcterms:source "scaled quantity kind | Concept | quantity kind | mechanics quantity kind"@en ;
-    skos:broader <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/evapotranspiration> ;
+    dcterms:source "scaled quantity kind | Concept | quantity kind | mechanics quantity kind"@en ;
+    skos:broader :evapotranspiration ;
     skos:definition "The potential evapotranspiration in AWRA-L is calculated on a 0.05 degree (approximately 5 x 5 km) national grid using the Penman (1948) equation. Potential evapotranspiration provides an upper limit on evaporation and transpiration processes from the soil and vegetation and depends solely on the available energy at the surface. The daily gridded climate datasets used to produce this estimate include downward solar irradiance, and maximum and minimum air temperature produced by the Bureau of Meteorology (Jones et al., 2009) and windspeed at 2 m which is input as a spatially-gridded long-term average (McVicar et al., 2008)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "potential evapotranspiration"@en ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/precipitation>
+:precipitation
     a skos:Concept ;
     dcterms:created "2018-05-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:hasFormat "Millimeter"@en ;
     dcterms:hasPart "water"@en ;
-    dcterms:source "mechanics quantity kind | scaled quantity kind | quantity kind |Concept"@en ;
+    dcterms:source "mechanics quantity kind | scaled quantity kind | quantity kind |Concept"@en ;
     skos:definition "Daily precipitation grids are produced by the Bureau from approximately 6,500 rain gauge stations and interpolated to a 0.05 degree (approximately 5 x 5 km) national grid (Jones et al. 2009). Precipitation is an input into the AWRA-L model. The estimates were subject to approximations associated with interpolating observation point data to a national grid detailed in Jones et al. (2009). The precipitation input to the AWRA-L model are the near real time daily grids available at www.bom.gov.au/climate/maps. The monthly and annual precipitation is simply an aggregation of the near real time daily grids input to the AWRA-L model. Monthly grids that include additional rain gauge stations and rainfall observations (that are not available in near real time) can be found at www.bom.gov.au/climate/maps"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "precipitation"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/Australian-Water-Assessment-Landscape-Model> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/runoff>
+:runoff
     a skos:Concept ;
     dcterms:created "2018-05-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:hasFormat "Millimeter"@en ;
     dcterms:hasPart "water"@en ;
-    dcterms:source "Concept | mechanics quantity kind | scaled quantity kind | quantity kind"@en ;
+    dcterms:source "Concept | mechanics quantity kind | scaled quantity kind | quantity kind"@en ;
     skos:definition "Runoff represents a modelled estimate expected from a small unimpaired catchment. It is produced from surface runoff, baseflow and interflow for each grid cell. Surface runoff is a combination of infiltration excess runoff and saturation excess runoff. The baseflow depends on groundwater storage and deep drainage from the deep soil store. The interflow term represents the sum of the total discharge to the stream from the upper and lower soil stores in each grid cell. The Bureau’s operational AWRA-L model is currently calibrated on a continental scale against streamflow observations and satellite based actual evapotranspiration and soil moisture. Hillslope processes are not simulated; there is no lateral flow between grid cells. Similarly, there is no routing technique used in AWRA-L. The estimated runoff for major urban areas should not be used due to lack of impervious layers in the Hydrological Response Units (HRU) of AWRA-L. The estimated runoff numbers for irrigation areas and open water storages (lakes) also needs to be used with caution due to lack of irrigated crops and waterbodies in the HRU."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "runoff"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/Australian-Water-Assessment-Landscape-Model> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/upper-soil-moisture>
+:upper-soil-moisture
     a skos:Concept ;
-    dcterms:abstract "dimensionless ratio | root zone soil moisture"@en ;
+    dcterms:abstract "dimensionless ratio | root zone soil moisture"@en ;
     dcterms:created "2018-05-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:hasFormat "Percent"@en ;
     dcterms:hasPart "water"@en ;
     dcterms:isPartOf "pedosphere"@en ;
-    dcterms:source "scaled quantity kind | mechanics quantity kind | quantity kind |Concept"@en ;
-    skos:broader <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/root-zone-soil-moisture> ;
+    dcterms:source "scaled quantity kind | mechanics quantity kind | quantity kind |Concept"@en ;
+    skos:broader :root-zone-soil-moisture ;
     skos:definition "Upper Soil Moisture estimate represents the percentage of available water content in the top 10 cm of the soil profile. The maximum storage within the soil layer is calculated from the depth of the soil and the relative soil water storage capacity. The soil properties that control the storage of water are derived from the continental scale mapping within Australian Soil Resources Information System (ASRIS) (Johnston et al., 2003). Pedotransfer functions are used to relate soil hydraulic properties to soil textural class. Soil drainage and moisture dynamics are then based on water balance considerations for each soil layer. This upper soil layer is the primary source of soil evaporation. The relative available water capacity of the upper soil layer is derived from ASRIS information as the available water capacity of a layer divided by its thickness. The Actual soil moisture grids estimate the percentage of available water content rather than total soil water volume. The Relative soil moisture grids, like the other grids, represent the long term deciles. The soil moisture is not well represented in major urban areas due to a current lack of impervious layers in the Hydrological Response Units (HRU). Similarly, the estimated soil moisture for irrigation areas and open water needs to be taken with caution due to the current lack of irrigated crops and water bodies in the HRU."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "upper soil moisture"@en ;
 .
 
 <https://linked.data.gov.au/org/bom>
     a dcterms:Agent ;
-    foaf:homepage "http://www.bom.gov.au/"^^xsd:anyURI ;
-    foaf:name "Bureau of Meteorology" ;
+    schema:name "Bureau of Meteorology" ;
+    schema:url "http://www.bom.gov.au/"^^xsd:anyURI ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/evapotranspiration>
+:evapotranspiration
     a skos:Concept ;
     dcterms:created "2018-05-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:hasFormat "Millimeter"@en ;
     dcterms:hasPart "water"@en ;
     dcterms:isPartOf "critical zone"@en ;
-    dcterms:source "scaled quantity kind | Concept | quantity kind | mechanics quantity kind"@en ;
+    dcterms:source "scaled quantity kind | Concept | quantity kind | mechanics quantity kind"@en ;
     skos:definition "Evapotranspiration is an estimate of the total evapotranspiration from vegetation, soil and groundwater. Water is evaporated directly from the canopy interception, the upper soil water store and the groundwater store. In addition water is withdrawn by transpiration from the lower soil water store, the deep soil water store and the groundwater store. Evaporation from groundwater occurs only in those saturated parts of the landscape where the water table intersects the surface. Soil evaporation depends on the moisture content of the upper layer for the unsaturated parts of the landscape."@en ;
+    skos:inScheme cs: ;
     skos:narrower
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/actual-evapotranspiration> ,
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/potential-evapotranspiration> ;
+        :actual-evapotranspiration ,
+        :potential-evapotranspiration ;
     skos:prefLabel "evapotranspiration"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/Australian-Water-Assessment-Landscape-Model> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/root-zone-soil-moisture>
+:root-zone-soil-moisture
     a skos:Concept ;
-    dcterms:abstract "soil moisture | dimensionless ratio"@en ;
+    dcterms:abstract "soil moisture | dimensionless ratio"@en ;
     dcterms:created "2018-05-29"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:hasFormat "Percent"@en ;
     dcterms:hasPart "water"@en ;
     dcterms:isPartOf "pedosphere"@en ;
-    dcterms:source "quantity kind | Concept | mechanics quantity kind | scaled quantity kind"@en ;
-    skos:broader <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/soil-moisture> ;
+    dcterms:source "quantity kind | Concept | mechanics quantity kind | scaled quantity kind"@en ;
+    skos:broader :soil-moisture ;
     skos:definition "Root Zone Soil Moisture is the sum of water in the AWRA-L Upper and Lower soil layers and represents the percentage of available water content in the top 1 m of the soil profile. The maximum storage within the soil layer is calculated from the depth of the soil and the relative soil water storage capacity. The soil properties that control the storage of water are derived from the continental scale mapping within Australian Soil Resources Information System (Johnston et al., 2003). The relative available water capacity of the soil layer is derived from information ASRIS as the available water capacity of a layer divided by its thickness. Pedotransfer functions are used to relate soil hydraulic properties to soil textural class. Soil drainage and moisture dynamics are then based on water balance considerations for each soil layer. The shallow and deep rooted vegetation can both draw on this combined layer. The Actual soil moisture grids estimate the percentage of available water content rather than total soil water volume. The Relative soil moisture grids, like the other grids, represent the long term deciles. The soil moisture is not well represented in major urban areas due to a current lack of impervious layers in the Hydrological Response Units (HRU). Similarly, the estimated soil moisture for irrigation areas and open water needs to be taken with caution due to the current lack of irrigated crops and waterbodies in the HRU."@en ;
+    skos:inScheme cs: ;
     skos:narrower
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/lower-soil-moisture> ,
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/upper-soil-moisture> ;
+        :lower-soil-moisture ,
+        :upper-soil-moisture ;
     skos:prefLabel "root zone soil moisture"@en ;
 .
 
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/soil-moisture>
+:soil-moisture
     a skos:Concept ;
     dcterms:abstract "dimensionless ratio"@en ;
     dcterms:created "2018-05-29"^^xsd:date ;
@@ -173,38 +170,40 @@ dcterms:abstract
     dcterms:hasFormat "Percent"@en ;
     dcterms:hasPart "water"@en ;
     dcterms:isPartOf "pedosphere"@en ;
-    dcterms:source "quantity kind | Concept | mechanics quantity kind | scaled quantity kind"@en ;
+    dcterms:source "quantity kind | Concept | mechanics quantity kind | scaled quantity kind"@en ;
     skos:definition "Soil Moisture estimate represents the percentage of available water content in the soil profile. The maximum storage within the soil layer is calculated from the depth of the soil and the relative soil water storage capacity. The soil properties that control the storage of water are derived from the continental scale mapping within Australian Soil Resources Information System (Johnston et al., 2003). The relative available water capacity of the soil layer is derived from ASRIS information as the available water capacity of a layer divided by its thickness. Pedotransfer functions are used to relate soil hydraulic properties to soil textural class. Soil drainage and moisture dynamics are then based on water balance considerations for each soil layer. The Actual soil moisture grids estimate the percentage of available water content rather than total soil water volume. The Relative soil moisture grids, like the other grids, represent the long term deciles. The soil moisture is not well represented in major urban areas due to a current lack of impervious layers in the Hydrological Response Units (HRU). Similarly, the estimated soil moisture for irrigation areas and open water needs to be taken with caution due to the current lack of irrigated crops and waterbodies in the HRU."@en ;
+    skos:inScheme cs: ;
     skos:narrower
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/deep-soil-moisture> ,
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/root-zone-soil-moisture> ;
+        :deep-soil-moisture ,
+        :root-zone-soil-moisture ;
     skos:prefLabel "soil moisture"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/Australian-Water-Assessment-Landscape-Model> ;
-.
-
-<http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/Australian-Water-Assessment-Landscape-Model>
-    a skos:ConceptScheme ;
-    rdfs:label "Australian Water Assessment Landscape Model"@en ;
-    dcterms:created "2018-05-29"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/neii> ;
-    dcterms:description "The water balance in the Australian landscape is the product of a number of variables including soil moisture, runoff, evapotranspiration, deep drainage and precipitation. Water professionals, farmers and decision-makers in industry, government and the community can access data about all these variables through an interactive website from the Bureau of Meteorology. Nationally consistent modelled data is available on soil moisture, runoff, evapotranspiration, deep drainage and precipitation, each at a spatial resolution of 25 square kilometres . The information is updated daily and is available at daily, monthly and annual timescales from 1911 onwards."@en ;
-    dcterms:issued "2018-05-29" ;
-    dcterms:publisher <https://linked.data.gov.au/org/bom> ;
-    dcterms:subject "Hydrology"@en ;
-    dcterms:title "Australian Water Assessment Landscape Model"@en ;
-    owl:versionInfo "Version 1" ;
-    skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/deep-drainage> ,
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/evapotranspiration> ,
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/precipitation> ,
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/runoff> ,
-        <http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/soil-moisture> ;
+    skos:topConceptOf cs: ;
 .
 
 <https://linked.data.gov.au/org/neii>
     a
         dcterms:Agent ,
         schema:Organization ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name "NEII" ;
+    schema:name "National Environmental Information Infrastructure" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2018-05-29"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2018-05-29" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/bom> ;
+    dcterms:subject "Hydrology"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:definition "The water balance in the Australian landscape is the product of a number of variables including soil moisture, runoff, evapotranspiration, deep drainage and precipitation. Water professionals, farmers and decision-makers in industry, government and the community can access data about all these variables through an interactive website from the Bureau of Meteorology. Nationally consistent modelled data is available on soil moisture, runoff, evapotranspiration, deep drainage and precipitation, each at a spatial resolution of 25 square kilometres . The information is updated daily and is available at daily, monthly and annual timescales from 1911 onwards."@en ;
+    skos:hasTopConcept
+        :deep-drainage ,
+        :evapotranspiration ,
+        :precipitation ,
+        :runoff ,
+        :soil-moisture ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/Australian-Water-Assessment-Landscape-Model for the ConceptScheme and http://www.neii.gov.au/def/voc/AWRA/australian-water-assessment-landscape-model/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "Australian Water Assessment Landscape Model"@en ;
 .

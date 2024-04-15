@@ -1,153 +1,156 @@
+PREFIX : <https://linked.data.gov.au/def/rainfall-definitions/>
+PREFIX cs: <https://linked.data.gov.au/def/rainfall-definitions>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Date>
+:Date
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Date of occurrence of the respective climate extreme statistic. When there has been more than one occurrence of the extreme the most recent date is provided. The date may not be known if the value is an accumulated value, which occurs when one or more consecutive observations have been missed."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Date"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Decile-1-rainfall-mm>
+:Decile-1-rainfall-mm
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Monthly or annual decile 1 (10th percentile) total precipitation. The annual decile value must be calculated from the individual yearly totals of rainfall, and cannot be obtained by adding together the monthly deciles. Decile values are used to give an indication of the spread of the observations over the period of record. To determine decile 1 of a series of observations, they are first arranged in order from lowest to highest, and then divided into 10 equal groups. Decile 1 is the value at the top of the 1st grouping. In 10% of the years on record the monthly or yearly rainfall total did not exceed the decile 1 value."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Decile 1 rainfall (mm)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Decile-9-rainfall-mm>
+:Decile-9-rainfall-mm
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Monthly or annual decile 9 (90th percentile) total precipitation. The annual decile value must be calculated from the individual yearly totals of rainfall, and cannot be obtained by adding together the monthly deciles. Decile values are used to give an indication of the spread of the observations over the period of record. To determine decile 9 of a series of observations, they are first arranged in order from lowest to highest, and then divided into 10 equal groups. Decile 9 is the value at the top of the 9th grouping. In 10% of the years on record the monthly or yearly rainfall total exceeded the decile 9 value."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Decile 9 rainfall (mm)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Highest-daily-rainfall-mm>
+:Highest-daily-rainfall-mm
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The highest daily precipitation amount recorded in a calendar month or year at the site, calculated over the period of record. Accumulated values - which occur when one or more observations in succession have been missed - have not been included. Consequently, it may be possible, but not common, for a record daily rainfall to be concealed within an accumulated total."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Highest daily rainfall (mm)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Highest-rainfall-mm>
+:Highest-rainfall-mm
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The highest precipitation amount recorded over a calendar month or year at the site."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Highest rainfall (mm)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Lowest-rainfall-mm>
+:Lowest-rainfall-mm
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The lowest precipitation amount recorded over a calendar month or year at the site."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Lowest rainfall (mm)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Mean-number-of-days-of-rain--1,-10,-or-25-mm>
+:Mean-number-of-days-of-rain--1-10-or-25-mm
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Number of days in a calendar month or year with at least 1, 10 or 25 mm of precipitation."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean number of days of rain ≥ 1, 10, or 25 mm"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Mean-rainfall-mm>
+:Mean-rainfall-mm
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "The arithmetically averaged total amount of precipitation recorded during a calendar month or year. Both mean and median (decile 5) rainfall are included in these statistics, although from the meteorological point of view the median is usually the preferred measure of 'average' or 'typical' rainfall. This is because of the high variability of daily rainfall - one extreme rainfall event (such as a slowly moving, severe thunderstorm) will have less affect on the median than it will have on the arithmetic mean."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean rainfall (mm)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Median-decile-5-rainfall-mm>
+:Median-decile-5-rainfall-mm
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Monthly or annual median (decile 5 or 50th percentile) total precipitation. The annual decile value must be calculated from the individual yearly totals of rainfall, and cannot be obtained by adding together the monthly deciles. Decile values are used to give an indication of the spread of the observations over the period of record. The median, or decile 5, rainfall is that value which marks the level dividing the ranked data set in half; i.e. the midpoint of the ordered (lowest to highest) monthly or yearly precipitation totals. To determine decile 5 of a series of observations, they are first arranged in order from lowest to highest, and then divided into 10 equal groups. Decile 5 is the value at the top of the 5th grouping; in other words, the middle value in the ranking. In 50% of the years on record the monthly or yearly rainfall total was lower than the decile 5 value. The median is usually the preferred measure of 'typical' rainfall from the meteorological point of view. This is because of the high variability of rainfall - one extreme rainfall event will have less affect on the median than it will have on the arithmetic mean. "@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Median (decile 5) rainfall (mm)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall>
+:Rainfall
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-07-30"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-07-30"^^xsd:date ;
     skos:definition "Precipitation is most often rain (hence the common term), but also includes other forms such as snow. Observations of daily rainfall are nominally made at 9 am local clock time and record the total precipitation for the preceding 24 hours. Other, more frequent, observations are also made at some sites. If, for some reason, an observation is unable to be made, the next observation is recorded as an accumulation, since the rainfall has been accumulating in the rain gauge since the last reading. Accumulated totals are not included in statistics such as the Highest Daily Rainfall. Prior to 1974 rainfall was measured to the nearest point (one hundredth of an inch). Since then, observations have been taken to the nearest 0.2 mm, although some observations are read to 0.1 mm. When precipitation is in the form of snow, the snow in the rain gauge is melted and the equivalent amount of water is recorded (rough guide: one centimetre of snow melts to approximately one millimetre of water)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Rainfall"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://editor.vocabs.ands.org.au/user/774c8fa4-a731-4511-89ef-e04cd8ffe92c>
+<https://linked.data.gov.au/org/bom-cs>
     a dcterms:Agent ;
-    foaf:name "Climate Services, Bureau of Meteorology" ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions>
-    a skos:ConceptScheme ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/774c8fa4-a731-4511-89ef-e04cd8ffe92c> ;
-    dcterms:created "2021-07-30"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/neii> ;
-    dcterms:description "Definitions for rainfall"@en ;
-    dcterms:issued "2021-08-04" ;
-    dcterms:publisher <http://editor.vocabs.ands.org.au/user/774c8fa4-a731-4511-89ef-e04cd8ffe92c> ;
-    dcterms:subject "Rainfall Definitions"@en ;
-    dcterms:title "Rainfall definitions"@en ;
-    owl:versionInfo "Version 1.0" ;
-    skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Date> ,
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Decile-1-rainfall-mm> ,
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Decile-9-rainfall-mm> ,
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Highest-daily-rainfall-mm> ,
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Highest-rainfall-mm> ,
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Lowest-rainfall-mm> ,
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Mean-number-of-days-of-rain--1,-10,-or-25-mm> ,
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Mean-rainfall-mm> ,
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Median-decile-5-rainfall-mm> ,
-        <http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall> ;
+    schema:name "Climate Services, Bureau of Meteorology" ;
 .
 
 <https://linked.data.gov.au/org/neii>
     a
         dcterms:Agent ,
         schema:Organization ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name "NEII" ;
+    schema:name "National Environmental Information Infrastructure" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:contributor <https://linked.data.gov.au/org/bom-cs> ;
+    dcterms:created "2021-07-30"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2021-08-04" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/bom-cs> ;
+    dcterms:subject "Rainfall Definitions"@en ;
+    owl:versionInfo "Version 1.0" ;
+    skos:definition "Definitions for rainfall"@en ;
+    skos:hasTopConcept
+        :Date ,
+        :Decile-1-rainfall-mm ,
+        :Decile-9-rainfall-mm ,
+        :Highest-daily-rainfall-mm ,
+        :Highest-rainfall-mm ,
+        :Lowest-rainfall-mm ,
+        :Mean-number-of-days-of-rain--1-10-or-25-mm ,
+        :Mean-rainfall-mm ,
+        :Median-decile-5-rainfall-mm ,
+        :Rainfall ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/CS/rainfall-definitions/Rainfall-definitions for the ConceptScheme and http://www.neii.gov.au/def/voc/CS/rainfall-definitions/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "Rainfall definitions"@en ;
 .

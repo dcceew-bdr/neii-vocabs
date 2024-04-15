@@ -1,118 +1,121 @@
+PREFIX : <https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics/>
+PREFIX cs: <https://linked.data.gov.au/def/definitions-for-9am-and-3pm-climate-statistics>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas>
+:Mean-9am-3pm-cloud-cover-oktas
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-02"^^xsd:date ;
     skos:definition "The cloud cover at 9 am (or 3 pm) local time during a calendar month or year, averaged over the period of record. Cloud cover is measured visually by estimating the fraction (in eighths or oktas) of the dome of the sky covered by cloud. A completely clear sky is recorded as zero okta, while a totally overcast sky is 8 oktas. The presence of any trace of cloud in an otherwise blue sky is recorded as 1 okta, and similarly any trace of blue in an otherwise cloudy sky is recorded as 7 oktas."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean 9am (3pm) cloud cover (oktas)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Definitions-for-9am-and-3pm-Climate-Statistics> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-dew-point-temperature-C>
+:Mean-9am-3pm-dew-point-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-02"^^xsd:date ;
     skos:definition "Dew-point temperatures at 9 am (or 3pm) local time during a calendar month or year, averaged over the period of record. Dew-point temperature is a measure of the moisture content of the air and is the temperature to which air - at constant atmospheric pressure - must be cooled in order for dew to occur. It is derived theoretically from dry- and wet-bulb temperatures, with a correction made for the site's elevation. If the dew-point temperature is the same as the dry-bulb temperature, the air is said to be saturated and the relative humidity is 100%."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean 9am (3pm) dew-point temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Definitions-for-9am-and-3pm-Climate-Statistics> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-relative-humidity->
+:Mean-9am-3pm-relative-humidity-
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-03"^^xsd:date ;
     skos:definition "Approximate average relative humidity (rh) at 9am (or 3pm) local time during a calendar month or year, calculated over the period of record. Relative humidity is a traditional indicator of the air's moisture content. It is defined as the amount of moisture in the air expressed as a percentage of the amount of moisture present if the air was saturated at that temperature. At saturation the relative humidity would be 100%. Relative humidity is not a measure of the actual amount of atmospheric moisture because it depends on the air temperature. To give an example, for rh = 50% in both scenarios, there is much more moisture in the air at an air temperature of 25 °C than there is at 15 °C. The calculation of the rh statistics in these pages does not take into account this dependence of rh on temperature (it is a complex relationship), and so are approximations only."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean 9am (3pm) relative humidity (%)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Definitions-for-9am-and-3pm-Climate-Statistics> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-temperature-C>
+:Mean-9am-3pm-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-02"^^xsd:date ;
     skos:definition "The air temperature measured at 9 am (or 3pm) local time during a calendar month or year, averaged over the period of record. Air temperature is also referred to as the dry-bulb temperature. It is measured in a shaded enclosure (most often a Stevenson Screen) at a height of approximately 1.2 m above the ground."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean 9am (3pm) temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Definitions-for-9am-and-3pm-Climate-Statistics> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-wet-bulb-temperature-C>
+:Mean-9am-3pm-wet-bulb-temperature-C
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-02"^^xsd:date ;
     skos:definition "The wet-bulb air temperature measured at 9 am (or 3pm) local time during a calendar month or year, averaged over the period of record. Traditionally, wet-bulb temperature has been measured using a standard mercury-in-glass thermometer, with the thermometer bulb wrapped in muslin, which is kept wet (hence the term \"wet-bulb temperature\"). Provided the air is not saturated, the moisture will evaporate from the muslin and cool the thermometer; the degree of cooling depending on the amount of moisture in the air (i.e. the humidity). The difference between the temperature of the wet-bulb thermometer and the temperature indicated by a dry-bulb (normal, unmodified) thermometer is known as the wet-bulb depression, and provides a measure of atmospheric moisture content. When air is saturated there is no cooling, and the wet-bulb and dry-bulb temperatures are equal."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean 9am (3pm) wet-bulb temperature (°C)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Definitions-for-9am-and-3pm-Climate-Statistics> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-wind-speed-km/h>
+:Mean-9am-3pm-wind-speed-km-h
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-02"^^xsd:date ;
     skos:definition "Wind speed measured at 9am (or 3pm) local time during a calendar month or year, averaged over the period of record. The wind speed is generally measured at a height of 10 metres above the surface, averaged over the ten minutes leading up to the time of observation."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean 9am (3pm) wind speed (km/h)"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Definitions-for-9am-and-3pm-Climate-Statistics> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-wind-speed-vs-direction-plot>
+:Mean-9am-3pm-wind-speed-vs-direction-plot
     a skos:Concept ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
     dcterms:created "2021-08-02"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     dcterms:modified "2021-08-02"^^xsd:date ;
     skos:definition """Wind roses summarise the occurrence of winds at a location, showing their strength, direction and frequency. The percentage of calm conditions is represented by the size of the centre circle - the bigger the circle, the higher is the frequency of calm conditions. Each branch of the rose represents wind coming from that direction, with north to the top of the diagram. Eight directions are used. The branches are divided into segments of different thickness and colour, which represent wind speed ranges from that direction. Speed ranges of 10km/h are used in these wind roses. The length of each segment within a branch is proportional to the frequency of winds blowing within the corresponding range of speeds from that direction.
 """@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Mean 9am (3pm) wind speed vs direction plot"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Definitions-for-9am-and-3pm-Climate-Statistics> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://editor.vocabs.ands.org.au/user/77965f19-933f-4288-8d94-811d3b78b656>
+<https://linked.data.gov.au/org/bom-cs>
     a dcterms:Agent ;
-    foaf:name "Climate Services, Bureau of Meteorology" ;
-.
-
-<http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Definitions-for-9am-and-3pm-Climate-Statistics>
-    a skos:ConceptScheme ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/77965f19-933f-4288-8d94-811d3b78b656> ;
-    dcterms:created "2021-08-02"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/neii> ;
-    dcterms:description "Definitions for 9am and 3pm climate statistics terms"@en ;
-    dcterms:issued "2021-08-04" ;
-    dcterms:publisher <http://editor.vocabs.ands.org.au/user/77965f19-933f-4288-8d94-811d3b78b656> ;
-    dcterms:subject "Definitions for 9am and 3pm Climate Statistics"@en ;
-    dcterms:title "Definitions for 9am and 3pm Climate Statistics"@en ;
-    owl:versionInfo "Version 1.0" ;
-    skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-cloud-cover-oktas> ,
-        <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-dew-point-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-relative-humidity-> ,
-        <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-wet-bulb-temperature-C> ,
-        <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-wind-speed-km/h> ,
-        <http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Mean-9am-3pm-wind-speed-vs-direction-plot> ;
+    schema:name "Climate Services, Bureau of Meteorology" ;
 .
 
 <https://linked.data.gov.au/org/neii>
     a
         dcterms:Agent ,
         schema:Organization ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name "NEII" ;
+    schema:name "National Environmental Information Infrastructure" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:contributor <https://linked.data.gov.au/org/bom-cs> ;
+    dcterms:created "2021-08-02"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2021-08-04" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/bom-cs> ;
+    dcterms:subject "Definitions for 9am and 3pm Climate Statistics"@en ;
+    owl:versionInfo "Version 1.0" ;
+    skos:definition "Definitions for 9am and 3pm climate statistics terms"@en ;
+    skos:hasTopConcept
+        :Mean-9am-3pm-cloud-cover-oktas ,
+        :Mean-9am-3pm-dew-point-temperature-C ,
+        :Mean-9am-3pm-relative-humidity- ,
+        :Mean-9am-3pm-temperature-C ,
+        :Mean-9am-3pm-wet-bulb-temperature-C ,
+        :Mean-9am-3pm-wind-speed-km-h ,
+        :Mean-9am-3pm-wind-speed-vs-direction-plot ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/Definitions-for-9am-and-3pm-Climate-Statistics for the ConceptScheme and http://www.neii.gov.au/def/voc/CS/definitions-for-9am-and-3pm-climate-statistics/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "Definitions for 9am and 3pm Climate Statistics"@en ;
 .

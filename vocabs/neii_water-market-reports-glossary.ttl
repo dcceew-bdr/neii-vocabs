@@ -1,135 +1,143 @@
+PREFIX : <https://linked.data.gov.au/def/water-market-reports/>
+PREFIX cs: <https://linked.data.gov.au/def/water-market-reports>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports>
-    a rdfs:Resource ;
-    dcterms:contributor <https://linked.data.gov.au/org/neii> ;
-.
-
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Non-consumptive-use>
+:Non-consumptive-use
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Non-consumptive use is when there is no diversion from or diminishment of resource, for example water used to generate hydroelectricity. Held and planned environmental water is a non-consumptive water use."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "Non-consumptive use"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/allocation-volume>
+:allocation-volume
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The specific volume of water allocated to water access entitlements."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "allocation volume"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/available-water>
+:available-water
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Water potentially available for consumptive or environmental use."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "available water"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/bulk-water>
+:bulk-water
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Water supplied by a water provider to another water provider."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "bulk water"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/bulk-water-access-entitlement>
+:bulk-water-access-entitlement
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A water access entitlement allowing an infrastructure operator to access, take and hold water for the supply of water to another person."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "bulk water access entitlement"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/bundled-right>
+:bundled-right
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The aggregation of individual rights into a single right.  These might include but are not limited to: land property title, water access entitlement, water allocations, water use right, delivery rights, irrigation rights and works approvals."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "bundled right"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/carryover>
+:carryover
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The option to hold in storage a portion of unused seasonal allocations for use at a later date."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "carryover"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/catchment-area>
+:catchment-area
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The extent of land where water from precipitation drains into the water storage."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "catchment area"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/consumptive-pool>
+:consumptive-pool
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The amount of a water resource that can be made available for consumptive use in a particular water resource plan under the rules of the water resource plan for that water resource plan area."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "consumptive pool"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/consumptive-use>
+:consumptive-use
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Use of water for private benefit consumptive purposes including irrigation, industry, urban and stock and domestic use."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "consumptive use"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/external-trade>
+:external-trade
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A transaction to transfer a water right from one legal entity to another out of a specified area.  The area can be a water system, water management area or a trading zone as defined in respective State and Territory legislation."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "external trade"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/gross-water-price>
+:gross-water-price
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The transfer price of water as agreed between legal entities inclusive of all applicable transaction costs."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "gross water price"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/groundwater>
+:groundwater
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """(a) water occurring naturally below ground level (whether in an aquifer or otherwise) or (b) water occurring at a place below ground that has been pumped, diverted or released to that place for the purpose of being stored there. It does not include water held in underground tanks, pipes or other works. 
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "groundwater"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/held-environmental-water>
+:held-environmental-water
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
@@ -139,617 +147,672 @@ Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part
 (c) an irrigation right;
 for the purposes of achieving environmental outcomes (including water that is specified in a water access right to be for environmental use).
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "held environmental water"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/inflows>
+:inflows
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Surface water runoff and deep drainage to groundwater (groundwater recharge) and transfers into the water system (both surface and groundwater) for a defined area."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "inflows"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/internal-trade>
+:internal-trade
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A transaction to transfer a water right from one legal entity to another within a specified area.  The area can be a trading zone, irrigation district or a water resource plan area as defined in respective State and Territory legislation."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "internal trade"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/interstate-trade>
+:interstate-trade
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A transaction to transfer a water right from one legal entity to another in a different State or Territory."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "interstate trade"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/intrastate-trade>
+:intrastate-trade
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A transaction to transfer a water right from one legal entity to another within the same State or Territory."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "intrastate trade"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/irrigation-right>
+:irrigation-right
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """A right that: (a) a person has against an irrigation infrastructure operator to receive water and (b) is not a water access right or a water delivery right.
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019.  For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "irrigation right"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/permanent-trade>
+:permanent-trade
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Permanent trade has the same meaning as water access entitlement trade."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "permanent trade"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlement-trade> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :water-access-entitlement-trade ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/regulated-water-resource>
+:regulated-water-resource
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A water resource which has its flows controlled through the use of infrastructure to store and release water."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "regulated water resource"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/reliability>
+:reliability
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """The frequency with which water allocated under a water access entitlement is able to be supplied in full.
 Source: Intergovernmental Agreement on a National Water Initiative (http://www.bom.gov.au/water/about/consultation/document/NWI_2004.pdf) Schedule B(ii)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "reliability"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/rural-water-utility>
+:rural-water-utility
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "An organisation that supplies water for irrigation, town and community use in a rural area."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "rural water utility"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/stock-and-domestic-use>
+:stock-and-domestic-use
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Use of water for domestic consumption (e.g. drinking, cooking, washing, watering household gardens, filling swimming pools associated with domestic premises) and to water stock on a property. Does not include water used for irrigating crops that will be sold, bartered or used for stock fodder, for washing down machinery sheds, or for intensive livestock operations."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "stock and domestic use"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/surface-water>
+:surface-water
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """Includes: (a) water in a watercourse, lake or wetland and (b) any water flowing over or lying on land: (i) after having precipitated naturally or (ii) after having risen to the surface naturally from underground.
 Source:  Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "surface water"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/temporary-trade>
+:temporary-trade
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Temporary trade has the same meaning as water allocation trade."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "temporary trade"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-allocation-trade> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :water-allocation-trade ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/tradeable-water-rights>
+:tradeable-water-rights
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """Are: (a) water access rights, (b) water delivery rights or (c) irrigation rights.
 Note: Some components within water access rights are not tradeable.
 Source: Derived from the Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "tradeable water rights"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/trading-zones>
+:trading-zones
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """Zones established to simplify administration of trade by setting out the known supply source or management arrangements and the physical realities of relevant supply systems within the zone.
 Source: Derived from the Intergovernmental Agreement on a National Water Initiative (http://www.bom.gov.au/water/about/consultation/document/NWI_2004.pdf) Schedule B(i)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "trading zones"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/transaction-costs>
+:transaction-costs
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Includes search, negotiation and enforcement costs including, but not limited to, all government water transfer fees and charges applicable to water trade, conveyance charges and professional service fees (such as accountants, brokers, lawyers)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "transaction costs"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/unbundled-right>
+:unbundled-right
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """The separation of a bundled right into its individual elements. At its most basic level, unbundling separate water rights from a land property title, allowing the trade of the water rights independently of land.
 Additional degrees of unbundling involve the separation of a water right into its individual elements. These might include, but are not limited to, water access entitlements, water allocations, water use rights, delivery rights and works approvals."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "unbundled right"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/unregulated-water-resource>
+:unregulated-water-resource
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A water resource that is not controlled through the use of infrastructure to store and release water."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "unregulated water resource"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlement>
+:water-access-entitlement
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """A perpetual or ongoing entitlement to exclusive access to a share of water from a specified consumptive pool as defined in the relevant water plan.
 Source: Intergovernmental Agreement on a National Water Initiative (http://www.bom.gov.au/water/about/consultation/document/NWI_2004.pdf) Schedule B(ii)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water access entitlement"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlement-type>
+:water-access-entitlement-type
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Water right types as defined in State and Territory legislation which includes bundled and unbundled water rights and bulk water access entitlements."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water access entitlement type"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlement-volume>
+:water-access-entitlement-volume
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The share, nominal volume or extraction rate associated with a water access entitlement."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water access entitlement volume"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlements-on-issue>
+:water-access-entitlements-on-issue
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The total quantity of water access entitlements granted by State and Territory government water agencies which are in effect at a given point in time."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water access entitlements on issue"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-right>
+:water-access-right
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """Water access right: (a) any right conferred by or under a law of a State to do either or both of the following: (i) to hold water from a water resource or (ii) to take water from a water resource and (b) without limiting paragraph (a) includes the following rights of the kind referred to in that paragraph: (i) stock and domestic rights, (ii) riparian rights, (iii) a water access entitlement or (iv) a water allocation and (c) includes any other right in relation to the taking or use of water that is prescribed by the regulations for the purposes of this paragraph.
 Source:  Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water access right"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-delivery-right>
+:water-delivery-right
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """A right to have water delivered by an infrastructure operator.
 Source:  Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water delivery right"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-lease>
+:water-lease
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A transaction to transfer a water right from one legal entity to another, in whole or in part, for a specified period of time which involves an exchange of a monetary value."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water lease"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-market-equivalent-terms>
+:water-market-equivalent-terms
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Equivalent National, State and Territory water market product and trading terms"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water market equivalent terms"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-plan>
+:water-plan
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Statutory plans for surface and/or groundwater systems, consistent with the Regional Natural Resource Management Plans, developed in consultation with all relevant stakeholders on the basis of best scientific and socio-economic assessment, to provide secure ecological outcomes and resource security for users."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water plan"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-provider>
+:water-provider
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """A business or organisation that provides a reticulated water supply, irrigation water, reused or recycled water, or a bulk water supply service. Water providers may be Government or private and often operate water storage, purification and supply services. They may also provide sewerage or drainage services.
 Source: © Commonwealth of Australia 2005, National Water Commission, Australian Water Resources 2005, Glossary and definitions."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water provider"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-resource>
+:water-resource
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """Means: (a) surface water or groundwater, or (b) a watercourse, lake, wetland or aquifer (whether or not it currently has water in it), and includes all aspects of the water resource (including water, organisms and other components and ecosystems that contribute to the physical state and environmental value of the water resource).
 Source:  Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water resource"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-resource-plan>
+:water-resource-plan
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A plan for the management of a water resource."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water resource plan"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-resource-plan-area>
+:water-resource-plan-area
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Water resource area defined in a water resource plan."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water resource plan area"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-resource-type>
+:water-resource-type
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Describes the attributes of a water resource, e.g. surface or groundwater, regulated or unregulated water."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water resource type"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-right>
+:water-right
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A generic term for the range of different tradeable and non-tradeable water rights across Australia. These might include, but are not limited to, water access entitlements, water allocations, water use rights, delivery rights, irrigation rights and works approvals."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water right"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-tagging>
+:water-tagging
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """An accounting approach that allows a traded water access entitlement to retain its original characteristics when traded to a new jurisdiction and/or trading zone, rather than being converted into a form issued in the new jurisdiction and/or trading zone.
 Source: Intergovernmental Agreement on a National Water Initiative (http://www.bom.gov.au/water/about/consultation/document/NWI_2004.pdf) Schedule B(i)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water tagging"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-trade>
+:water-trade
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A transaction to buy, sell or lease a water right, in whole or in part, from one legal entity to another."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water trade"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-trade-price>
+:water-trade-price
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Water price or trade price has the same meaning as net water price"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water trade price"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/net-water-price> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :net-water-price ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-year>
+:water-year
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "1 July to 30 June"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water year"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://editor.vocabs.ands.org.au/user/312e891c-ecf1-44e3-a666-e0e6efb60a18>
+<https://linked.data.gov.au/org/bom-wp>
     a dcterms:Agent ;
-    foaf:name "Water Program, Bureau of Meteorology" ;
+    schema:name "Water Program, Bureau of Meteorology" ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/IIO>
+:IIO
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """irrigation infrastructure operator
 An entity that operates water service infrastructure for the purposes of delivering water for the primary purpose of it being used for irrigation.
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 7, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "IIO"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/irrigation-infrastructure-operator> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :irrigation-infrastructure-operator ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/NWI>
+:NWI
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "National Water Initiative"@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "NWI"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/National-Water-Initiative> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :National-Water-Initiative ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/National-Water-Initiative>
+:National-Water-Initiative
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """The Intergovernmental Agreement on a National Water Initiative between the Commonwealth of Australia and the Governments of New South Wales, Victoria, Queensland, South Australia, Western Australia, Tasmania, the Australian Capital Territory and the Northern Territory (as amended from time to time).
 Source: Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "National Water Initiative"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/NWI> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :NWI ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/VWAP>
+:VWAP
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """volume weighted average price
 The average value (dollars per megalitre) of the water traded where each trade is weighted proportionally by the volume of water (in megalitre) involved in the sale. This provides a more accurate representation of the price (i.e. high volume trades generally attract a ‘bulk discount’)."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "VWAP"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/volume-weighted-average-price> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :volume-weighted-average-price ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/allocation>
+:allocation
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The specific volume of water allocated to water access entitlements in a given water year or allocated as specified within a water resource plan."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "allocation"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-allocation> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :water-allocation ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/groundwater-system>
+:groundwater-system
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A collective term for areas that are defined normally at a higher level than groundwater management area, for the purposes of water data reporting."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "groundwater system"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-system> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :water-system ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/irrigation-infrastructure-operator>
+:irrigation-infrastructure-operator
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """An entity that operates water service infrastructure for the purposes of delivering water for the primary purpose of it being used for irrigation.
 Source: Adapted from the Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 7, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "irrigation infrastructure operator"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/IIO> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :IIO ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/net-water-price>
+:net-water-price
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The transfer price of water as agreed between legal entities exclusive of all applicable transaction costs."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "net water price"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/planned-environmental-water>
+:planned-environmental-water
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "Planned environmental water is committed in a water plan for achieving environmental outcomes."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "planned environmental water"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/product>
+:product
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A water right that is tradeable, falling under the broad category of either water access entitlement or water allocation. A product may be bundled or unbundled and has various attributes such as water resource type (e.g. surface water, groundwater, regulated, unregulated) and reliability type (e.g. high, low priority)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "product"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-product> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :water-product ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/surface-water-system>
+:surface-water-system
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "An area that is hydrologically connected and defined, normally at a higher level than surface water management area, for the purposes of water data reporting."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "surface water system"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-system> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :water-system ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/volume-weighted-average-price>
+:volume-weighted-average-price
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "The average value (dollars per megalitre) of  the water traded where each trade is weighted proportionally by the volume of water (in megalitre) involved in the sale. This provides a more accurate representation of the price (i.e. high volume trades generally attract a ‘bulk discount’)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "volume weighted average price"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/VWAP> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :VWAP ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlement-trade>
+:water-access-entitlement-trade
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A transaction to transfer a water access entitlement from one legal entity to another, with or without a change in location, perpetually or for a specified term (i.e. lease)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water access entitlement trade"@en ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-allocation>
+:water-allocation
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """The specific volume of water allocated to water access entitlements in a given water year or allocated as specified within a water resource plan.
 Source:  Water Act 2007 (https://www.legislation.gov.au/Details/C2018C00505) Part 1 Section 4, at 8 February 2019. For the latest information on Australian Government law please go to Federal Register of Legislation (https://www.legislation.gov.au/)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water allocation"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/allocation> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :allocation ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-allocation-trade>
+:water-allocation-trade
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """A transaction to transfer a water allocation from one legal entity to another, with or without a change in location, for the remaining water year (by default) or for a specified term that may be less than the end of the water year or carried over to subsequent years (i.e. lease).
 Water allocation trade is used in preference to temporary trade in the National Water Initiative."""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water allocation trade"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/planned-environmental-water> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :planned-environmental-water ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-product>
+:water-product
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition "A water right that is tradeable, falling under the broad category of either water access entitlement or water allocation. A product may be bundled or unbundled and has various attributes such as water resource type (e.g. surface water, groundwater, regulated, unregulated) and reliability type (e.g. high, low priority)."@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water product"@en ;
-    skos:relatedMatch <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/product> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
+    skos:relatedMatch :product ;
+    skos:topConceptOf cs: ;
 .
 
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-system>
+:water-system
     a skos:Concept ;
     dcterms:created "2020-09-07"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/neii> ;
     skos:definition """A system that is hydrologically connected and defined, normally at a higher level than surface or groundwater management area, for the purpose of water data reporting (e.g. sub-catchment, catchment, basin or drainage division and/or groundwater management unit, sub-aquifer, aquifer, groundwater basin).
 Source: Intergovernmental Agreement on a National Water Initiative (http://www.bom.gov.au/water/about/consultation/document/NWI_2004.pdf) Schedule B(i)"""@en ;
+    skos:inScheme cs: ;
     skos:prefLabel "water system"@en ;
     skos:relatedMatch
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/groundwater-system> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/surface-water-system> ;
-    skos:topConceptOf <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary> ;
-.
-
-<http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary>
-    a skos:ConceptScheme ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/312e891c-ecf1-44e3-a666-e0e6efb60a18> ;
-    dcterms:created "2020-09-07"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/neii> ;
-    dcterms:description "This glossary provides definitions of terms and acronyms used in the Bureau of Meteorology's water markets dashboard."@en ;
-    dcterms:issued "2020-09-07" ;
-    dcterms:publisher <http://editor.vocabs.ands.org.au/user/312e891c-ecf1-44e3-a666-e0e6efb60a18> ;
-    dcterms:subject "Water Market Reports glossary"@en ;
-    dcterms:title "Water Market Reports glossary"@en ;
-    owl:versionInfo "Version 1" ;
-    skos:hasTopConcept
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/IIO> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/NWI> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/National-Water-Initiative> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Non-consumptive-use> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/VWAP> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/allocation> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/allocation-volume> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/available-water> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/bulk-water> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/bulk-water-access-entitlement> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/bundled-right> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/carryover> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/catchment-area> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/consumptive-pool> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/consumptive-use> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/external-trade> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/gross-water-price> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/groundwater> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/groundwater-system> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/held-environmental-water> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/inflows> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/internal-trade> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/interstate-trade> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/intrastate-trade> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/irrigation-infrastructure-operator> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/irrigation-right> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/net-water-price> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/permanent-trade> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/planned-environmental-water> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/product> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/regulated-water-resource> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/reliability> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/rural-water-utility> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/stock-and-domestic-use> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/surface-water> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/surface-water-system> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/temporary-trade> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/tradeable-water-rights> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/trading-zones> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/transaction-costs> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/unbundled-right> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/unregulated-water-resource> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/volume-weighted-average-price> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlement> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlement-trade> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlement-type> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlement-volume> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-entitlements-on-issue> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-access-right> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-allocation> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-allocation-trade> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-delivery-right> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-lease> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-market-equivalent-terms> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-plan> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-product> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-provider> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-resource> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-resource-plan> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-resource-plan-area> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-resource-type> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-right> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-system> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-tagging> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-trade> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-trade-price> ,
-        <http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/water-year> ;
+        :groundwater-system ,
+        :surface-water-system ;
+    skos:topConceptOf cs: ;
 .
 
 <https://linked.data.gov.au/org/neii>
     a
         dcterms:Agent ,
         schema:Organization ;
-    foaf:homepage "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
-    foaf:name "NEII" ;
+    schema:name "National Environmental Information Infrastructure" ;
+    schema:url "http://www.bom.gov.au/environment/transition.shtml"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2020-09-07"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/neii> ;
+    dcterms:issued "2020-09-07" ;
+    dcterms:modified "2024-04-15"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/bom-wp> ;
+    dcterms:subject "Water Market Reports glossary"@en ;
+    owl:versionInfo "Version 1" ;
+    skos:definition "This glossary provides definitions of terms and acronyms used in the Bureau of Meteorology's water markets dashboard."@en ;
+    skos:hasTopConcept
+        :IIO ,
+        :NWI ,
+        :National-Water-Initiative ,
+        :Non-consumptive-use ,
+        :VWAP ,
+        :allocation ,
+        :allocation-volume ,
+        :available-water ,
+        :bulk-water ,
+        :bulk-water-access-entitlement ,
+        :bundled-right ,
+        :carryover ,
+        :catchment-area ,
+        :consumptive-pool ,
+        :consumptive-use ,
+        :external-trade ,
+        :gross-water-price ,
+        :groundwater ,
+        :groundwater-system ,
+        :held-environmental-water ,
+        :inflows ,
+        :internal-trade ,
+        :interstate-trade ,
+        :intrastate-trade ,
+        :irrigation-infrastructure-operator ,
+        :irrigation-right ,
+        :net-water-price ,
+        :permanent-trade ,
+        :planned-environmental-water ,
+        :product ,
+        :regulated-water-resource ,
+        :reliability ,
+        :rural-water-utility ,
+        :stock-and-domestic-use ,
+        :surface-water ,
+        :surface-water-system ,
+        :temporary-trade ,
+        :tradeable-water-rights ,
+        :trading-zones ,
+        :transaction-costs ,
+        :unbundled-right ,
+        :unregulated-water-resource ,
+        :volume-weighted-average-price ,
+        :water-access-entitlement ,
+        :water-access-entitlement-trade ,
+        :water-access-entitlement-type ,
+        :water-access-entitlement-volume ,
+        :water-access-entitlements-on-issue ,
+        :water-access-right ,
+        :water-allocation ,
+        :water-allocation-trade ,
+        :water-delivery-right ,
+        :water-lease ,
+        :water-market-equivalent-terms ,
+        :water-plan ,
+        :water-product ,
+        :water-provider ,
+        :water-resource ,
+        :water-resource-plan ,
+        :water-resource-plan-area ,
+        :water-resource-type ,
+        :water-right ,
+        :water-system ,
+        :water-tagging ,
+        :water-trade ,
+        :water-trade-price ,
+        :water-year ;
+    skos:historyNote "2024-04: IRIs changed from http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/Water-Market-Reports-glossary for the ConceptScheme and http://www.neii.gov.au/def/voc/waterprogram/water-market-reports/ for the Concept namespace to linked.data.gov.au-based IRIs" ;
+    skos:prefLabel "Water Market Reports glossary"@en ;
 .
