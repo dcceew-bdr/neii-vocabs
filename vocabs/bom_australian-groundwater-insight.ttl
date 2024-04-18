@@ -188,7 +188,7 @@ cs:
     dcterms:publisher <https://linked.data.gov.au/org/bom-gu> ;
     dcterms:subject "Groundwater"@en ;
     owl:versionInfo "Version 1" ;
-    skos:definition "The Australian Groundwater Insight is a user-friendly web mapping application designed for non-experts in government, policy development and the general public.  The Insight shows hydrogeological information alongside information about licences, entitlements, bore density, groundwater management areas and salinity. The Insight also presents trends in groundwater levels over time and recent groundwater levels compared to the long-term average. "@en ;
+    skos:definition "The Australian Groundwater Insight is a user-friendly web mapping application designed for non-experts in government, policy development and the general public. The Insight shows hydrogeological information alongside information about licences, entitlements, bore density, groundwater management areas and salinity. The Insight also presents trends in groundwater levels over time and recent groundwater levels compared to the long-term average. "@en ;
     skos:hasTopConcept
         :aquifer ,
         :bedrock ,
