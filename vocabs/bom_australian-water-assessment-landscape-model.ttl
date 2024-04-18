@@ -197,7 +197,7 @@ cs:
     dcterms:publisher <https://linked.data.gov.au/org/bom> ;
     dcterms:subject "Hydrology"@en ;
     owl:versionInfo "Version 1" ;
-    skos:definition "The water balance in the Australian landscape is the product of a number of variables including soil moisture, runoff, evapotranspiration, deep drainage and precipitation. Water professionals, farmers and decision-makers in industry, government and the community can access data about all these variables through an interactive website from the Bureau of Meteorology. Nationally consistent modelled data is available on soil moisture, runoff, evapotranspiration, deep drainage and precipitation, each at a spatial resolution of 25 square kilometres . The information is updated daily and is available at daily, monthly and annual timescales from 1911 onwards."@en ;
+    skos:definition "The water balance in the Australian landscape is the product of a number of variables including soil moisture, runoff, evapotranspiration, deep drainage and precipitation. Water professionals, farmers and decision-makers in industry, government and the community can access data about all these variables through an interactive website from the Bureau of Meteorology. Nationally consistent modelled data is available on soil moisture, runoff, evapotranspiration, deep drainage and precipitation, each at a spatial resolution of 25 square kilometres. The information is updated daily and is available at daily, monthly and annual timescales from 1911 onwards."@en ;
     skos:hasTopConcept
         :deep-drainage ,
         :evapotranspiration ,

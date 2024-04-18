@@ -292,7 +292,7 @@ cs:
     dcterms:publisher <https://linked.data.gov.au/org/bom-gu> ;
     dcterms:subject "Groundwater"@en ;
     owl:versionInfo "Version 1" ;
-    skos:definition "The National Groundwater Information System (NGIS) is a spatial database for GIS specialists that contains a range of groundwater information submitted by States and Territories. The NGIS contains information on more than 870 000 bores and their attributes—such as purpose and date they were drilled. The database also includes logs of their lithology, construction and hydrostratigraphy as well as groundwater management areas and aquifer boundaries. 2.5D and 3D aquifer geometries are also available for some areas. Hydrogeologic units within the NGIS have been standardised for national consistency using the National Aquifer Framework.  http://www.bom.gov.au/water/groundwater/ngis/ "@en ;
+    skos:definition "The National Groundwater Information System (NGIS) is a spatial database for GIS specialists that contains a range of groundwater information submitted by States and Territories. The NGIS contains information on more than 870 000 bores and their attributes—such as purpose and date they were drilled. The database also includes logs of their lithology, construction and hydrostratigraphy as well as groundwater management areas and aquifer boundaries. 2.5D and 3D aquifer geometries are also available for some areas. Hydrogeologic units within the NGIS have been standardised for national consistency using the National Aquifer Framework. http://www.bom.gov.au/water/groundwater/ngis/"@en ;
     skos:hasTopConcept
         :Aquaveo ,
         :ArcGIS ,

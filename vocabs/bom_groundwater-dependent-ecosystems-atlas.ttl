@@ -557,7 +557,7 @@ cs:
     dcterms:publisher <https://linked.data.gov.au/org/bom-gu> ;
     dcterms:subject "Groundwater"@en ;
     owl:versionInfo "Version 2" ;
-    skos:definition "The Groundwater Dependent Ecosystems Atlas (GDE Atlas) was developed as a national dataset of Australian GDEs to inform groundwater planning and management. It is the first and only national inventory of GDEs in Australia.  The GDE Atlas web-based mapping application allows you to visualise, analyse and download GDE information for an area of interest without needing specialised software."@en ;
+    skos:definition "The Groundwater Dependent Ecosystems Atlas (GDE Atlas) was developed as a national dataset of Australian GDEs to inform groundwater planning and management. It is the first and only national inventory of GDEs in Australia. The GDE Atlas web-based mapping application allows you to visualise, analyse and download GDE information for an area of interest without needing specialised software."@en ;
     skos:hasTopConcept
         :GDE-potential ,
         :LandsatTM5 ,
