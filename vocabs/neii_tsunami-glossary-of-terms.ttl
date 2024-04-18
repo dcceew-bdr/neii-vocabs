@@ -119,7 +119,7 @@ This vocabulary contains words relating to a tsunami."""@en ;
         :Wavelength ;
     skos:historyNote
         "2024-04: IRIs changed from https://linked.data.gov.au/def/tsunami-glossary-of-terms for the ConceptScheme and https://linked.data.gov.au/def/tsunami-glossary-of-terms/ for the Concept namespace to linked.data.gov.au-based IRIs" ,
-        "This vocabulary was originally created in 202 using NEII identifiers (IRIs). In Feb 2024 it has been updated to use linked.data.gov.au identifiers but the content has not been changed. Correspondences to previous identifiers have been added with dcterms:replaces predicates" ;
+        "This vocabulary was originally created in 2020 using NEII identifiers (IRIs). In Feb 2024 it has been updated to use linked.data.gov.au identifiers but the content has not been changed. Correspondences to previous identifiers have been added with dcterms:replaces predicates" ;
     skos:prefLabel "Tsunami Glossary of Terms"@en ;
     schema:creator <https://linked.data.gov.au/org/neii> ;
     schema:publisher <https://linked.data.gov.au/org/neii> ;
