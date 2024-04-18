@@ -1618,7 +1618,7 @@ cs:
     dcterms:publisher <http://editor.vocabs.ands.org.au/user/35b52df3-031d-4848-83ac-41b48d6374d8> ;
     dcterms:subject "Tidal Terminology"@en ;
     owl:versionInfo "Version 1" ;
-    skos:definition "'This glossary includes a variety of terms associated with tides and sea level and is based on material sourced from the Bureau of Meteorology (http://www.bom.gov.au) and Australian Hydrographic Office."@en ;
+    skos:definition "This glossary includes a variety of terms associated with tides and sea level and is based on material sourced from the Bureau of Meteorology (http://www.bom.gov.au) and Australian Hydrographic Office."@en ;
     skos:hasTopConcept
         :Loading-Love-numbers ,
         :NGWLMS ,
